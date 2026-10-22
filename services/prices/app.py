@@ -10,6 +10,7 @@ import re
 import threading
 import time
 import logging
+from datetime import datetime, timezone
 from flask import Flask, jsonify, request
 from curl_cffi import requests as cffi_requests
 import requests as std_requests
@@ -69,6 +70,7 @@ def set_price(metal_id: str, price: float, change: float, type_of_price: str = "
             "price": round(price, 2),
             "change": round(change, 2),
             "typeOfPrice": type_of_price,
+            "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }
     log.info(f"  {metal_id}: ${price:.2f}  {change:+.2f}%")
 
