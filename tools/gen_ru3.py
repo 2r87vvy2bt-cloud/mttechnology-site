@@ -69,9 +69,10 @@ header{gap:20px}.brand{display:flex;align-items:center;gap:12px;white-space:nowr
 nav.open{display:flex;position:fixed;top:90px;left:0;right:0;flex-direction:column;background:#000;padding:20px}
 '''
 import json as _j
-PD=_j.load(open('/workspace/mt_preview_ru/data/prices.json'))
+import sys as _sys,urllib.request as _u;_sys.path.insert(0,'/workspace');import live_prices as _lp,os as _os
+PD=_lp.build();_os.makedirs('/workspace/mt_preview_ru/data',exist_ok=True);_j.dump(PD,open('/workspace/mt_preview_ru/data/prices.json','w'),ensure_ascii=False)
 def _fmt(v): return (f'{v:,.0f}' if v>=100 else f'{v:,.2f}').replace(',',' ').replace('.',',')
-TICK=''.join(f'<span class="ticker-item">{c} <span>{_fmt(s["values"][-1])} {s["unit"]}</span></span>' for c,s in PD['series'].items())
+TICK=''.join(f'<span class="ticker-item" data-id="{s["id"]}">{c} <span>{_fmt(s["last"])} {s["unit"]}</span></span>' for c,s in PD['series'].items())
 TICK='<span class="ticker-item"><span>Мировые цены на металлы</span></span>'+TICK
 def head(title): return f'''<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><style>{css}</style></head><body>
@@ -142,16 +143,27 @@ def contact(kind):
     h,p,f=FV.get(kind,FV['buy']); return CONTACT_T.replace('@@H2@@',h).replace('@@P@@',p).replace('@@F@@',f)
 CONTACT_DEF=CONTACT;CONTACT=contact('buy')
 car=''.join(f'<a class="carousel-item" href="{k}.html">'+(f'<img src="{ph(n)}" alt="{C[k][0]}">' if n else holder(''))+f'<div class="label">{C[k][0]}</div></a>' for k,n in [('ferroalloys','fesi_02c.jpg'),('escrap','pcb_05.jpg'),('aluminium','alu_07.jpg'),('catalysts-spent','kat_03.jpg'),('raw-materials','rm_stibnite.jpg'),('bronze','bronze_turnings.jpg'),('copper','cu_2.jpg'),('nickel','ss_2.jpg'),('slags','shlak_01.jpg'),('escrap','IMG_8739.jpg'),('graphite','grafit_04_lowres.jpg'),('lead','batt_0.jpg'),('logistics','logistics_1.jpg')])
-news=''.join(f'<div class="card"><div class="tag">{d}</div><h3>{h}</h3><p>Материал готовится к публикации.</p></div>' for d,h in [('Рынок','Обзор цен на медь и алюминий'),('Ферросплавы','Ситуация на рынке FeSi в Европе'),('Компания','Новые направления закупки')])
-FOOT=FOOT+FORMJS
+import html as _h,re as _re
+def _news_pick(L):
+    ru=[x for x in L if _re.search('[А-Яа-я]',x.get('title',''))];return (ru+[x for x in L if x not in ru])[:3]
+def _ncard(x):
+    d='.'.join(reversed(x['date'].split('-')));c=(x.get('categories') or ['Рынок'])[0]
+    return f'<a class="card" href="{_h.escape(x["link"])}" target="_blank" rel="noopener nofollow" style="text-decoration:none;color:inherit"><div class="tag">{d} · {_h.escape(c)}</div><h3>{_h.escape(x["title"])}</h3><p>{_h.escape(x["excerpt"][:180])}…</p><p style="font-size:11px;opacity:.5">Читать источник ↗</p></a>'
+try:
+    _NL=_news_pick(_j.load(_u.urlopen('https://mttechnology.eu/api/blog/posts?per_page=12&lang=ru',timeout=30))['data'])
+    news=''.join(_ncard(x) for x in _NL)
+except Exception as _e:
+    print('news fetch failed',_e);news='<div class="card"><h3>Новости рынка</h3><p>Лента новостей временно недоступна.</p></div>'
+news='<div id="newsgrid" style="display:contents">'+news+'</div>'
+NEWSJS=r"""<script>(()=>{const g=document.getElementById('newsgrid');if(!g)return;const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));fetch('/api/blog/posts?per_page=12&lang=ru').then(r=>r.ok?r.json():0).then(d=>{if(!d||!d.data||!d.data.length)return;const ru=d.data.filter(x=>/[А-Яа-я]/.test(x.title||''));const L=ru.concat(d.data.filter(x=>!ru.includes(x))).slice(0,3);g.innerHTML=L.map(x=>'<a class="card" href="'+e(x.link)+'" target="_blank" rel="noopener nofollow" style="text-decoration:none;color:inherit"><div class="tag">'+e(x.date.split('-').reverse().join('.'))+' · '+e((x.categories||['Рынок'])[0])+'</div><h3>'+e(x.title)+'</h3><p>'+e((x.excerpt||'').slice(0,180))+'…</p><p style="font-size:11px;opacity:.5">Читать источник ↗</p></a>').join('')}).catch(()=>{})})()</script>"""
+FOOT=FOOT+FORMJS+NEWSJS+'''<script>fetch('/api/history/latest').then(r=>r.ok?r.json():0).then(L=>{if(!L)return;const by={};L.forEach(x=>by[x.id]=x);const f=v=>(v>=100?Math.round(v).toLocaleString('ru-RU'):v.toLocaleString('ru-RU',{minimumFractionDigits:2,maximumFractionDigits:2}));document.querySelectorAll('.ticker-item[data-id]').forEach(e=>{const x=by[e.dataset.id];if(x){const sp=e.querySelector('span');sp.textContent=f(x.price)+' '+sp.textContent.split(' ').pop()}})}).catch(()=>{})</script>'''
 _SRC={'Cu':'COMEX','Al':'COMEX','Au':'COMEX','Ag':'COMEX','Pt':'NYMEX','Pd':'NYMEX'}
 _PTD=[]
 for _g,_gn in PD['groups'].items():
     for _k,_v in PD['series'].items():
         if _v['group']!=_g: continue
-        _vals=_v.get('values') or _v.get('v') or _v.get('prices')
-        _PTD.append({'k':_k,'g':_gn,'n':_v['name'],'u':_v['unit'],'v':[round(x,2) for x in _vals[-31:]],'src':_SRC.get(_k,'индикатив')})
-_a=PD['asof'].split('-');_ASOF=_a[2]+'.'+_a[1]+'.'+_a[0]
+        _PTD.append({'k':_k,'id':_v['id'],'g':_gn,'n':_v['name'],'u':_v['unit'],'v':[round(x,2) for x in _v['values'][-31:]],'last':_v['last'],'ch':_v['change'],'ts':_v['ts'],'stale':_v['stale']})
+_ASOF=PD['asof']
 PTB=open('/workspace/prices_block.html').read()+'<script>const D='+json.dumps(_PTD,ensure_ascii=False)+',PT_ASOF="'+_ASOF+'";'+open('/workspace/prices_block.js').read()+'</script>'
 HEROJS='<script>'+open('/workspace/hero_logo.js').read()+'</script>'
 idx=head('MT Technology — промышленное сырьё')+f'''
@@ -219,24 +231,27 @@ pbody=f'''<style>.px-wrap{{display:grid;grid-template-columns:260px 1fr;gap:22px
 <div class="px-wrap"><div class="px-tabs" id="tabs">{tabs}</div><div class="px-main"><div class="px-h"><div><small id="pu"></small><h3 id="pn"></h3></div><div class="px-v" id="pv"></div></div>
 <div class="per" id="per"><button data-d="30">1М</button><button data-d="91">3М</button><button data-d="182" class="on">6М</button><button data-d="365">1Г</button></div>
 <div style="position:relative;height:420px;margin-top:18px"><canvas id="big"></canvas></div><div class="px-stats"><div>Минимум за период<b id="mn"></b></div><div>Максимум за период<b id="mx"></b></div><div>Среднее за период<b id="av"></b></div></div>
-<p style="font-size:11px;opacity:.5;margin-top:14px">Индикативные данные; не являются биржевыми котировками.</p></div></div>
+<p id="prng" style="font-size:12px;opacity:.75;margin-top:14px"></p><p style="font-size:11px;opacity:.5;margin-top:6px">Справочные данные из открытых рыночных источников; не являются офертой. Изменение % — за сутки.</p></div></div>
 <div id="all">{pcards}</div><div class="prose"><h3>Комментарий рынка</h3><p>Цветные металлы торгуются в узком диапазоне: медь поддерживается спросом со стороны энергетики и электросетевого хозяйства, алюминий — стабильными издержками производства. Никель остаётся под давлением избыточного предложения, тогда как олово сохраняет волатильность ввиду ограниченного числа производителей. Ферросплавы следуют за загрузкой сталеплавильных мощностей в Европе.</p></div></section>
 <script src="chart.umd.min.js"></script><script>const DATA={json.dumps(D,ensure_ascii=False)};
-let cur='Cu',per=182,chart;const f=x=>x.toLocaleString('ru-RU');
-function chg(c,d){{const v=DATA.series[c].values.slice(-d);return (v[v.length-1]-v[0])/v[0]*100}}
-function draw(){{const s=DATA.series[cur],v=s.values.slice(-per),l=s.dates.slice(-per),b=v[v.length-1],p=chg(cur,per);
+let cur='Cu',per='182',chart;const f=x=>x.toLocaleString('ru-RU',{{maximumFractionDigits:x>=100?0:2}});const RG={{'30':'30d','91':'90d','182':'1y','365':'1y'}};const cache={{}};
+const dd=s=>{{const d=new Date(s);return isNaN(d)?s:d.toLocaleDateString('ru-RU')}};const dtm=s=>{{const d=new Date(s);return isNaN(d)?s:d.toLocaleString('ru-RU',{{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}})}};
+const pc=q=>q==null?'<span>—</span>':'<span class="'+(q>=0?'up':'dn')+'">'+(q>=0?'▲ +':'▼ ')+q.toFixed(2)+'%</span>';
+async function hist(c,d){{const s=DATA.series[c],k=s.id+RG[d];if(!cache[k]){{try{{const r=await fetch('/api/history/history?id='+s.id+'&range='+RG[d]);if(!r.ok)throw 0;cache[k]=(await r.json()).points}}catch(e){{cache[k]=s.dates.map((x,i)=>[x,s.values[i]])}}}}
+ let p=cache[k];if(d==='182'){{const t=Date.now()-182*864e5;p=p.filter(x=>new Date(x[0])>=t)}}return p}}
+async function draw(){{const s=DATA.series[cur],pts=await hist(cur,per),v=pts.map(x=>x[1]);
 document.getElementById('pn').textContent=s.name;document.getElementById('pu').textContent=cur+' · '+s.unit;
-document.getElementById('pv').innerHTML=f(b)+' '+s.unit+'<em class="'+(p>=0?'up':'dn')+'">'+(p>=0?'▲ +':'▼ ')+p.toFixed(1)+'%</em>';
-document.getElementById('mn').textContent=f(Math.min(...v));document.getElementById('mx').textContent=f(Math.max(...v));document.getElementById('av').textContent=f(Math.round(v.reduce((a,x)=>a+x,0)/v.length*100)/100);
-for(const c in DATA.series){{const q=chg(c,per);document.getElementById('t_'+c).innerHTML='<span class="'+(q>=0?'up':'dn')+'">'+(q>=0?'▲ +':'▼ ')+q.toFixed(1)+'%</span>'}}
-const ctx=document.getElementById('big').getContext('2d'),g=ctx.createLinearGradient(0,0,0,420);g.addColorStop(0,'rgba(242,201,76,.35)');g.addColorStop(1,'rgba(242,201,76,0)');
-if(chart)chart.destroy();chart=new Chart(ctx,{{type:'line',data:{{labels:l,datasets:[{{data:v,borderColor:'#f2c94c',borderWidth:2,pointRadius:0,pointHoverRadius:5,tension:.3,fill:true,backgroundColor:g}}]}},options:{{maintainAspectRatio:false,animation:{{duration:600}},interaction:{{mode:'index',intersect:false}},plugins:{{legend:{{display:false}},tooltip:{{backgroundColor:'#0b0b0b',borderColor:'#f2c94c',borderWidth:1,titleColor:'#f2c94c'}}}},scales:{{x:{{ticks:{{color:'#888',maxTicksLimit:7}},grid:{{display:false}}}},y:{{ticks:{{color:'#888'}},grid:{{color:'rgba(255,255,255,.05)'}}}}}}}}}})}}
-document.querySelectorAll('#per button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('#per button').forEach(x=>x.classList.remove('on'));b.classList.add('on');per=+b.dataset.d;draw()}});
+document.getElementById('pv').innerHTML=f(s.last)+' '+s.unit+'<em>'+pc(s.change)+' за сутки</em>';
+const st=document.getElementById('prng');st.innerHTML=pts.length?('Данные с '+dd(pts[0][0])+' по '+dd(pts[pts.length-1][0])+', точек: '+pts.length+'. Обновлено '+dtm(s.ts)+(s.stale?' — <span style="color:#e0b44c">последнее известное значение</span>':'')+(pts.length<10?'. История цен начала накапливаться недавно и будет пополняться ежечасно.':'')):'Нет данных за период';
+if(v.length){{document.getElementById('mn').textContent=f(Math.min(...v));document.getElementById('mx').textContent=f(Math.max(...v));document.getElementById('av').textContent=f(Math.round(v.reduce((a,x)=>a+x,0)/v.length*100)/100)}}
+const ctx=document.getElementById('big').getContext('2d'),g=ctx.createLinearGradient(0,0,0,420);g.addColorStop(0,'rgba(242,201,76,.35)');g.addColorStop(1,'rgba(242,201,76,0)');const few=v.length<40;
+if(chart)chart.destroy();chart=new Chart(ctx,{{type:'line',data:{{labels:pts.map(x=>per==='30'?dtm(x[0]):dd(x[0])),datasets:[{{data:v,borderColor:'#f2c94c',borderWidth:2,pointRadius:few?4:0,pointBackgroundColor:'#f2c94c',pointHoverRadius:6,tension:.25,fill:true,backgroundColor:g}}]}},options:{{maintainAspectRatio:false,animation:{{duration:400}},interaction:{{mode:'index',intersect:false}},plugins:{{legend:{{display:false}},tooltip:{{backgroundColor:'#0b0b0b',borderColor:'#f2c94c',borderWidth:1,titleColor:'#f2c94c'}}}},scales:{{x:{{ticks:{{color:'#888',maxTicksLimit:7}},grid:{{display:false}}}},y:{{ticks:{{color:'#888'}},grid:{{color:'rgba(255,255,255,.05)'}}}}}}}}}})}}
+function side(){{for(const c in DATA.series){{const s=DATA.series[c];document.getElementById('t_'+c).innerHTML=f(s.last)+' '+s.unit+' '+pc(s.change);const v=s.values;document.getElementById('cv_'+c).innerHTML=f(s.last)+' '+s.unit+'<em>'+pc(s.change)+'</em>'+(s.stale?'<br><small style="color:#e0b44c">последнее известное значение</small>':'');
+ const cv=document.getElementById('sp_'+c);if(v.length>=2){{new Chart(cv,{{type:'line',data:{{labels:v.map((_,i)=>i),datasets:[{{data:v,borderColor:v[v.length-1]>=v[0]?'#6fcf97':'#eb5757',borderWidth:1.4,pointRadius:v.length<20?2:0,tension:.3}}]}},options:{{animation:false,events:[],plugins:{{legend:{{display:false}},tooltip:{{enabled:false}}}},scales:{{x:{{display:false}},y:{{display:false}}}}}}}})}}else{{cv.outerHTML='<div style="font-size:11px;opacity:.5;height:30px">накопление истории с '+dd(s.since)+'</div>'}}}}}}
+document.querySelectorAll('#per button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('#per button').forEach(x=>x.classList.remove('on'));b.classList.add('on');per=b.dataset.d;draw()}});
 document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');cur=b.dataset.c;draw()}});
-const sp={{}};function cards(){{for(const c in DATA.series){{const s=DATA.series[c],v=s.values.slice(-per),b=v[v.length-1],q=chg(c,per);document.getElementById('cv_'+c).innerHTML=f(b)+' '+s.unit+'<em class="'+(q>=0?'up':'dn')+'">'+(q>=0?'+':'')+q.toFixed(1)+'%</em>';if(sp[c])sp[c].destroy();sp[c]=new Chart(document.getElementById('sp_'+c),{{type:'line',data:{{labels:v.map((_,i)=>i),datasets:[{{data:v,borderColor:q>=0?'#6fcf97':'#eb5757',borderWidth:1.4,pointRadius:0,tension:.3}}]}},options:{{animation:false,events:[],plugins:{{legend:{{display:false}},tooltip:{{enabled:false}}}},scales:{{x:{{display:false}},y:{{display:false}}}}}}}})}}}}
 document.querySelectorAll('.px-c').forEach(a=>a.onclick=e=>{{e.preventDefault();document.querySelector('#tabs [data-c="'+a.dataset.c+'"]').click();document.querySelector('.px-wrap').scrollIntoView({{behavior:'smooth'}})}});
-document.querySelectorAll('#per button').forEach(b=>b.addEventListener('click',cards));cards();
-const h=location.hash.slice(1);if(DATA.series[h]){{cur=h;document.querySelector('#tabs [data-c="'+h+'"]').click()}}else draw();</script>'''
+fetch('/api/history/latest').then(r=>r.ok?r.json():0).then(L=>{{if(L){{const by={{}};L.forEach(x=>by[x.id]=x);for(const c in DATA.series){{const s=DATA.series[c],x=by[s.id];if(x){{s.last=x.price;s.change=x.change;s.ts=x.ts;s.stale=x.stale}}}}}}}}).catch(()=>{{}}).finally(()=>{{side();const h=location.hash.slice(1);if(DATA.series[h]){{document.querySelector('#tabs [data-c="'+h+'"]').click()}}else draw()}});</script>'''
 open(f'{OUT}/prices.html','w').write(head('Мировые цены на металлы — MT Technology')+pbody+CONTACT+FOOT+'</body></html>')
 
 AB_CSS="""<style>.ab-hero{padding-top:150px}.ab-kick{font:400 12px Inter,sans-serif;letter-spacing:.25em;color:var(--gold);text-transform:uppercase;margin-bottom:22px}

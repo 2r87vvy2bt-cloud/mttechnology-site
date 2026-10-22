@@ -27,6 +27,11 @@
         header Cache-Control "no-store"
         reverse_proxy http://{$BLOG_HOST}:8080
     }
+
+    handle_path /api/history/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$HISTORY_HOST:prices-history.railway.internal}:8080
+    }
 }
 
 :443 {
@@ -57,5 +62,10 @@
     handle_path /api/blog/* {
         header Cache-Control "no-store"
         reverse_proxy http://{$BLOG_HOST}:8080
+    }
+
+    handle_path /api/history/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$HISTORY_HOST:prices-history.railway.internal}:8080
     }
 }
