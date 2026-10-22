@@ -1,0 +1,7 @@
+(()=>{const tb=document.getElementById('pttb');const f=v=>v>=1000?v.toLocaleString('ru-RU',{maximumFractionDigits:0}):v>=100?v.toLocaleString('ru-RU',{minimumFractionDigits:1,maximumFractionDigits:1}):v.toLocaleString('ru-RU',{minimumFractionDigits:2,maximumFractionDigits:2});
+const T=()=>PT_ASOF;
+function sp(v){const mn=Math.min(...v),mx=Math.max(...v),r=mx-mn||1;const pts=v.map((y,i)=>(i*120/(v.length-1)).toFixed(1)+','+(22-(y-mn)/r*20).toFixed(1)).join(' ');const up=v[v.length-1]>=v[0];return '<svg class="sp" viewBox="0 0 120 24"><polyline fill="none" stroke="'+(up?'#5fae8a':'#c0686a')+'" stroke-width="1.1" points="'+pts+'"/></svg>'}
+let g='',h='';const t0=T();D.forEach((r,i)=>{if(r.g!==g){g=r.g;h+='<tr class="grp"><td colspan="6">'+g+'</td></tr>'}h+='<tr id="ptr'+i+'"><td class="n"><b>'+r.k+'</b>'+r.n+'</td><td class="p"></td><td class="u">'+r.u+'</td><td class="c"></td><td style="text-align:center" class="sl"></td><td class="s">'+r.src+' · <span class="tm">'+t0+'</span></td></tr>'});tb.innerHTML=h;
+function draw(i){const r=D[i],tr=document.getElementById('ptr'+i),v=r.v,last=v[v.length-1],prev=v[v.length-2],ch=(last-prev)/prev*100;tr.querySelector('.p').textContent=f(last);const c=tr.querySelector('.c');c.textContent=(ch>0?'+':ch<0?'−':'')+Math.abs(ch).toFixed(2)+'%';c.className='c '+(ch>0.0001?'up':ch<-0.0001?'dn':'z');tr.querySelector('.sl').innerHTML=sp(v)}
+D.forEach((_,i)=>draw(i));document.getElementById('ptclk').textContent=t0;
+})();

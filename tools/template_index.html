@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MT Technology — Industrial Raw Materials</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-top: #0a1a14;
+  --bg-bottom: #000000;
+  --gold: #f2c94c;
+  --gold-bright: #f7d774;
+  --gold-dark: #b8860b;
+  --text: #f0ede8;
+  --text-dim: #a09a92;
+  --glass: rgba(10,15,12,0.55);
+  --line: rgba(242,201,76,0.35);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; color: var(--text); background: var(--bg-bottom); overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+/* Background layers */
+.bg-layers { position: fixed; inset: 0; z-index: -2; pointer-events: none; }
+.bg-gradient { position: absolute; inset: 0; background: linear-gradient(to bottom, var(--bg-top) 0%, #050d0a 40%, var(--bg-bottom) 100%); }
+.bg-photo { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.12; transition: opacity 1s; }
+.bg-photo.active { opacity: 0.18; }
+.particles { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.particle { position: absolute; width: 2px; height: 2px; background: var(--gold); border-radius: 50%; opacity: 0.3; animation: float 20s infinite; }
+@keyframes float { 0%,100% { transform: translateY(100vh) scale(0); opacity: 0; } 10% { opacity: 0.4; } 90% { opacity: 0.2; } 100% { transform: translateY(-10vh) scale(1); opacity: 0; } }
+
+/* Header */
+header {
+  position: fixed; top: 28px; left: 0; right: 0; z-index: 100;
+  padding: 12px 40px; display: flex; align-items: center; justify-content: space-between;
+  transition: background 0.4s, backdrop-filter 0.4s;
+}
+header.scrolled { background: rgba(0,0,0,0.85); backdrop-filter: blur(16px); }
+.header-logo { height: 32px; width: 32px; object-fit: contain; opacity: 0; transition: opacity 0.5s; }
+.header-logo.visible { opacity: 1; }
+.wordmark { font-size: 13px; font-weight: 500; letter-spacing: 0.35em; text-transform: uppercase; }
+nav { display: flex; gap: 28px; font-size: 13px; color: var(--text-dim); }
+nav a { padding: 8px 0; }
+nav a:hover { color: var(--text); }
+.mega { position: relative; }
+.mega-menu {
+  position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  background: rgba(0,0,0,0.95); backdrop-filter: blur(20px);
+  border: 1px solid var(--line); border-radius: 6px;
+  padding: 20px 28px; min-width: 420px;
+  display: none; grid-template-columns: 1fr 1fr; gap: 20px;
+}
+.mega:hover .mega-menu { display: grid; }
+.mega-menu h4 { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+.mega-menu a { display: block; font-size: 13px; color: var(--text-dim); padding: 5px 0; }
+.mega-menu a:hover { color: var(--text); }
+.header-right { display: flex; align-items: center; gap: 14px; }
+.lang-select { background: transparent; border: 1px solid var(--line); color: var(--text); padding: 5px 8px; border-radius: 4px; font-size: 11px; }
+.burger { display: none; flex-direction: column; gap: 4px; background: none; border: none; }
+.burger span { width: 20px; height: 1px; background: var(--text); }
+
+/* Ticker */
+.ticker {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 101;
+  background: rgba(0,0,0,0.7); border-bottom: 1px solid var(--line);
+  height: 28px; overflow: hidden; display: flex; align-items: center;
+}
+.ticker-track { display: flex; gap: 36px; animation: ticker 28s linear infinite; white-space: nowrap; }
+.ticker-item { font-size: 11px; color: var(--text-dim); }
+.ticker-item span { color: var(--gold); text-shadow: 0 0 8px rgba(242,201,76,0.4); }
+@keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+/* Hero logo */
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center;
+  position: relative; padding: 100px 20px 60px;
+}
+.logo-intro {
+  width: 280px; height: 280px; position: relative; margin-bottom: 20px;
+}
+.logo-intro video {
+  width: 100%; height: 100%; object-fit: contain;
+  mix-blend-mode: screen;
+  -webkit-mask-image: radial-gradient(circle, black 40%, transparent 75%);
+  mask-image: radial-gradient(circle, black 40%, transparent 75%);
+}
+.logo-glow {
+  position: absolute; inset: -20%;
+  background: radial-gradient(circle, rgba(242,201,76,0.15) 0%, transparent 60%);
+  pointer-events: none; opacity: 0; transition: opacity 1s;
+}
+.logo-glow.active { opacity: 1; }
+.skip-link {
+  position: absolute; top: 80px; right: 40px;
+  font-size: 11px; color: var(--text-dim); letter-spacing: 0.1em;
+  opacity: 0.6; transition: opacity 0.3s;
+}
+.skip-link:hover { opacity: 1; }
+.hero h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(44px, 7vw, 88px); font-weight: 400;
+  line-height: 0.95; margin-bottom: 20px;
+  opacity: 0; transform: translateY(20px); transition: opacity 1s, transform 1s;
+}
+.hero h1.visible { opacity: 1; transform: translateY(0); }
+.hero p { font-size: 15px; color: var(--text-dim); max-width: 400px; margin-bottom: 32px; opacity: 0; transition: opacity 1s 0.3s; }
+.hero p.visible { opacity: 1; }
+.hero-btns { display: flex; gap: 14px; opacity: 0; transition: opacity 1s 0.5s; }
+.hero-btns.visible { opacity: 1; }
+
+/* Buttons */
+.btn-gold {
+  background: linear-gradient(135deg, #f7d774 0%, #d4a017 45%, #fff1b8 55%, #b8860b 100%);
+  color: #1a1200; border: none; padding: 14px 32px; font-size: 13px; font-weight: 500;
+  letter-spacing: 0.04em; position: relative; overflow: hidden;
+}
+.btn-gold::after {
+  content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: shine 3s infinite;
+}
+@keyframes shine { 0% { left: -100%; } 50%,100% { left: 100%; } }
+.btn-gold:hover { box-shadow: 0 0 24px rgba(242,201,76,0.4); }
+.btn-outline {
+  background: transparent; color: var(--text); border: 1px solid var(--line);
+  padding: 14px 32px; font-size: 13px; letter-spacing: 0.04em;
+}
+.btn-outline:hover { border-color: var(--gold); }
+
+/* Sections */
+.section { padding: 90px 50px; max-width: 1140px; margin: 0 auto; position: relative; }
+.section h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(32px, 4.5vw, 52px); font-weight: 400; margin-bottom: 14px;
+}
+.section .sub { color: var(--text-dim); font-size: 14px; margin-bottom: 40px; max-width: 460px; }
+
+/* Cards */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.card {
+  background: var(--glass); backdrop-filter: blur(14px);
+  border: 1px solid var(--line); border-radius: 6px; padding: 28px;
+  opacity: 0; transform: translateY(24px); transition: opacity 0.7s, transform 0.7s;
+}
+.card.visible { opacity: 1; transform: translateY(0); }
+.card .tag { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); text-shadow: 0 0 6px rgba(242,201,76,0.3); margin-bottom: 10px; }
+.card h3 { font-size: 18px; font-weight: 500; margin-bottom: 10px; }
+.card p { font-size: 13px; color: var(--text-dim); line-height: 1.6; }
+.card .img { height: 140px; margin: -28px -28px 20px; overflow: hidden; border-radius: 6px 6px 0 0; }
+.card .img img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Carousel */
+.carousel-wrap { padding: 50px 0; overflow: hidden; }
+.carousel { display: flex; gap: 16px; animation: scroll 55s linear infinite; width: max-content; }
+.carousel:hover { animation-play-state: paused; }
+@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+.carousel-item { width: 260px; height: 160px; border-radius: 4px; overflow: hidden; position: relative; flex-shrink: 0; border: 1px solid var(--line); }
+.carousel-item img { width: 100%; height: 100%; object-fit: cover; }
+.carousel-item .label { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; background: linear-gradient(transparent, rgba(0,0,0,0.8)); font-size: 12px; }
+
+/* Stats */
+.stats { display: flex; justify-content: center; gap: 70px; padding: 70px 40px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.stat { text-align: center; }
+.stat .num { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 56px; color: var(--gold); text-shadow: 0 0 12px rgba(242,201,76,0.3); line-height: 1; }
+.stat .label { font-size: 12px; color: var(--text-dim); margin-top: 6px; }
+
+/* Gallery */
+.gallery-wrap { padding: 50px 0; overflow: hidden; }
+.gallery { display: flex; gap: 10px; }
+.gallery img { height: 180px; width: auto; object-fit: cover; border-radius: 4px; }
+.gallery-progress { height: 2px; background: var(--line); margin: 14px 50px; }
+.gallery-progress span { display: block; height: 100%; background: var(--gold); width: 30%; }
+
+/* Contact */
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+.contact-info h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 38px; font-weight: 400; margin-bottom: 14px; }
+.contact-info p { color: var(--text-dim); margin-bottom: 20px; }
+.contact-item { margin-bottom: 14px; }
+.contact-item .label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); }
+.contact-item .val { font-size: 15px; }
+.form { display: flex; flex-direction: column; gap: 12px; }
+.form input, .form textarea { background: var(--glass); border: 1px solid var(--line); border-radius: 4px; color: var(--text); padding: 12px; font-size: 13px; font-family: inherit; }
+.form textarea { min-height: 90px; resize: vertical; }
+.form label { font-size: 11px; color: var(--text-dim); }
+.form button { background: linear-gradient(135deg, #f7d774 0%, #d4a017 45%, #fff1b8 55%, #b8860b 100%); color: #1a1200; border: none; padding: 12px; font-size: 13px; font-weight: 500; position: relative; overflow: hidden; }
+.form button::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 3s infinite; }
+
+footer { padding: 28px 50px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim); }
+
+@media (max-width: 900px) {
+  nav { display: none; }
+  .burger { display: flex; }
+  .cards, .contact { grid-template-columns: 1fr; }
+  .stats { flex-direction: column; gap: 24px; }
+  .section { padding: 50px 20px; }
+  header { padding: 12px 16px; }
+  .logo-intro { width: 200px; height: 200px; }
+  .bg-photo { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="bg-layers">
+  <div class="bg-gradient"></div>
+  <div class="bg-photo" id="bg1" style="background-image:url('images/warehouse.jpg')"></div>
+  <div class="bg-photo" id="bg2" style="background-image:url('images/copper.jpg')"></div>
+  <div class="bg-photo" id="bg3" style="background-image:url('images/graphite.jpg')"></div>
+</div>
+<div class="particles" id="particles"></div>
+
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item">Cu <span>$9,842</span> −1.2%</span>
+    <span class="ticker-item">Al <span>$2,680</span> −0.6%</span>
+    <span class="ticker-item">Ni <span>$16,250</span> +0.4%</span>
+    <span class="ticker-item">Zn <span>$2,910</span> +0.8%</span>
+    <span class="ticker-item">Mo <span>$52,100</span> +1.1%</span>
+    <span class="ticker-item">Cu <span>$9,842</span> −1.2%</span>
+    <span class="ticker-item">Al <span>$2,680</span> −0.6%</span>
+    <span class="ticker-item">Ni <span>$16,250</span> +0.4%</span>
+    <span class="ticker-item">Zn <span>$2,910</span> +0.8%</span>
+    <span class="ticker-item">Mo <span>$52,100</span> +1.1%</span>
+  </div>
+</div>
+
+<header id="header">
+  <img src="logo-white.png" alt="MT" class="header-logo" id="headerLogo">
+  <div class="wordmark">M T &nbsp; T E C H N O L O G Y</div>
+  <nav>
+    <div class="mega"><a href="#sell">Sell</a>
+      <div class="mega-menu">
+        <div><h4>Ferroalloys</h4><a href="#">FeMo</a><a href="#">FeV</a><a href="#">FeSi</a><a href="#">FeMn</a></div>
+        <div><h4>Other</h4><a href="#">Graphite</a><a href="#">Catalysts</a></div>
+      </div>
+    </div>
+    <div class="mega"><a href="#buy">Buy</a>
+      <div class="mega-menu">
+        <div><h4>Non-ferrous</h4><a href="#">Copper</a><a href="#">Aluminium</a><a href="#">Nickel</a><a href="#">Tin · Lead</a></div>
+        <div><h4>Scrap</h4><a href="#">Electronic</a><a href="#">Titanium</a><a href="#">Stainless</a></div>
+      </div>
+    </div>
+    <a href="#services">Services</a>
+    <a href="#prices">Market prices</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contacts</a>
+  </nav>
+  <div class="header-right">
+    <select class="lang-select"><option>EN</option><option>RU</option><option>BG</option><option>DE</option></select>
+    <button class="burger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <a href="#" class="skip-link" id="skipBtn">Skip</a>
+  <div class="logo-intro">
+    <video id="logoVideo" muted playsinline>
+      <source src="hero-logo.mp4" type="video/mp4">
+    </video>
+    <div class="logo-glow" id="logoGlow"></div>
+  </div>
+  <h1 id="heroTitle">Industrial<br>materials.</h1>
+  <p id="heroSub">Ferroalloys, graphite, non-ferrous scrap, catalysts. Direct supply across Europe.</p>
+  <div class="hero-btns" id="heroBtns">
+    <button class="btn-gold">Request Quote</button>
+    <button class="btn-outline">Browse Materials</button>
+  </div>
+</section>
+
+<div class="carousel-wrap">
+  <div class="carousel">
+    <div class="carousel-item"><img src="images/copper.jpg" alt=""><div class="label">Copper</div></div>
+    <div class="carousel-item"><img src="images/ingots.jpg" alt=""><div class="label">Ferroalloys</div></div>
+    <div class="carousel-item"><img src="images/graphite.jpg" alt=""><div class="label">Graphite</div></div>
+    <div class="carousel-item"><img src="images/scrap.jpg" alt=""><div class="label">Aluminium</div></div>
+    <div class="carousel-item"><img src="images/warehouse.jpg" alt=""><div class="label">Warehouse</div></div>
+    <div class="carousel-item"><img src="images/copper.jpg" alt=""><div class="label">Copper</div></div>
+    <div class="carousel-item"><img src="images/ingots.jpg" alt=""><div class="label">Ferroalloys</div></div>
+    <div class="carousel-item"><img src="images/graphite.jpg" alt=""><div class="label">Graphite</div></div>
+    <div class="carousel-item"><img src="images/scrap.jpg" alt=""><div class="label">Aluminium</div></div>
+    <div class="carousel-item"><img src="images/warehouse.jpg" alt=""><div class="label">Warehouse</div></div>
+  </div>
+</div>
+
+<section class="section" id="sell">
+  <h2>What we sell</h2>
+  <p class="sub">Ferroalloys, graphite, and processed materials for industrial clients.</p>
+  <div class="cards">
+    <div class="card"><div class="img"><img src="images/ingots.jpg" alt=""></div><div class="tag">Ferroalloys</div><h3>FeMo · FeV · FeSi</h3><p>Ferromolybdenum, ferrovanadium, ferrosilicon for steel production.</p></div>
+    <div class="card"><div class="img"><img src="images/graphite.jpg" alt=""></div><div class="tag">Graphite</div><h3>Madagascar Flake</h3><p>Natural flake graphite for refractories and industrial applications.</p></div>
+    <div class="card"><div class="img"><img src="images/copper.jpg" alt=""></div><div class="tag">Catalysts</div><h3>Regenerated</h3><p>Processed spent catalysts ready for industrial use.</p></div>
+  </div>
+</section>
+
+<section class="section" id="buy" style="padding-top:0;">
+  <h2>What we buy</h2>
+  <p class="sub">Non-ferrous scrap, electronic scrap, spent catalysts. By class and grade.</p>
+  <div class="cards">
+    <div class="card"><div class="img"><img src="images/copper.jpg" alt=""></div><div class="tag">Non-ferrous</div><h3>Copper</h3><p>Wire, pipe, radiators, mixed. Request price with photo.</p></div>
+    <div class="card"><div class="img"><img src="images/scrap.jpg" alt=""></div><div class="tag">Non-ferrous</div><h3>Aluminium</h3><p>Extrusion, cast, sheet, wire. By grade.</p></div>
+    <div class="card"><div class="img"><img src="images/warehouse.jpg" alt=""></div><div class="tag">Electronic</div><h3>E-Scrap</h3><p>PCBs, processors, connectors, capacitors.</p></div>
+  </div>
+</section>
+
+<div class="stats" id="about">
+  <div class="stat"><div class="num" data-target="8">0</div><div class="label">Years</div></div>
+  <div class="stat"><div class="num" data-target="50">0</div><div class="label">Partners</div></div>
+  <div class="stat"><div class="num" data-target="30">0</div><div class="label">Countries</div></div>
+</div>
+
+<section class="section" id="services" style="padding-top:0;">
+  <h2>Services</h2>
+  <p class="sub">Engineering, logistics, and casting.</p>
+  <div class="cards">
+    <div class="card"><div class="tag">Engineering</div><h3>Process & Analysis</h3><p>Metallurgical optimization, XRF analysis, material evaluation.</p></div>
+    <div class="card"><div class="tag">Logistics</div><h3>Transport & Ports</h3><p>Truck, port handling, documentation. We calculate and deliver.</p></div>
+    <div class="card" onclick="document.getElementById('cast-detail').style.display='block'" style="cursor:pointer;"><div class="tag">Casting · Partner</div><h3>Metal Casting</h3><p>Industrial casting, machining, engineering from drawings. Click for details.</p></div>
+  </div>
+  <div id="cast-detail" style="display:none;margin-top:28px;background:var(--glass);border:1px solid var(--line);border-radius:6px;padding:24px;">
+    <h3 style="margin-bottom:10px;">Metal Casting Services</h3>
+    <p style="color:var(--text-dim);margin-bottom:14px;">Full-cycle production: engineering, material selection, casting, machining and quality control. Working from drawings, 3D models or samples.</p>
+    <ul style="color:var(--text-dim);font-size:13px;line-height:1.7;padding-left:18px;">
+      <li>Industrial casting — heat-resistant, critical parts</li>
+      <li>Architectural and urban casting</li>
+      <li>Engineering and casting simulation</li>
+      <li>Machining of cast blanks</li>
+      <li>Quality control and testing</li>
+    </ul>
+  </div>
+</section>
+
+<div class="gallery-wrap">
+  <div class="gallery">
+    <img src="images/copper.jpg" alt="">
+    <img src="images/ingots.jpg" alt="">
+    <img src="images/graphite.jpg" alt="">
+    <img src="images/scrap.jpg" alt="">
+    <img src="images/warehouse.jpg" alt="">
+  </div>
+  <div class="gallery-progress"><span></span></div>
+</div>
+
+<section class="section" id="contact">
+  <div class="contact">
+    <div class="contact-info">
+      <h2>Request a quote</h2>
+      <p>Send photos of your material. We reply within one business day.</p>
+      <div class="contact-item"><div class="label">Trading / Sales & Procurement</div><div class="val">+359 87 934 5249</div></div>
+      <div class="contact-item"><div class="label">Email</div><div class="val">info@mttechnology.eu</div></div>
+      <div class="contact-item"><div class="label">Office</div><div class="val">Sofia, Bulgaria</div></div>
+    </div>
+    <form class="form">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Company">
+      <textarea placeholder="Material, volume, origin..."></textarea>
+      <label>Photos of material</label>
+      <input type="file" accept="image/*" multiple>
+      <button type="submit">Send request</button>
+    </form>
+  </div>
+</section>
+
+<footer><div>© 2026 MT Technology Ltd</div><div>Sofia, Bulgaria</div></footer>
+
+<script>
+// Particles
+const particlesEl = document.getElementById('particles');
+for (let i = 0; i < 30; i++) {
+  const p = document.createElement('div');
+  p.className = 'particle';
+  p.style.left = Math.random() * 100 + '%';
+  p.style.animationDelay = Math.random() * 20 + 's';
+  p.style.animationDuration = (15 + Math.random() * 15) + 's';
+  particlesEl.appendChild(p);
+}
+
+// Logo intro
+const video = document.getElementById('logoVideo');
+const glow = document.getElementById('logoGlow');
+const title = document.getElementById('heroTitle');
+const sub = document.getElementById('heroSub');
+const btns = document.getElementById('heroBtns');
+const headerLogo = document.getElementById('headerLogo');
+const skipBtn = document.getElementById('skipBtn');
+
+function showContent() {
+  glow.classList.add('active');
+  title.classList.add('visible');
+  sub.classList.add('visible');
+  btns.classList.add('visible');
+  headerLogo.classList.add('visible');
+  skipBtn.style.display = 'none';
+}
+
+if (sessionStorage.getItem('logoPlayed')) {
+  video.currentTime = video.duration || 5;
+  video.pause();
+  showContent();
+} else {
+  video.addEventListener('loadedmetadata', () => {
+    video.currentTime = video.duration / 2;
+    video.play();
+  });
+  video.addEventListener('ended', () => {
+    sessionStorage.setItem('logoPlayed', '1');
+    showContent();
+  });
+  skipBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    video.pause();
+    sessionStorage.setItem('logoPlayed', '1');
+    showContent();
+  });
+}
+
+// Header scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+  // Parallax bg
+  const scrolled = window.scrollY;
+  document.getElementById('bg1').style.transform = `translateY(${scrolled * 0.15}px)`;
+  document.getElementById('bg2').style.transform = `translateY(${scrolled * 0.1}px)`;
+  document.getElementById('bg3').style.transform = `translateY(${scrolled * 0.08}px)`;
+  // Section-based bg
+  const sections = ['sell', 'buy', 'services'];
+  sections.forEach((id, i) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
+        document.querySelectorAll('.bg-photo').forEach(p => p.classList.remove('active'));
+        document.getElementById('bg' + (i + 1)).classList.add('active');
+      }
+    }
+  });
+});
+
+// Card reveal
+const cards = document.querySelectorAll('.card');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+cards.forEach(c => observer.observe(c));
+
+// Count-up
+const nums = document.querySelectorAll('.num');
+const countObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const el = e.target;
+      const target = +el.dataset.target;
+      let current = 0;
+      const step = target / 40;
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { el.textContent = target + '+'; clearInterval(timer); }
+        else el.textContent = Math.floor(current);
+      }, 30);
+      countObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0.5 });
+nums.forEach(n => countObserver.observe(n));
+</script>
+
+</body>
+</html>
