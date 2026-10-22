@@ -1,0 +1,264 @@
+[
+  {
+    "fm_id": 1,
+    "date": "2025-09-08",
+    "image_url": "../../public/images/blog/chain.png",
+    "categories": "Steel,Metals,Chain",
+    "views": 13392,
+    "en": {
+      "title": "What is the strongest metal? - Their types and applications",
+      "excerpt": "Metals have always played a significant role in the development of the material culture of human society.",
+      "sections": [
+        {"subtitle": "What is the most resilient metal?", "description": "Metals have been crucial in shaping human civilization and its material culture. Currently, there are 118 known chemical elements, with 96 classified as metals. Except for mercury, all these metals exist in solid form naturally and exhibit varying degrees of hardness while efficiently conducting electricity. Given that mercury is the only liquid metal, which one stands out as the strongest?", "image": "../../public/images/blog/chain.png"},
+        {"subtitle": "What is the toughest metal?", "description": "Metals have significantly influenced the evolution of human material culture. Today, we recognize 118 chemical elements, of which 96 are metals. All, except mercury, are solid in their natural state and vary in hardness while being good conductors of electricity. With mercury being the only liquid metal, which one is deemed the strongest?", "image": null},
+        {"subtitle": "What is the most durable metal?", "description": "Metals have always been integral to the advancement of material culture in human society. Presently, there are 118 chemical elements known, with 96 of them being metals. All, apart from mercury, are solid in their natural state and differ in hardness while effectively conducting electricity. If mercury is the only liquid metal, which one is recognized as the strongest?", "image": "../../public/images/blog/stone.png"},
+        {"subtitle": "What is the strongest metal overall?", "description": "Metals have historically played a vital role in the development of human material culture. Today, we know of 118 chemical elements, with 96 being metals. All, except for mercury, exist in solid form and are characterized by varying hardness and excellent electrical conductivity. With mercury being the only liquid metal, which one is considered the strongest?", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "Какой металл самый прочный? - Их виды и области применения",
+      "excerpt": "Металлы всегда играли важную роль в развитии материальной культуры человеческого общества.",
+      "sections": [
+        {"subtitle": "Какой металл самый стойкий?", "description": "Металлы сыграли ключевую роль в формировании человеческой цивилизации и её материальной культуры. Сегодня известно 118 химических элементов, из них 96 металлов. Все, кроме ртути, существуют в твёрдом состоянии, отличаются степенью твёрдости и хорошо проводят электричество. Какой из них самый прочный?", "image": "../../public/images/blog/chain.png"},
+        {"subtitle": "Какой металл самый прочный? Категории и применение", "description": "Металлы существенно повлияли на развитие материальной культуры. Известно 118 химических элементов, из которых 96 относятся к металлам. Все они, за исключением ртути, в природе твёрдые, различаются по твёрдости и являются хорошими проводниками. Какой металл признаётся самым прочным?", "image": null},
+        {"subtitle": "Какой металл самый долговечный?", "description": "Металлы неизменно были важной частью развития материальной культуры общества. Известно 118 химических элементов, 96 из них металлы. За исключением ртути, они существуют в твёрдой форме, различаются по твёрдости и эффективно проводят электричество. Если ртуть единственный жидкий металл, какой считается самым прочным?", "image": "../../public/images/blog/stone.png"},
+        {"subtitle": "Итог: самый прочный металл", "description": "Металлы исторически играли важнейшую роль в развитии материальной культуры человечества. Сегодня известно 118 химических элементов, 96 из них металлы. Все, кроме ртути, существуют в твёрдом виде и характеризуются разной твёрдостью при высокой электропроводности. Какой же металл признан самым прочным?", "image": null}
+      ]
+    },
+    "de": {
+      "title": "Was ist das staerkste Metall? - Arten und Anwendungen",
+      "excerpt": "Metalle haben immer eine bedeutende Rolle in der Entwicklung der materiellen Kultur der menschlichen Gesellschaft gespielt.",
+      "sections": [
+        {"subtitle": "Was ist das widerstandsfaehigste Metall?", "description": "Metalle haben die menschliche Zivilisation und ihre materielle Kultur massgeblich gepraegt. Aktuell sind 118 chemische Elemente bekannt, davon gelten 96 als Metalle. Mit Ausnahme von Quecksilber liegen sie natuerlich fest vor, unterscheiden sich in der Haerte und leiten Strom effizient. Welches gilt als das staerkste Metall?", "image": "../../public/images/blog/chain.png"},
+        {"subtitle": "Was ist das staerkste Metall? Kategorien", "description": "Metalle beeinflussten die Entwicklung der materiellen Kultur erheblich. Heute kennen wir 118 chemische Elemente, von denen 96 Metalle sind. Alle ausser Quecksilber sind in der Natur fest, variieren in der Haerte und sind gute Leiter. Welches gilt als das staerkste Metall?", "image": null},
+        {"subtitle": "Was ist das langlebigste Metall?", "description": "Metalle waren stets ein zentraler Bestandteil des materiellen Fortschritts der Gesellschaft. Derzeit sind 118 Elemente bekannt, 96 davon Metalle. Bis auf Quecksilber liegen sie fest vor, unterscheiden sich in der Haerte und leiten Strom gut. Welches wird als das staerkste Metall anerkannt?", "image": "../../public/images/blog/stone.png"},
+        {"subtitle": "Fazit: das staerkste Metall", "description": "Metalle spielten historisch eine wesentliche Rolle fuer die Entwicklung der materiellen Kultur. Heute kennen wir 118 chemische Elemente, darunter 96 Metalle. Sie liegen ausser Quecksilber fest vor, zeigen unterschiedliche Haerten und eine hohe elektrische Leitfaehigkeit. Welches davon gilt als das staerkste Metall?", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 2,
+    "date": "2025-09-10",
+    "image_url": "../../public/images/blog/copper-mark.png",
+    "categories": "Copper,ESG,Sustainability",
+    "views": 8451,
+    "en": {
+      "title": "The Copper Mark: Driving Responsible Mineral Production",
+      "excerpt": "The Copper Mark highlights responsible production practices in copper, molybdenum, nickel, and zinc, showcasing the industry commitment to sustainability.",
+      "sections": [
+        {"subtitle": "Promoting Sustainability in Transition Minerals", "description": "The Copper Mark demonstrates responsible practices across copper, molybdenum, nickel, and zinc. Since becoming independent in 2019, it incorporates stakeholder perspectives into governance. Guided by its Board of Directors and Advisory Council, it ensures sustainable production standards while supporting the global green transition.", "image": null},
+        {"subtitle": "Rising Copper Demand and the Energy Transition", "description": "Copper demand is growing rapidly to meet clean energy goals. The IEA forecasts a 40% increase to achieve Paris Climate targets. Copper is essential for solar, wind, bioenergy, electricity grids, and batteries. Electric vehicles will further drive demand, with copper usage expected to rise from 30kg per ICE car to 70kg per EV by 2040.", "image": null},
+        {"subtitle": "Managing ESG Risks and Responsible Production", "description": "The Copper Mark framework helps producers manage environmental, social, and governance (ESG) risks. It improves staff awareness, supports greenhouse gas reduction, ensures proper tailings management, and promotes supply chain due diligence. Local communities benefit from operations that prioritize ethical and sustainable practices.", "image": null},
+        {"subtitle": "Expanding Multi-Metal Collaboration for Transparency", "description": "Pilot programs now include molybdenum, nickel, and zinc, allowing producers to achieve their respective certifications. A unified approach simplifies compliance and reduces costs. Over 20% of global copper now comes from Copper Mark-certified sites, expanding responsibly sourced minerals and supporting a low-carbon global economy.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "The Copper Mark: Движущая сила ответственного производства минералов",
+      "excerpt": "Инициатива Copper Mark подчёркивает ответственные практики производства меди, молибдена, никеля и цинка, демонстрируя приверженность отрасли устойчивому развитию.",
+      "sections": [
+        {"subtitle": "Продвижение устойчивости для переходных минералов", "description": "Copper Mark демонстрирует ответственные практики по меди, молибдену, никелю и цинку. С момента обретения независимости в 2019 году организация включает мнения заинтересованных сторон в систему управления. Руководствуясь Советом директоров и Консультативным советом, она обеспечивает стандарты устойчивого производства и поддерживает глобальный зелёный переход.", "image": null},
+        {"subtitle": "Растущий спрос на медь и энергетический переход", "description": "Спрос на медь быстро растёт для достижения климатических целей. МЭА прогнозирует 40%-й рост для выполнения Парижских целей. Медь критична для солнечной и ветровой энергетики, биоэнергетики, электросетей и аккумуляторов. К 2040 году использование меди на авто может вырасти с 30 кг до 70 кг на электромобиль.", "image": null},
+        {"subtitle": "Управление ESG-рисками и ответственное производство", "description": "Рамка Copper Mark помогает производителям управлять экологическими, социальными и управленческими рисками. Она повышает осведомлённость персонала, поддерживает сокращение выбросов парниковых газов, обеспечивает надлежащее управление хвостохранилищами и продвигает должную осмотрительность в цепочках поставок.", "image": null},
+        {"subtitle": "Расширение мульти-металлического сотрудничества", "description": "Пилоты теперь включают молибден, никель и цинк. Единый подход упрощает соответствие требованиям и снижает издержки. Уже более 20% мировой меди производится на площадках с Copper Mark, а расширение сотрудничества повышает долю ответственно добытых минералов.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "The Copper Mark: Verantwortungsvolle Mineralproduktion",
+      "excerpt": "Der Copper Mark hebt verantwortungsvolle Produktionspraktiken bei Kupfer, Molybdaen, Nickel und Zink hervor.",
+      "sections": [
+        {"subtitle": "Nachhaltigkeit bei Uebergangsmineralen foerdern", "description": "Der Copper Mark demonstriert verantwortungsvolle Praktiken ueber Kupfer, Molybdaen, Nickel und Zink. Seit der Unabhaengigkeit 2019 bezieht die Initiative Stakeholder-Perspektiven in ihre Governance ein. Geleitet vom Vorstand und einem Beirat sichert sie nachhaltige Produktionsstandards und unterstuetzt die globale gruene Transformation.", "image": null},
+        {"subtitle": "Steigende Kupfernachfrage und Energiewende", "description": "Die Kupfernachfrage waechst rasch, um Klimaziele zu erreichen. Die IEA erwartet rund 40% fuer die Pariser Ziele. Kupfer ist essenziell fuer Solar, Wind, Bioenergie, Stromnetze und Batterien. Bis 2040 koennte der Kupfereinsatz je Fahrzeug von 30 kg auf 70 kg steigen.", "image": null},
+        {"subtitle": "ESG-Risiken managen und verantwortungsvoll produzieren", "description": "Der Copper-Mark-Rahmen hilft Produzenten beim Management von Umwelt-, Sozial- und Governance-Risiken. Er schaerft das Bewusstsein der Mitarbeitenden, unterstuetzt Treibhausgas-Reduktionen, sichert ein angemessenes Tailings-Management und foerdert Sorgfaltspflichten in Lieferketten.", "image": null},
+        {"subtitle": "Ausbau der Multi-Metal-Zusammenarbeit", "description": "Pilotprogramme umfassen nun Molybdaen, Nickel und Zink. Ein vereinheitlichter Ansatz vereinfacht Compliance und senkt Kosten. Bereits ueber 20% der weltweiten Kupferproduktion stammen von Copper-Mark-Standorten und die Zusammenarbeit unterstuetzt eine CO2-arme Wirtschaft.", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 3,
+    "date": "2025-09-22",
+    "image_url": "../../public/images/blog/copper-arbitrage.jpg",
+    "categories": "Copper,Arbitrage,Markets",
+    "views": 5623,
+    "en": {
+      "title": "Copper Market Arbitrage: When Global and Regional Prices Interact",
+      "excerpt": "Copper is traded on multiple global and regional exchanges, offering traders opportunities to take advantage of price differences between international and domestic markets.",
+      "sections": [
+        {"subtitle": "Understanding Copper Arbitrage Across Markets", "description": "Copper is actively traded on both global and regional exchanges, which allows traders to capitalize on price differences. Both types of exchanges are physically settled, meaning the actual metal can be delivered to close positions. Price differentials naturally exist due to differences in warehouse networks and the geographic scope of the markets.", "image": null},
+        {"subtitle": "Global and Regional Price Influences", "description": "Global copper can be delivered from multiple international locations, whereas regional copper is limited to local warehouses. This makes domestic prices more specific to the local market and often reflects regional premiums. Traders monitor the spread between global and regional prices to inform strategies and trading decisions.", "image": null},
+        {"subtitle": "Price Divergence and Trade Policies", "description": "Copper prices may diverge due to anticipated trade policies or tariffs. During periods of strong price rallies, the arbitrage between global and regional markets can narrow as traders adjust positions. Forward pricing curves may show larger spreads if traders expect future import duties, as global delivery points are often in duty-free zones.", "image": null},
+        {"subtitle": "Physical Factors Driving Long-Term Differentials", "description": "Short-term arbitrage fluctuates with market sentiment, but long-term price differentials are driven by physical market factors. These include regional premiums, local warehouse availability, and potential trade policies. If tariffs are introduced, domestic prices may shift, impacting arbitrage spreads.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "Арбитраж на рынке меди: как взаимодействуют мировые и региональные цены",
+      "excerpt": "Медь торгуется на нескольких глобальных и региональных биржах, что открывает трейдерам возможности использовать разницу между международными и внутренними ценами.",
+      "sections": [
+        {"subtitle": "Понимание арбитража между рынками", "description": "Медь активно торгуется как на глобальных, так и на региональных площадках, что позволяет использовать ценовые расхождения. Оба типа рынков предполагают физическую поставку, то есть позицию можно закрыть реальной поставкой металла. Различия в сетях складов и географии рынков естественно формируют спреды.", "image": null},
+        {"subtitle": "Влияние глобальных и региональных факторов на цену", "description": "Глобальная медь может поставляться из разных международных локаций, тогда как региональная ограничена локальными складами. Поэтому внутренняя цена отражает специфику местного рынка и региональные премии. Трейдеры отслеживают спред между глобальными и региональными ценами при выборе стратегий.", "image": null},
+        {"subtitle": "Расхождения цен и торговая политика", "description": "Цены могут расходиться из-за ожидаемых мер торговой политики или пошлин. Во время мощных ралли спреды часто сужаются, когда участники перестраивают позиции. Форвардные кривые могут расширяться при ожиданиях будущих пошлин: глобальные пункты поставки часто в беспошлинных зонах.", "image": null},
+        {"subtitle": "Физические факторы долгосрочных дифференциалов", "description": "Краткосрочный арбитраж зависит от настроений, но долгосрочные дифференциалы определяются физикой рынка: региональными премиями, доступностью складов и торговой политикой. Введение пошлин смещает внутренние цены и влияет на спреды.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "Kupfer-Arbitrage: Wenn globale und regionale Preise interagieren",
+      "excerpt": "Kupfer wird auf mehreren globalen und regionalen Boersen gehandelt. So ergeben sich Chancen, Preisunterschiede zwischen internationalen und inlaendischen Maerkten auszunutzen.",
+      "sections": [
+        {"subtitle": "Arbitrage ueber Maerkte hinweg verstehen", "description": "Kupfer wird sowohl an globalen als auch an regionalen Boersen aktiv gehandelt. Beide sind physisch erfuellt, d.h. Positionen koennen durch Metalllieferung geschlossen werden. Preisunterschiede entstehen durch unterschiedliche Lagernetzwerke und die geografische Abdeckung der Maerkte.", "image": null},
+        {"subtitle": "Einfluss globaler vs. regionaler Preisfaktoren", "description": "Globales Kupfer kann von mehreren internationalen Standorten geliefert werden, waehrend regionales auf lokale Lager beschraenkt ist. Daher spiegeln Inlandsnotierungen staerker die lokale Marktsituation und Regionalpraaemien wider. Trader beobachten den Spread zwischen globalen und regionalen Preisen.", "image": null},
+        {"subtitle": "Preisdifferenzen und Handelspolitik", "description": "Preise koennen durch erwartete handelspolitische Massnahmen oder Zoelle auseinanderlaufen. In starken Rallye-Phasen verengt sich der Arbitrage-Spread oft. Forward-Kurven koennen groessere Spreads zeigen, wenn Zoelle erwartet werden, da globale Lieferpunkte haeufig in zollfreien Zonen liegen.", "image": null},
+        {"subtitle": "Physische Treiber langfristiger Differenzen", "description": "Kurzfristige Arbitrage schwankt mit der Stimmung; langfristig bestimmen physische Faktoren die Differenzen: Regionalpraaemien, lokale Lagerverfuegbarkeit und Politik. Einfuehrung von Zoellen kann Inlandsnotierungen verschieben und Spreads veraendern.", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 4,
+    "date": "2025-10-06",
+    "image_url": "../../public/images/blog/aluminium.png",
+    "categories": "Copper,Aluminium,HVAC",
+    "views": 4970,
+    "en": {
+      "title": "Copper Shortage Drives Faster Aluminium Adoption",
+      "excerpt": "Rising copper prices and supply constraints are accelerating the use of aluminium as a substitute in industrial applications, particularly in HVAC systems and electric vehicles.",
+      "sections": [
+        {"subtitle": "Copper Shortages and Aluminium Substitution", "description": "Cost and availability pressures on copper are pushing industries to adopt aluminium more rapidly. Aluminium is now estimated to be used in around 40% of global HVAC systems. While technical advantages still favor copper, higher copper prices and potential supply constraints continue to support aluminium adoption in multiple applications.", "image": null},
+        {"subtitle": "Economic Drivers of Substitution", "description": "Aluminium is significantly cheaper than copper, even when tariffs are applied in some regions. In heating, ventilation, and refrigeration applications, aluminium solutions can be approximately twice as cost-effective as copper alternatives while maintaining similar performance. The high copper-to-aluminium price ratio reinforces this substitution trend.", "image": null},
+        {"subtitle": "Applications and Industry Trends", "description": "Aluminium substitution is growing not only in HVAC but also in electric vehicles, automotive radiators, and other industrial uses. In electric vehicles, the share of aluminium in wiring is increasing, while overall copper consumption per vehicle is expected to decline due to efficiency improvements in motor design and system architecture.", "image": null},
+        {"subtitle": "Technical and Supply Considerations", "description": "Switching from copper to aluminium requires system redesign and engineering adjustments, such as using microchannel extrusions for heat exchangers. Aluminium also requires thicker conductors to match copper conductivity and may need corrosion protection. While copper supply is constrained by limited new mines, aluminium production is increasing globally.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "Дефицит меди ускоряет переход на алюминий",
+      "excerpt": "Рост цен на медь и ограничения предложения ускоряют замену на алюминий в промышленности, особенно в HVAC и электромобилях.",
+      "sections": [
+        {"subtitle": "Дефицит меди и замещение алюминием", "description": "Давление по цене и доступности меди подталкивает отрасли к более быстрому принятию алюминия. Сейчас алюминий применяется примерно в 40% глобальных систем HVAC. Хотя по ряду свойств медь всё ещё выигрывает, рост цен и риски предложения поддерживают расширение применения алюминия.", "image": null},
+        {"subtitle": "Экономические драйверы замены", "description": "Алюминий существенно дешевле меди, даже с учётом пошлин в некоторых регионах. В HVAC и холодильных системах решения на алюминии могут быть примерно вдвое экономичнее при сопоставимой эффективности. Высокое ценовое соотношение медь/алюминий усиливает тренд замещения.", "image": null},
+        {"subtitle": "Применения и отраслевые тренды", "description": "Замещение растёт не только в HVAC, но и в электромобилях, автомобильных радиаторах и других индустриальных узлах. В электромобилях доля алюминия в проводке увеличивается, а удельное потребление меди на автомобиль может снижаться благодаря более эффективным моторам.", "image": null},
+        {"subtitle": "Технические и сырьевые соображения", "description": "Переход с меди на алюминий требует редизайна систем, например микроканальных экструдатов для теплообменников. Алюминиевые проводники должны быть толще для сопоставимой проводимости и нуждаются в защите от коррозии. Производство алюминия в мире растёт, поддерживая замещение на фоне роста цен на медь.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "Kupfermangel beschleunigt den Einsatz von Aluminium",
+      "excerpt": "Steigende Kupferpreise und Angebotsengpaesse beschleunigen die Substitution durch Aluminium, insbesondere in HVAC-Systemen und Elektrofahrzeugen.",
+      "sections": [
+        {"subtitle": "Kupferknappheit und Aluminium-Substitution", "description": "Kosten- und Verfuegbarkeitsdruck bei Kupfer treibt Branchen zu schnellerem Aluminium-Einsatz. Schaetzungen zufolge nutzt rund 40% der weltweiten HVAC-Systeme Aluminium. Trotz technischer Vorteile von Kupfer foerdern hoehere Kupferpreise und moegliche Engpaesse die Ausweitung von Aluminium-Anwendungen.", "image": null},
+        {"subtitle": "Oekonomische Treiber der Substitution", "description": "Aluminium ist deutlich guenstiger als Kupfer, selbst dort wo Zoelle anfallen. In HVAC- und Kuehlungsanwendungen koennen Aluminium-Loesungen bei vergleichbarer Performance etwa doppelt so kosteneffizient sein. Das hohe Kupfer/Aluminium-Preis-Verhaeltnis verstaerkt den Trend.", "image": null},
+        {"subtitle": "Anwendungen und Branchentrends", "description": "Die Substitution waechst nicht nur in HVAC, sondern auch in E-Fahrzeugen, Kfz-Kuehlern und weiteren Industrien. In EVs steigt der Aluminiumanteil in der Verkabelung; der Kupferbedarf pro Fahrzeug duerfte durch effizientere Motoren sinken.", "image": null},
+        {"subtitle": "Technische und Angebotsaspekte", "description": "Der Wechsel von Kupfer zu Aluminium erfordert System-Redesigns, etwa Mikrokanal-Extrusionen fuer Waermetauscher. Aluminium braucht dickere Leiter fuer gleiche Leitfaehigkeit und teils Korrosionsschutz. Die Aluminiumproduktion waechst weltweit und unterstuetzt weitere Substitution.", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 5,
+    "date": "2025-10-20",
+    "image_url": "../../public/images/blog/cobalt.png",
+    "categories": "Cobalt,Aerospace,Defense",
+    "views": 3210,
+    "en": {
+      "title": "Cobalt Alloy Acquisition Contract Extended in the US",
+      "excerpt": "The US government has extended a contract opportunity to acquire alloy-grade cobalt, aiming to secure supply for aerospace and defense applications over the next five years.",
+      "sections": [
+        {"subtitle": "Contract Extension and Scope", "description": "The US government has extended the deadline for offers to supply up to 7,500 tonnes of cobalt, now closing on September 11. The contract aims to secure alloy-grade cobalt for aerospace and defense applications. A minimum guaranteed purchase is set, with the total contract value potentially reaching hundreds of millions of dollars over five years.", "image": null},
+        {"subtitle": "Supply and Brand Requirements", "description": "The pool of approved brands for alloy-grade cobalt is smaller than for standard grades. Preference is given to awarding the contract to a single supplier. Some brands require letters of support from manufacturers for certification in aerospace rotating parts, reflecting the rigorous quality and performance standards.", "image": null},
+        {"subtitle": "Domestic Production and Market Implications", "description": "Currently, the US has no active primary mined or refined cobalt production. Domestic alloy-grade cobalt production is expected to come online in the coming years, potentially contributing to future deliveries. The announcement has positively influenced market sentiment, with expectations of tighter supply conditions supporting prices.", "image": null},
+        {"subtitle": "Pricing and Market Dynamics", "description": "Alloy-grade cobalt commands a premium over standard grades due to limited supply and high technical requirements. Prices remain elevated, and the market is influenced by tariffs on imported cobalt. The contract objective is to reduce supply risk for critical aerospace and defense applications.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "В США продлено окно заявок на контракт по закупке кобальта сплавных марок",
+      "excerpt": "Правительство США продлило возможность подачи предложений на поставку сплавного кобальта для аэрокосмических и оборонных применений на пять лет.",
+      "sections": [
+        {"subtitle": "Продление и объём контракта", "description": "Срок подачи предложений на поставку до 7 500 тонн кобальта продлён, заявки закрываются 11 сентября. Цель контракта — обеспечить поставки кобальта сплавных марок для аэрокосмики и обороны. Предусмотрен минимально гарантированный объём; суммарная стоимость контракта может составить сотни миллионов долларов.", "image": null},
+        {"subtitle": "Требования к поставкам и брендам", "description": "Список одобренных брендов для сплавных марок уже, чем для стандартных. Предпочтение отдаётся единому поставщику. Для ряда брендов требуются письма поддержки от производителей для сертификации в авиационных двигателях — стандарт очень строгий.", "image": null},
+        {"subtitle": "Внутреннее производство и влияние на рынок", "description": "Сейчас в США нет действующей первичной добычи или рафинирования кобальта. Ожидается ввод внутреннего производства сплавных марок в ближайшие годы. Объявление улучшило настроения рынка: ожидание ужесточения баланса поддерживает цены на сплавный материал.", "image": null},
+        {"subtitle": "Ценообразование и рыночная динамика", "description": "Сплавный кобальт торгуется с премией к стандартным сортам из-за ограниченного предложения и высоких технических требований. Цены остаются повышенными, на них влияют импортные пошлины. Задача контракта — снизить риски снабжения критических применений.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "USA verlaengern Ausschreibung fuer Kobalt in Legierungsqualitaet",
+      "excerpt": "Die US-Regierung hat die Frist fuer Angebote zur Lieferung von Kobalt in Legierungsqualitaet verlaengert, um die Versorgung fuer Luft- und Raumfahrt sowie Verteidigung zu sichern.",
+      "sections": [
+        {"subtitle": "Fristverlaengerung und Umfang", "description": "Die Angebotsfrist fuer bis zu 7500 t Kobalt wurde verlaengert, neuer Schluss: 11. September. Ziel ist die Sicherung von Kobalt in Legierungsqualitaet fuer Luft- und Raumfahrt. Ein Mindestabnahmevolumen ist garantiert; der Vertragswert kann sich ueber fuenf Jahre auf mehrere hundert Millionen US-Dollar summieren.", "image": null},
+        {"subtitle": "Liefer- und Markenanforderungen", "description": "Der Pool zugelassener Marken fuer Legierungsqualitaeten ist kleiner als fuer Standardqualitaeten. Bevorzugt wird die Vergabe an einen einzigen Anbieter. Einige Marken benoetigen Unterstuetzungsschreiben der Hersteller fuer die Zertifizierung in rotierenden Triebwerksteilen.", "image": null},
+        {"subtitle": "Inlaendische Produktion und Marktausblick", "description": "Derzeit gibt es in den USA keine aktive Primaerfoerderung oder Raffination von Kobalt. In den kommenden Jahren wird inlaendische Produktion in Legierungsqualitaet erwartet. Die Ankuendigung hat die Marktstimmung aufgehellt.", "image": null},
+        {"subtitle": "Preise und Marktdynamik", "description": "Kobalt in Legierungsqualitaet handelt mit Aufschlag gegenueber Standardware wegen begrenzten Angebots und hoher Anforderungen. Die Preise bleiben erhoet; Importzoelle wirken mit. Der Vertragszweck ist die Reduzierung von Versorgungsrisiken.", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 6,
+    "date": "2025-11-03",
+    "image_url": "../../public/images/blog/rare-earths.png",
+    "categories": "RareEarths,France,SupplyChain",
+    "views": 4122,
+    "en": {
+      "title": "New Rare Earth Facility Planned in France to Strengthen Supply Chain",
+      "excerpt": "A UK-based rare earth metal producer is investing 110 million euros to build a new facility in Southern France, aiming to expand Europe's rare earth metals supply chain.",
+      "sections": [
+        {"subtitle": "Investment and Facility Development", "description": "The company plans to develop a rare earth metal and magnet alloy plant in Southern France with an investment of 110 million euros. The facility is designed to strengthen the regional supply chain for critical materials, including high-performance rare earth metals used in magnets and other specialty alloys.", "image": null},
+        {"subtitle": "Strategic Motivation", "description": "The project is part of broader efforts to build alternative supply chains in Europe for critical materials. Local industrial support, research collaborations, and France's strategic location make it a favorable site for expanding rare earth processing capabilities.", "image": null},
+        {"subtitle": "Supply Chain Context", "description": "Recent export restrictions in other major producing countries have created uncertainty for rare earth metals, particularly heavy rare earths used in high-performance magnets for electric vehicles, electronics, medical devices, semiconductors, aerospace, and energy generation.", "image": null},
+        {"subtitle": "European Rare Earth Initiatives", "description": "France is supporting multiple projects to develop domestic rare earth capabilities, including recycling and refining initiatives. New production lines and recycling facilities are expected to come online in the coming years, helping to reduce dependency on imports from overseas.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "Во Франции планируется новый завод редкоземельных металлов",
+      "excerpt": "Британский производитель редкоземельных металлов инвестирует 110 млн евро в строительство предприятия на юге Франции для расширения европейской цепочки поставок.",
+      "sections": [
+        {"subtitle": "Инвестиции и развитие площадки", "description": "Компания намерена построить завод по производству редкоземельных металлов и сплавов для магнитов во Франции с инвестициями 110 млн евро. Цель — укрепить региональную цепочку критически важных материалов, включая высокоэффективные редкоземельные металлы для магнитов и спецсплавов.", "image": null},
+        {"subtitle": "Стратегическая мотивация", "description": "Проект — часть усилий по созданию альтернативных европейских цепочек поставок критических материалов. Локальная индустриальная база, научные коллаборации и выгодная география Франции делают её привлекательной для расширения переработки редкоземельных металлов.", "image": null},
+        {"subtitle": "Контекст цепочки поставок", "description": "Недавние экспортные ограничения в ряде стран породили неопределённость по тяжёлым редкоземельным металлам для высокопроизводительных магнитов — в электромобилях, электронике, медицине, полупроводниках, авиации и энергетике.", "image": null},
+        {"subtitle": "Европейские инициативы по редкоземельным металлам", "description": "Франция поддерживает несколько проектов по развитию собственных компетенций в редкоземельных металлах — от переработки до рафинирования. Новые производственные линии должны запускаться в ближайшие годы, снижая зависимость от импорта.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "Neues Werk fuer Seltene Erden in Frankreich zur Staerkung der Lieferkette",
+      "excerpt": "Ein britischer Produzent investiert 110 Mio. Euro in eine Anlage in Suedfrankreich, um Europas Lieferkette fuer Seltene Erden auszubauen.",
+      "sections": [
+        {"subtitle": "Investition und Anlagenaufbau", "description": "Geplant ist ein Werk fuer Metalle seltener Erden und Magnetlegierungen in Suedfrankreich mit 110 Mio. Euro Investition. Ziel ist die Staerkung der regionalen Lieferkette fuer kritische Materialien, darunter Hochleistungs-Seltene-Erden-Metalle fuer Magnete und Speziallegierungen.", "image": null},
+        {"subtitle": "Strategische Motivation", "description": "Das Projekt ist Teil breiterer Bemuehungen, alternative Lieferketten in Europa fuer kritische Materialien aufzubauen. Industrielle Infrastruktur, Forschungspartnerschaften und Frankreichs Lage sprechen fuer den Ausbau der Verarbeitungskapazitaeten.", "image": null},
+        {"subtitle": "Lieferketten-Kontext", "description": "Juengste Exportbeschraenkungen grosser Produzenten haben Unsicherheit bei Seltenerdmetallen geschaffen, besonders bei schweren Seltenen Erden fuer Hochleistungsmagnete in EVs, Elektronik, Medizintechnik, Halbleitern, Luft- und Raumfahrt sowie Energie.", "image": null},
+        {"subtitle": "Europaeische Seltene-Erden-Initiativen", "description": "Frankreich unterstuetzt mehrere Projekte zum Aufbau heimischer Kompetenzen bei Seltenen Erden, inklusive Recycling und Raffination. Neue Linien und Recyclinganlagen sollen in den naechsten Jahren anlaufen und die Importabhaengigkeit senken.", "image": null}
+      ]
+    }
+  },
+  {
+    "fm_id": 7,
+    "date": "2025-11-17",
+    "image_url": "../../public/images/blog/eu-alloys.png",
+    "categories": "EU,FerroAlloys,Policy",
+    "views": 3899,
+    "en": {
+      "title": "Three Potential Safeguarding Scenarios Facing EU Bulk Alloys Market",
+      "excerpt": "The European Commission is investigating possible safeguards for the EU bulk ferro-alloys market, considering minimum import prices, tariff-rate quotas, or definitive measures.",
+      "sections": [
+        {"subtitle": "Market Uncertainty", "description": "The EU bulk ferro-alloys market, including ferro-silicon, silico-manganese, and ferro-manganese, faces uncertainty as the EC explores safeguard measures. Prices initially spiked in anticipation of minimum import prices, though no measures were implemented. The Commission may still announce provisional or definitive measures before the November 19 deadline.", "image": null},
+        {"subtitle": "Three Possible Scenarios", "description": "The EC has three options: 1. Introduce provisional measures at any time, though the likelihood is considered low. 2. Lower the minimum import prices or adopt a tariff-rate quota system, similar to existing steel safeguards. 3. Implement definitive measures by November 19. If no measures are enacted, the Commission would need to restart the investigation.", "image": null},
+        {"subtitle": "Split Member State Vote", "description": "An advisory vote among member states in July resulted in an evenly split opinion. A qualified majority is required to adopt definitive measures, meaning a small blocking minority could prevent the proposal. This split complicates the EC ability to implement minimum import prices or other safeguards.", "image": null},
+        {"subtitle": "Market Impact and Industry Response", "description": "Proposed minimum import prices could raise ferro-alloy prices by 35-40%, much higher than typical market levels. The proposal surprised industry participants, as safeguards usually involve quotas rather than price floors. The EC aim is to ensure European producers can achieve profitable levels and expand production.", "image": null},
+        {"subtitle": "Commission Rationale", "description": "The EC rationale for minimum prices instead of tariff-rate quotas is to ensure that continued imports at existing prices do not undermine European producers. By setting minimum prices, the Commission hopes to support profit levels sufficient to incentivize local production expansion.", "image": null}
+      ]
+    },
+    "ru": {
+      "title": "Три возможных сценария защитных мер на рынке массовых ферросплавов ЕС",
+      "excerpt": "Еврокомиссия рассматривает защитные меры для рынка массовых ферросплавов ЕС: минимальные импортные цены, тарифные квоты или окончательные меры.",
+      "sections": [
+        {"subtitle": "Рыночная неопределённость", "description": "Рынок ферросилиция, силикомарганца и феромарганца в ЕС находится в ожидании мер. Цены сперва подпрыгнули на ожиданиях минимальных импортных цен, но меры тогда не были введены. Комиссия всё ещё может объявить временные или окончательные меры до дедлайна 19 ноября.", "image": null},
+        {"subtitle": "Три возможных исхода", "description": "У ЕК есть три опции: 1. Ввести временные меры в любой момент, вероятность низкая. 2. Снизить уровни минимальных цен или применить тарифные квоты, аналогично действующим по стали. 3. Ввести окончательные меры к 19 ноября. Если мер не будет — расследование придётся начинать заново.", "image": null},
+        {"subtitle": "Разделённое голосование стран-членов", "description": "Консультативное голосование в июле завершилось ничьей. Для принятия окончательных мер требуется квалифицированное большинство, и небольшое блокирующее меньшинство может остановить предложение. Это осложняет внедрение минимальных цен.", "image": null},
+        {"subtitle": "Влияние на рынок и реакция отрасли", "description": "Предложенные минимальные цены могут поднять котировки на 35–40%, заметно выше привычных уровней. Это удивило участников, ведь обычно используют квоты, а не ценовые полы. Цель ЕК — обеспечить рентабельность производителей и стимулировать наращивание мощностей.", "image": null},
+        {"subtitle": "Логика Комиссии", "description": "Выбор минимальных цен вместо тарифных квот призван не допустить подрыва прибыльности европейских производителей поставками по низким ценам. Таким образом ЕК надеется поддержать условия для расширения местного производства и защитить сектор ферросплавов ЕС.", "image": null}
+      ]
+    },
+    "de": {
+      "title": "Drei moegliche Schutzszenarien fuer den EU-Markt massenhafter Ferrolegierungen",
+      "excerpt": "Die EU-Kommission prueft Schutzmassnahmen fuer den EU-Markt massenhafter Ferrolegierungen, darunter Mindestimportpreise, Zollkontingente oder endgueltige Massnahmen.",
+      "sections": [
+        {"subtitle": "Marktunsicherheit", "description": "Der EU-Markt fuer Ferrosilizium, Silikomangan und Ferromangan blickt auf moegliche Massnahmen. Die Preise sprangen zunaechst wegen erwarteter Mindestimportpreise, doch es wurde nichts eingefuehrt. Die Kommission kann bis zum 19. November vorlaefige oder endgueltige Massnahmen beschliessen.", "image": null},
+        {"subtitle": "Drei denkbare Optionen", "description": "Die Kommission hat drei Optionen: 1. Vorlaefige Massnahmen jederzeit einfuehren, derzeit eher geringe Wahrscheinlichkeit. 2. Mindestpreise senken oder ein Zollkontingent wie beim Stahl anwenden. 3. Endgueltige Massnahmen bis 19. November. Ohne Massnahmen muesste das Verfahren neu gestartet werden.", "image": null},
+        {"subtitle": "Geteilte Abstimmung der Mitgliedstaaten", "description": "Eine beratende Abstimmung im Juli endete ausgeglichen. Fuer endgueltige Massnahmen ist eine qualifizierte Mehrheit noetig; eine kleine blockierende Minderheit kann den Vorschlag stoppen. Das erschwert Mindestpreise oder andere Schutzinstrumente.", "image": null},
+        {"subtitle": "Marktauswirkung und Branchenreaktion", "description": "Vorgeschlagene Mindestpreise koennten die Notierungen um 35-40% anheben, deutlich ueber ueblichen Niveaus. Das ueberraschte die Branche, da Schutzmassnahmen gewoechnlich Kontingente statt Preisuntergrenzen nutzen.", "image": null},
+        {"subtitle": "Begruendung der Kommission", "description": "Mindestpreise statt Kontingente sollen verhindern, dass guenstige Importe die Profitabilitaet der EU-Produzenten unterminieren. So will die Kommission Bedingungen fuer Produktionsausbau schaffen und den Sektor der Ferrolegierungen schuetzen.", "image": null}
+      ]
+    }
+  }
+]

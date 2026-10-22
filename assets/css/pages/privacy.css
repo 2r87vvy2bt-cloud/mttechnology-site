@@ -1,0 +1,55 @@
+.privacy {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 10rem;
+  margin-top: 20rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.title {
+  border-bottom: 1px solid #F2F4F7;
+}
+
+.underlined {
+  padding-bottom: 1.5rem;
+}
+
+.privacy__content {
+  padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  width: 100%;
+}
+
+.privacy__content__point {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.privacy__content__title {
+  font-family: 'NunitoBold', sans-serif;
+  font-size: 3rem;
+  color: #222F49;
+}
+
+.privacy__content__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #475467;
+}
+
+@media screen and (max-width: 768px) {
+  .privacy {
+    margin-top: 15rem;
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>if(!localStorage.getItem('lang')){var b=(navigator.language||'').slice(0,2).toLowerCase();if(['en','ru','de'].indexOf(b)!==-1)localStorage.setItem('lang',b);}</script>
+  <script src="../scripts/shared/analytics.js" data-cfasync="false"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services</title>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/components/header.css" />
+  <link rel="stylesheet" href="../assets/css/components/burger-dropdown.css" />
+  <link rel="stylesheet" href="../assets/css/components/catalog.css" />
+  <link rel="stylesheet" href="../assets/css/pages/service.css" />
+  <link rel="stylesheet" href="../assets/css/components/footer.css" />
+  <link rel="stylesheet" href="../assets/css/components/cookie.css" />
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+<div id="burger-dropdown-placeholder"></div>
+
+<div class="service">
+  <div class="container">
+    <div class="title">
+      <span data-i18n="service.titleBlue">ENGINEERING SERVICES</span>
+      <a data-i18n="service.titleOrd">FROM MT TECHNOLOGY </a>
+      <p data-i18n="service.subtitle">
+        Engineering is the heart of MT Technology. We develop and implement high-tech solutions
+        We cooperate with European research institutes, integrating the best global practices.
+        Each project is taken "turnkey" - from the concept to the launch of pilot industrial samples
+      </p>
+    </div>
+
+    <div class="service__nav">
+      <div class="service__nav__search-bar">
+        <img loading="lazy" class="search-icon" src="../../public/images/icons/search.svg" />
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="button button__medium search-button" data-i18n="buttons.searchBtn">Search</button>
+      </div>
+    </div>
+    <div id="sell-catalog" class="service__content"></div>
+  </div>
+
+</div>
+
+<div id="footer-placeholder"></div>
+
+<script src="../scripts/shared/cookie.min.js"></script>
+<script src="../scripts/shared/cookie.js"></script>
+<script src="../scripts/shared/translations.js" defer></script>
+<script src="../scripts/components/header.js" defer></script>
+<script src="../scripts/components/burgerDropdownController.js" defer></script>
+<script src="../scripts/shared/navButtons.js" defer></script>
+<script src="../scripts/components/footer.js" defer></script>
+<script type="module" src="../scripts/pages/service.js" defer></script>
+</body>
+</html>

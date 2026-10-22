@@ -1,0 +1,61 @@
+:80 {
+    root * /var/mt
+
+    file_server {
+        index index.html
+    }
+
+    @nocache path *.html *.js *.css
+    header @nocache Cache-Control "no-cache, must-revalidate"
+
+    handle /favicon.ico {
+        rewrite * /public/favicon.ico
+        file_server
+    }
+
+    handle_path /api/prices/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$PRICES_HOST}:8080
+    }
+
+    handle_path /api/feedback/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$FEEDBACK_HOST}:8080
+    }
+
+    handle_path /api/blog/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$BLOG_HOST}:8080
+    }
+}
+
+:443 {
+    root * /var/mt
+
+    file_server {
+        index index.html
+    }
+
+    @nocache path *.html *.js *.css
+    header @nocache Cache-Control "no-cache, must-revalidate"
+
+    handle /favicon.ico {
+        rewrite * /public/favicon.ico
+        file_server
+    }
+
+    handle_path /api/prices/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$PRICES_HOST}:8080
+    }
+
+    handle_path /api/feedback/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$FEEDBACK_HOST}:8080
+    }
+
+    handle_path /api/blog/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$BLOG_HOST}:8080
+    }
+}

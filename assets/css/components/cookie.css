@@ -1,0 +1,89 @@
+.cookie {
+  width: fit-content;
+  max-width: calc(100vw - 5rem);
+  height: fit-content;
+  background-color: #fff;
+  border: 1px solid #F2F4F7;
+  border-radius: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 2.5rem;
+  left: 2.5rem;
+  z-index: 9999;
+  cursor: default;
+}
+
+.cookie__title {
+  font-family: "IntroDemo", sans-serif;
+  display: flex;
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-align: start;
+  width: 100%;
+  gap: 1rem;
+  white-space: pre-line;
+}
+
+.cookie__title a {
+  font-family: inherit;
+  color: #222F49;
+}
+
+.cookie__title span {
+  font-family: inherit;
+  color: #487CC8;
+}
+
+.cookie__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.cookie__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  line-height: 3.25rem;
+  color: #475467;
+  flex: 1;
+  white-space: pre-line;
+}
+
+.cookie__text a {
+  color: #487CC8;
+  text-decoration: underline;
+}
+
+.cookie__buttons {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.cookie__btn {
+  width: 20rem;
+  height: 6.5rem;
+}
+
+@media screen and (max-width: 768px){
+  .cookie {
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .cookie__title{
+    font-size: 2.5rem;
+  }
+
+  .cookie__text{
+    font-size: 2rem;
+  }
+
+  .cookie__img img {
+    width: 10rem;
+    height: 10rem;
+  }
+}

@@ -1,0 +1,7 @@
+server.py
+prices_service.py
+feedback_service.py
+*.log
+__pycache__/
+services/__pycache__/
+services/blog/blog.db
