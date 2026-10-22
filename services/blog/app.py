@@ -52,6 +52,17 @@ CATEGORIES = {
     3988: "Green Steel",
     104:  "Electrification",
     15:   "Freight",
+    # Base & minor metals actually traded by the company — without these the
+    # feed stalled (the categories above publish only a few posts a month).
+    91:   "Base metals",
+    97:   "Copper",
+    93:   "Aluminium",
+    99:   "Nickel",
+    141:  "Zinc",
+    147:  "Tin",
+    149:  "Tungsten",
+    17:   "Recycling",
+    21:   "Rare earths",
 }
 
 SKIP_CATEGORIES = {"Critical Minerals"}
