@@ -9,6 +9,9 @@ import smtplib
 import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import threading
+import time
+from collections import defaultdict, deque
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -49,9 +52,43 @@ Description: {description or '—'}
             s.sendmail(FROM_EMAIL, TO_EMAIL, msg.as_string())
 
 
+RATE_MAX    = int(os.getenv("RATE_MAX", "5"))       # requests
+RATE_WINDOW = int(os.getenv("RATE_WINDOW", "600"))  # seconds, per client IP
+_hits: dict = defaultdict(deque)
+_hits_lock = threading.Lock()
+
+
+def _client_ip() -> str:
+    fwd = request.headers.get("X-Forwarded-For", "")
+    return (fwd.split(",")[0].strip() if fwd else request.remote_addr) or "?"
+
+
+def _rate_limited(ip: str) -> bool:
+    now = time.time()
+    with _hits_lock:
+        q = _hits[ip]
+        while q and now - q[0] > RATE_WINDOW:
+            q.popleft()
+        if len(q) >= RATE_MAX:
+            return True
+        q.append(now)
+        return False
+
+
 @app.route("/client", methods=["POST"])
 def client():
     data = request.get_json(silent=True) or {}
+
+    # Honeypot: real users never fill the hidden "website" field.
+    if (data.get("website") or "").strip():
+        return "", 200
+
+    if _rate_limited(_client_ip()):
+        return jsonify({"title": "Too many requests", "status": 429}), 429
+
+    for k, lim in (("name", 200), ("email", 200), ("phone", 60), ("source", 300), ("description", 5000)):
+        if len(str(data.get(k) or "")) > lim:
+            return jsonify({"title": "Field too long", "status": 400, "errors": {k: ["too long"]}}), 400
 
     name  = (data.get("name") or "").strip()
     email = (data.get("email") or "").strip()
