@@ -1,0 +1,474 @@
+0|À propos — MT Technology
+1|Tous les prix et graphiques
+2|Cours mondiaux des métaux
+3|Nous vendons
+4|Nous achetons
+5|Services
+6|Solutions
+7|Prix
+8|Actualités
+9|À propos
+10|Contact
+11|‹ Retour à l'accueil
+12|L'entreprise
+13|MT Technology a été fondée en Bulgarie en 2018. L'entreprise commercialise des matières premières industrielles pour de nombreux secteurs, organise le transport de marchandises et mène des projets d'ingénierie avec des instituts de recherche européens. Notre activité repose sur la gestion durable des ressources et l'innovation.
+14|année de création
+15|ans sur le marché
+16|partenaires commerciaux
+17|pays où opèrent nos clients
+18|UE
+19|toutes les licences pour le négoce de matières premières
+20|Bureaux en Europe — bientôt
+21|Allemagne
+22|France
+23|Pologne
+24|Autriche
+25|Lituanie
+26|Projets à venir
+27|Les deux projets sont menés dans le cadre de programmes de soutien à l'innovation ; leur lancement est prévu pour 2027. Investisseurs et partenaires sont les bienvenus.
+28|LIGNE 01
+29|Collecte et recyclage de panneaux solaires
+30|Technologie de démontage et de tri des modules en fin de vie et de récupération du silicium semi-conducteur.
+31|unité pilote de séparation hydromécanique
+32|montée en échelle et intégration avec les opérateurs de recyclage
+33|analyse de la composition et de la dégradation des cellules
+34|LIGNE 02
+35|Recyclage des batteries lithium-fer-phosphate (LFP)
+36|Traitement des cellules LFP usagées, y compris les batteries de traction de véhicules électriques, avec récupération des matériaux actifs.
+37|démontage mécanique et tri des composants
+38|récupération des composés de lithium, de fer et de phosphate
+39|élimination sécurisée des électrolytes et des boîtiers
+40|À SUIVRE
+41|Nouveaux projets
+42|D'autres projets suivront. Nous serons heureux de vous compter parmi nos partenaires et investisseurs.
+43|Discuter d'un partenariat
+44|Envoyez-nous des photos du matériau — nous répondons sous un jour ouvré.
+45|Téléphone
+46|Questions générales
+47|Service commercial (achats et ventes)
+48|Bureau
+49|Sofia, Bulgarie
+50|Nom
+51|Société
+52|Matériau, volume, lieu de chargement...
+53|Photos du matériau
+54|Envoyer la demande
+55|Fermer
+56|Demander une offre
+57|© 2018–2026 MT Technology Ltd · Sofia, Bulgarie
+58|Version
+59|bientôt disponible
+60|Type de demande
+61|Champ
+62|Votre demande a déjà été envoyée. Nouvel envoi possible dans 30 secondes.
+63|(Le client a joint des fichiers :
+64|pcs — à demander par e-mail.)\n
+65|Veuillez indiquer une adresse e-mail pour notre réponse.
+66|Votre demande n'a pas pu être envoyée. Écrivez-nous à
+67|ou appelez-nous :
+68|Merci ! Votre demande a été envoyée — nous vous recontacterons sous un jour ouvré.
+69|Trop de demandes depuis votre adresse. Veuillez réessayer plus tard.
+70|Marché
+71|Lire la source ↗
+72|Aluminium — MT Technology
+73|Aluminium
+74|Profilés, déchets de fonderie, tôles et fils — triés par qualité.
+75|Extrusion
+76|profilés 6060/6063
+77|Fonderie
+78|jantes, culasses, déchets de fonderie
+79|Tôle
+80|tôle d'aluminium
+81|Fil
+82|fils et câbles
+83|Photos
+84|Demander un prix
+85|Bronze — MT Technology
+86|Bronze
+87|Bronze phosphoreux et bronze d'aluminium : déchets, copeaux, bagues.
+88|Bronze phosphoreux
+89|bronze étain-phosphore (CuSnP)
+90|Bronze d'aluminium
+91|bronze aluminium-fer (CuAlFe)
+92|Déchets
+93|déchets massifs, pièces coulées
+94|Copeaux
+95|secs, sans impuretés
+96|Bagues
+97|bagues et coussinets usagés
+98|Copeaux d'alliages de cuivre
+99|Pièces en alliage de cuivre
+100|Photo : «Sweep of
+101|» — BronxAquarian, Wikimedia Commons, CC BY-SA 4.0 ; visserie en alliage de cuivre — Pexels (licence Pexels).
+102|Fonderie — MT Technology
+103|Fonderie industrielle et architecturale, simulation, usinage — production partenaire dans l'UE.
+104|Fonderie industrielle
+105|Pièces coulées sur plans, modèles 3D ou échantillons — unitaires et en série.
+106|construction et réparation navales
+107|construction mécanique, pompes et réducteurs
+108|robinetterie et équipements de tuyauterie
+109|convoyeurs et engins de levage
+110|ferroviaire et énergie
+111|engins de BTP, agricoles, forestiers et miniers
+112|Fonderie architecturale et urbaine
+113|Nous adaptons votre création à la fonderie : géométrie, contre-dépouilles, dépouilles, épaisseurs de paroi, noyaux, matériau et masse, points de fixation, charges, état de surface, revêtement et assemblage.
+114|ponts et quais
+115|éléments de bâtiment et restauration
+116|mobilier urbain : bancs, corbeilles, garde-corps
+117|Produits OEM
+118|fonte grise ou fonte GS, bronze sur demande ; peinture RAL, revêtements époxy et polyuréthane
+119|Ingénierie et simulation
+120|SOLIDWORKS, MAGMASOFT, calculs par éléments finis.
+121|conception des pièces et analyse de faisabilité
+122|développement du procédé de fonderie
+123|outillage de modèles et de boîtes à noyaux
+124|simulation du remplissage, de la solidification et de l'alimentation
+125|calcul des contraintes et de la résistance
+126|optimisation de la conception, remplacement d'ensembles soudés par des pièces coulées
+127|Usinage
+128|Tournage, fraisage, perçage, alésage, filetage.
+129|usinage de nos propres pièces coulées
+130|usinage de pièces brutes fournies par le client
+131|Matériaux
+132|Fonte grise et fonte GS, aciers, alliages de cuivre et d'aluminium selon les normes européennes.
+133|EN 1706, EN 1982 ; livraison selon EN 1559-1…4
+134|Équipements
+135|Moulage en sable à liant résine durcissant à froid (AlphaSet), fusion par induction.
+136|fours à induction de 1,5 t
+137|pièces de quelques dizaines de grammes à 2 t
+138|malaxeurs 10 t/h et 3 t/h, régénération du sable
+139|décochage, ébarbage, traitement thermique
+140|Contrôle qualité
+141|Analyse chimique rapide par spectromètre et analyseur C/S, métallographie.
+142|essais spéciaux par des spécialistes accrédités
+143|critères de réception convenus selon plan ou demande
+144|Faire une demande
+145|Envoyez-nous votre plan — nous répondons sous un jour ouvré.
+146|Plan / fichier
+147|Alliage
+148|Quantité, pcs
+149|Commentaire
+150|Catalyseurs usagés — MT Technology
+151|Catalyseurs usagés
+152|Catalyseurs de raffinage Ni-Mo, V-Mo et Mo.
+153|nickel-molybdène
+154|vanadium-molybdène
+155|contenant du molybdène
+156|Évaluation
+157|sur certificat et photos du lot
+158|Cuivre — MT Technology
+159|Cuivre
+160|Câbles, fils, tubes, radiateurs et déchets mélangés. Évaluation préliminaire sur photos.
+161|Câbles et fils
+162|brillant, étamé, broyé
+163|Produits câblés
+164|câbles isolés, d'énergie, armés, téléphoniques, granulés
+165|Tubes
+166|propres et avec impuretés
+167|Radiateurs
+168|cuivre-laiton
+169|Mélange
+170|cuivre mélangé
+171|Ingénierie — MT Technology
+172|Ingénierie
+173|Technologies métallurgiques et hydrométallurgiques, enrichissement, environnement — clés en main.
+174|L'ingénierie est au cœur de MT Technology. Avec des instituts de recherche européens, nous menons des projets clés en main : du concept et de la solution technologique jusqu'à la mise en service d'installations pilotes industrielles.
+175|Procédé métallurgique
+176|Optimisation des fours de fusion, désoxydation et dégazage sous vide, amélioration du rendement métal.
+177|Technologies hydrométallurgiques
+178|Extraction des métaux des minerais, concentrés et scories par des méthodes chimiques douces.
+179|Extraction électrochimique
+180|Électrolyse du nickel, du cobalt et du cuivre, production d'alliages.
+181|Enrichissement gravimétrique
+182|Sélection et mise en service de tables à secousses, spirales et sluices.
+183|Traitement des eaux usées
+184|Technologies allant de l'élimination des matières en suspension à la précipitation des métaux lourds.
+185|Conseil environnemental
+186|Audit environnemental, dossiers de conception, suivi de réalisation, mise en service.
+187|Élimination des déchets dangereux
+188|Via des installations agréées dans l'UE (catégories A et B) : collecte, transport, traitement, reporting.
+189|Logistique de fret
+190|Commission de transport, dédouanement, livraison porte-à-porte.
+191|Décrivez votre besoin — nous répondons sous un jour ouvré.
+192|Description du besoin
+193|Déchets électroniques — MT Technology
+194|Déchets électroniques
+195|Cartes, processeurs, modules mémoire, connecteurs et équipements complets.
+196|Cartes
+197|cartes mères, serveurs, télécom, automobile (ECU)
+198|Processeurs
+199|céramique, fibre de verre, BGA
+200|Mémoire
+201|RAM, modules
+202|Connecteurs
+203|dorés, industriels
+204|Condensateurs et relais
+205|contenant des métaux précieux
+206|Équipements complets
+207|serveurs, commutateurs, terminaux
+208|Ferro-alliages — MT Technology
+209|Ferro-alliages
+210|FeSi 75 · FeMo · FeV · FeMn · FeTi · SiMn — toutes les qualités en stock en Europe.
+211|Toutes les qualités de ferro-alliages présentées sont en stock en Europe.
+212|Sélectionnez une qualité pour consulter ses caractéristiques.
+213|Ferrosilicium
+214|Détails
+215|Ferromolybdène
+216|Composition chimique et certificat du lot — sur demande
+217|certificat sur demande
+218|Ferrovanadium
+219|Ferromanganèse
+220|Ferrotitane
+221|Silicomanganèse
+222|Ferrosilicium FeSi 75 en big bag
+223|Ferrosilicium (FeSi), morceaux
+224|Ferromolybdène (FeMo)
+225|Ferrovanadium (FeV)
+226|Silicomanganèse (SiMn)
+227|Ferrotitane (FeTi)
+228|Ferro-alliages · en stock
+229|Ferrosilicium FeSi 75
+230|Granulométrie
+231|10–50 mm
+232|Conditionnement
+233|big bags
+234|Disponibilité
+235|entrepôt en Europe, marchandise dédouanée dans l'UE
+236|Volume
+237|de 3 t (enlèvement EXW) à 1 500 t par mois
+238|Précisez votre demande — nous vous adressons une offre sous un jour ouvré.
+239|Pays
+240|Application
+241|Granulométrie / qualité
+242|Volume, t/mois
+243|Lieu de livraison
+244|Graphite naturel en paillettes (flake) — MT Technology
+245|Graphite naturel en paillettes (flake)
+246|Graphite naturel en paillettes (flake), 92–96 % de carbone fixe (FC), pour les réfractaires et l'industrie.
+247|Le prix dépend du volume et de la granulométrie et est communiqué sur demande. Qualité économique et échantillons sur demande.
+248|Matériau
+249|graphite naturel en paillettes (flake)
+250|Carbone
+251|92–96 % de carbone fixe (FC)
+252|Teneur en cendres
+253|2,4 % max.
+254|Analyse type, qualité −196
+255|carbone fixe ~96,5 % (sur sec), cendres 2,4 %, matières volatiles 1,1 %, humidité 0,6 %
+256|Granulométries
+257|sur demande
+258|big bags de 900–1 300 kg
+259|Code douanier (TARIC)
+260|réfractaires, creusets, fonderie, matériaux de friction, batteries, lubrifiants
+261|Livraison
+262|jusqu'au port ou DAP
+263|Échantillons
+264|qualité économique et échantillons sur demande
+265|Graphite naturel en paillettes (flake), gros plan
+266|MT Technology — matières premières industrielles
+267|Matières premières
+268|industrielles.
+269|Nous fournissons ferro-alliages, graphite, laitiers de synthèse et autres matières premières ; nous achetons des métaux non ferreux, des déchets électroniques et des catalyseurs usagés. Livraisons directes dans toute l'Europe depuis 2018.
+270|Catalogue des matériaux
+271|Autres matières premières
+272|Nickel et acier inoxydable
+273|Laitiers alumineux
+274|Plomb
+275|Logistique
+276|Ferro-alliages, graphite, laitiers alumineux et autres matières premières pour la métallurgie et l'industrie.
+277|Formateur et fluidifiant de laitier — en remplacement du spath fluor et des laitiers synthétiques en aciérie.
+278|Matières premières d'antimoine, de tungstène et de cobalt, concentrés de cuivre, matières premières de zinc et autres — en stock en Europe.
+279|Nous achetons des métaux non ferreux, des déchets électroniques, du bronze et des catalyseurs usagés. Sélectionnez un matériau pour voir les qualités acceptées.
+280|Étain
+281|Étain en lingots, déchets d'étain et brasures.
+282|Plomb en lingots et saumons, déchets de plomb, batteries automobiles plomb-acide.
+283|Titane
+284|Copeaux et déchets massifs de titane.
+285|L'acier inoxydable est un alliage contenant 8–10 % de nickel. Le nickel pur et les alliages de nickel constituent une qualité distincte.
+286|partenaires
+287|pays
+288|Approvisionnement clés en main
+289|Des matières premières pour votre production — de la sélection jusqu'au lieu de votre choix
+290|MT Technology approvisionne aciéries, fonderies et transformateurs en matières premières clés en main : ferro-alliages, déchets inox et nickel, matières premières de titane, graphite, laitiers et autres matériaux. Nous prenons en charge chaque étape, et le matériau est livré au lieu que vous indiquez.
+291|Sélection du matériau
+292|Nous choisissons la qualité, la granulométrie et la composition chimique adaptées à votre procédé.
+293|Documents
+294|Contrat, certificats et dédouanement — un dossier complet conforme aux exigences de l'UE.
+295|Route, mer, rail — nous organisons le transport et la livraison jusqu'au lieu indiqué.
+296|Conditions avantageuses
+297|Prix compétitifs et livraisons régulières selon votre calendrier.
+298|Glissez vers la droite →
+299|Discuter d'une livraison
+300|Ingénierie, solutions industrielles, logistique et fonderie — de la technologie à la livraison.
+301|Solutions industrielles
+302|Solutions pour les entreprises : valorisation des déchets et sous-produits, fourniture des matières premières nécessaires.
+303|Transport routier, transbordement portuaire, calcul du coût de transport et formalités documentaires.
+304|Depuis 2018, MT Technology fournit et achète des matières premières industrielles, mène des projets d'ingénierie et prépare le lancement de nouvelles lignes de recyclage.
+305|En savoir plus
+306|Métaux non ferreux et précieux, ferro-alliages, métaux mineurs et matières premières — évolution sur un mois, un trimestre, un semestre et un an.
+307|Valeurs indicatives pour les principales positions, $ USD
+308|DONNÉES AU
+309|Métal
+310|Prix
+311|Unité
+312|Var. %
+313|Tendance
+314|Mis à jour
+315|Données indicatives issues de sources de marché publiques, mises à jour toutes les heures ; ne constituent pas une offre. Variation % sur 24 heures. Historique des prix enregistré depuis le 22.10.2026.
+316|Métaux non ferreux
+317|$/t
+318|Zinc
+319|Nickel
+320|Métaux précieux
+321|Or
+322|$/oz
+323|Argent
+324|Platine
+325|Palladium
+326|Ferrochrome
+327|Ferrotungstène
+328|Ferroniobium
+329|Métaux mineurs et ferraille
+330|Molybdène (Chine)
+331|$/kg
+332|Cobalt
+333|Carbonate de lithium (Chine)
+334|Éponge de titane (Chine)
+335|Ferraille HMS 1&2
+336|Tungstène (APT)
+337|Antimoine 99,65 %
+338|Graphite en paillettes
+339|collecte des données
+340|$/mtu
+341|$/lb
+342|mis à jour
+343|Source temporairement indisponible — dernière valeur connue affichée
+344|· dernière valeur
+345|Glissez vers les graphiques →
+346|Actualités et analyses de marché.
+347|Plomb — MT Technology
+348|Lingots et saumons
+349|plomb raffiné et de seconde fusion
+350|Plomb doux
+351|feuilles, tuyaux, gaines de câbles
+352|Batteries automobiles
+353|batteries de démarrage plomb-acide, complètes
+354|Batteries industrielles
+355|batteries plomb-acide de traction et stationnaires
+356|Logistique — MT Technology
+357|Route
+358|camions et conteneurs
+359|Ports
+360|transbordement
+361|douane, certificats
+362|Décrivez le transport — nous calculerons le coût de livraison.
+363|Itinéraire : départ — arrivée
+364|Marchandise
+365|Poids, t
+366|Nickel et acier inoxydable — MT Technology
+367|Acier inoxydable 304 / 18-8
+368|8–10 % Ni : chutes, tôles, déchets
+369|Acier inoxydable 316
+370|au molybdène
+371|inox
+372|Nickel pur
+373|cathodes, anodes — qualité distincte
+374|Alliages de nickel
+375|Cours mondiaux des métaux — MT Technology
+376|Choisissez un métal et une période pour voir l'évolution des prix.
+377|1M
+378|3M
+379|6M
+380|1A
+381|Plus bas de la période
+382|Plus haut de la période
+383|Moyenne de la période
+384|Données indicatives issues de sources de marché publiques ; ne constituent pas une offre. Variation % sur 24 heures.
+385|Commentaire de marché
+386|Les métaux non ferreux évoluent dans une fourchette étroite : le cuivre est soutenu par la demande du secteur énergétique et des réseaux électriques, l'aluminium par la stabilité des coûts de production. Le nickel reste pénalisé par l'offre excédentaire, tandis que l'étain demeure volatil compte tenu du nombre limité de producteurs. Les ferro-alliages suivent le taux d'utilisation des aciéries européennes.
+387|sur 24 heures
+388|Données du
+389|au
+390|, points :
+391|. Mis à jour
+392|dernière valeur connue
+393|. L'historique des prix a commencé récemment et sera complété toutes les heures.
+394|Aucune donnée pour la période
+395|historique depuis le
+396|Autres matières premières — MT Technology
+397|Toutes les matières premières listées sont en stock en Europe.
+398|Nous pouvons sourcer d'autres matières premières sur demande.
+399|Matières premières d'antimoine
+400|en stock en Europe
+401|Concentrés de cuivre
+402|Matières premières de zinc
+403|Matières premières de tungstène
+404|Matières premières de cobalt
+405|Autres matières premières
+406|Matière première d'antimoine (stibine)
+407|Matière première de cuivre (chalcopyrite)
+408|Matière première de zinc (sphalérite)
+409|Antimoine
+410|Photos : «Stibnite» — pepperedjane, domaine public ; «Antimony massive» — Aram Dulyan, domaine public ; «Chalcopyrite» — Robert M. Lavinsky, CC BY-SA 3.0 ; «Sphalerite, Creede» — Ivar Leidus, CC BY-SA 4.0 ; «Zinc fragment» — Alchemist-hp, FAL. Toutes via Wikimedia Commons.
+411|Laitiers alumineux — MT Technology
+412|Le matériau briqueté à base de spinelle est une alternative efficace au spath fluor : il fluidifie le laitier sans introduire de composés fluorés dans le procédé. Cliquez sur une photo pour voir la composition type ; certificat du lot et recommandations d'utilisation sur demande.
+413|Usage
+414|formateur de laitier, fluidifiant de laitier (fondant)
+415|Remplace
+416|le spath fluor et les laitiers synthétiques
+417|Origine
+418|produit issu du traitement de matières premières
+419|Composition chimique
+420|analyse type — voir la fiche matériau
+421|Matériau briqueté à base de spinelle
+422|Laitier alumineux en big bags
+423|Big bags de laitier alumineux en entrepôt
+424|Laitiers
+425|Laitier alumineux au vanadium
+426|Composition chimique type, % massique
+427|Analyse type ; données pour chaque lot sur demande.
+428|formateur de laitier, fluidifiant de laitier
+429|Matériau briqueté à base de spinelle (issu de la refusion d'aluminium)
+430|Composition chimique, % massique
+431|Humidité
+432|Composition de phases
+433|Spinelle MgAl₂O₄
+434|Corindon
+435|Aluminosilicates
+436|Quartz libre
+437|additif formateur et fluidifiant de laitier, composant de fondants
+438|Avantage
+439|remplace le spath fluor (CaF₂) ; sans composés fluorés
+440|Forme
+441|briquettes de 3–5 cm
+442|Solutions industrielles — MT Technology
+443|AXE 01
+444|Déchets et sous-produits
+445|Si votre site génère des déchets ou des sous-produits, nous analysons leur composition et proposons la solution optimale : rachat, transfert vers le recyclage ou élimination via des installations agréées dans l'UE.
+446|AXE 02
+447|Fourniture des matières premières nécessaires
+448|Si votre production a besoin d'une matière première spécifique, nous la sélectionnons par qualité, granulométrie et composition chimique et organisons la livraison jusqu'au lieu indiqué.
+449|Décrivez votre besoin dans le formulaire ci-dessous — nous l'étudierons attentivement et reviendrons vers vous avec une proposition.
+450|Décrivez votre besoin — nous proposerons une solution sous quelques jours ouvrés.
+451|Valorisation de déchets ou de sous-produits
+452|Fourniture de matières premières
+453|Autre
+454|Matériau, volume, fréquence
+455|Décrivez votre besoin
+456|Fichiers (analyses, photos, spécifications)
+457|Étain — MT Technology
+458|Étain pur
+459|lingots, anodes
+460|Brasures
+461|Sn/Pb, sans plomb, fil sur bobines
+462|Crasses
+463|écumes et scories
+464|Étain refondu en lingotières
+465|Photos : «Tin photo» — Sayus Savyetskyih, Wikimedia Commons, CC0 ; «Re-melted tin poured into ingot molds» — Kimberly A. Conrad (DVIDS), domaine public ; «Solder wire spool» — Suyash.dwivedi, Wikimedia Commons, CC BY-SA 4.0.
+466|Titane — MT Technology
+467|propres, sans huile
+468|tubes, tôles, chutes
+469|Poudre
+470|sur accord
+471|Copeaux de titane
+472|Éponge de titane
+473|Photos : copeaux d'alliage Ti-6Al-4V — Metals 2020, 10(2), 296 (MDPI), CC BY 4.0 ; «Titanium sponge cylinder» — Hi-Res Images of Chemical Elements, CC BY 3.0 ; «Titanium metal» — gouvernement des États-Unis, domaine public.

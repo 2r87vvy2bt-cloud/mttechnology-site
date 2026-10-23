@@ -1,0 +1,474 @@
+0|About us — MT Technology
+1|All prices and charts
+2|Global metal prices
+3|We sell
+4|We buy
+5|Services
+6|Solutions
+7|Prices
+8|News
+9|About us
+10|Contact
+11|‹ Back to home
+12|About the company
+13|MT Technology was founded in Bulgaria in 2018. We trade industrial raw materials for a wide range of sectors, arrange freight logistics and deliver engineering projects together with European research institutes. Our work is built on sustainable resource management and innovation.
+14|year founded
+15|years in the market
+16|business partners
+17|countries where our clients operate
+18|EU
+19|fully licensed for raw-material handling
+20|European offices — coming soon
+21|Germany
+22|France
+23|Poland
+24|Austria
+25|Lithuania
+26|Upcoming projects
+27|Both projects are being developed under innovation support programmes, with launch scheduled for 2027. We welcome investors and partners to join us.
+28|LINE 01
+29|Collection and recycling of solar panels
+30|Technology for dismantling and sorting end-of-life modules and recovering semiconductor-grade silicon.
+31|pilot hydromechanical separation unit
+32|scale-up and integration with recycling operators
+33|analysis of solar cell composition and degradation
+34|LINE 02
+35|Recycling of lithium iron phosphate (LFP) batteries
+36|Processing of spent LFP cells, including EV traction batteries, with recovery of the active materials.
+37|mechanical dismantling and component sorting
+38|recovery of lithium, iron and phosphate compounds
+39|safe disposal methods for electrolytes and casings
+40|NEXT
+41|New projects
+42|More projects will follow. We would be delighted to welcome you among our partners and investors.
+43|Discuss a partnership
+44|Send us photos of the material — we will reply within one business day.
+45|Phone
+46|General enquiries
+47|Trading desk (purchasing and sales)
+48|Office
+49|Sofia, Bulgaria
+50|Name
+51|Company
+52|Material, volume, loading point...
+53|Material photos
+54|Send enquiry
+55|Close
+56|Request a quote
+57|© 2018–2026 MT Technology Ltd · Sofia, Bulgaria
+58|Version
+59|coming soon
+60|Type of request
+61|Field
+62|Your enquiry has already been sent. You can resend it in 30 seconds.
+63|(Client attached files:
+64|pcs — request them by email.)\n
+65|Please provide an email address for our reply.
+66|We could not send your enquiry. Please email us at
+67|or call:
+68|Thank you! Your enquiry has been sent — we will be in touch within one business day.
+69|Too many enquiries from your address. Please try again later.
+70|Market
+71|Read at source ↗
+72|Aluminium — MT Technology
+73|Aluminium
+74|Extrusions, cast scrap, sheet and wire — graded by class.
+75|Extrusion
+76|6060/6063 profiles
+77|Cast
+78|wheels, cylinder heads, cast scrap
+79|Sheet
+80|aluminium sheet
+81|Wire
+82|wire and cable
+83|Photos
+84|Request a price
+85|Bronze — MT Technology
+86|Bronze
+87|Phosphor bronze and aluminium bronze: scrap, turnings, bushings.
+88|Phosphor bronze
+89|tin-phosphor bronze (CuSnP)
+90|Aluminium bronze
+91|aluminium-iron bronze (CuAlFe)
+92|Scrap
+93|heavy scrap, castings
+94|Turnings
+95|dry, free of contaminants
+96|Bushings
+97|used bushings and bearing shells
+98|Copper-alloy turnings
+99|Copper-alloy products
+100|Photo: «Sweep of
+101|» — BronxAquarian, Wikimedia Commons, CC BY-SA 4.0; copper-alloy fasteners — Pexels (Pexels licence).
+102|Casting — MT Technology
+103|Industrial and architectural castings, simulation and machining — partner production in the EU.
+104|Industrial castings
+105|Castings to drawings, 3D models and patterns — one-offs and series.
+106|shipbuilding and ship repair
+107|mechanical engineering, pumps and gearboxes
+108|valves and pipeline equipment
+109|conveyors and lifting equipment
+110|rail transport and power generation
+111|construction, agricultural, forestry and mining machinery
+112|Architectural and urban castings
+113|We prepare your original design for casting: geometry, undercuts, draft angles, wall thicknesses, cores, material and weight, fixing points, loads, surface finish, coating and assembly.
+114|bridges and embankments
+115|building elements and restoration
+116|street furniture: benches, litter bins, railings
+117|OEM products
+118|grey or ductile iron, bronze on request; RAL painting, epoxy and polyurethane coatings
+119|Engineering and simulation
+120|SOLIDWORKS, MAGMASOFT, finite element analysis.
+121|part design and manufacturability review
+122|casting process development
+123|pattern and core tooling
+124|filling, solidification and feeding simulation
+125|stress and strength analysis
+126|design optimisation, replacing welded assemblies with castings
+127|Machining
+128|Turning, milling, drilling, boring and threading.
+129|machining of our own castings
+130|machining of customer-supplied blanks
+131|Materials
+132|Grey and ductile iron, steels, copper and aluminium alloys to European standards.
+133|EN 1706, EN 1982; supply to EN 1559-1…4
+134|Equipment
+135|No-bake resin-bonded sand moulding (AlphaSet), induction melting.
+136|1.5 t induction furnaces
+137|castings from tens of grams up to 2 t
+138|10 t/h and 3 t/h mixers, sand reclamation
+139|shakeout, fettling, heat treatment
+140|Quality control
+141|Rapid chemical analysis by spectrometer and C/S analyser, metallography.
+142|special testing by accredited specialists
+143|acceptance criteria agreed per drawing or enquiry
+144|Submit a request
+145|Send us your drawing — we will reply within one business day.
+146|Drawing / file
+147|Alloy
+148|Quantity, pcs
+149|Comments
+150|Spent catalysts — MT Technology
+151|Spent catalysts
+152|Ni-Mo, V-Mo and Mo refinery catalysts.
+153|nickel-molybdenum
+154|vanadium-molybdenum
+155|molybdenum-bearing
+156|Valuation
+157|based on the lot's certificate and photos
+158|Copper — MT Technology
+159|Copper
+160|Cable, wire, tubes, radiators and mixed scrap. Preliminary valuation from photos.
+161|Cable and wire
+162|bright, tinned, chopped
+163|Cable products
+164|insulated, power, armoured and telephone cable, granules
+165|Tubes
+166|clean and with attachments
+167|Radiators
+168|copper-brass
+169|Mixed
+170|mixed copper
+171|Engineering — MT Technology
+172|Engineering
+173|Metallurgical and hydrometallurgical technologies, mineral processing, environmental — turnkey.
+174|Engineering is at the core of MT Technology. Together with European research institutes we deliver turnkey projects — from concept and process design to commissioning of pilot industrial units.
+175|Metallurgical process
+176|Melting furnace optimisation, deoxidation and vacuum degassing, higher metal yield.
+177|Hydrometallurgical technologies
+178|Recovery of metals from ores, concentrates and slags using low-impact chemical methods.
+179|Electrochemical recovery
+180|Electrowinning of nickel, cobalt and copper, alloy production.
+181|Gravity separation
+182|Selection and commissioning of shaking tables, spiral and sluice concentrators.
+183|Wastewater treatment
+184|Technologies from suspended solids removal to heavy-metal precipitation.
+185|Environmental consulting
+186|Environmental audits, design documentation, design supervision, commissioning.
+187|Hazardous waste disposal
+188|Through licensed EU facilities (categories A and B): collection, transport, treatment, reporting.
+189|Freight logistics
+190|Forwarding, customs clearance, door-to-door delivery.
+191|Describe your task — we will reply within one business day.
+192|Task description
+193|E-scrap — MT Technology
+194|E-scrap
+195|Boards, processors, memory modules, connectors and complete equipment.
+196|Boards
+197|motherboards, server, telecom, automotive (ECU)
+198|Processors
+199|ceramic, fibreglass, BGA
+200|Memory
+201|RAM, modules
+202|Connectors
+203|gold-plated, industrial
+204|Capacitors and relays
+205|containing precious metals
+206|Complete equipment
+207|servers, switches, terminals
+208|Ferroalloys — MT Technology
+209|Ferroalloys
+210|FeSi 75 · FeMo · FeV · FeMn · FeTi · SiMn — all grades in stock in Europe.
+211|All grades of ferroalloys shown are held in stock in Europe.
+212|Select a grade to view its specifications.
+213|Ferrosilicon
+214|Details
+215|Ferromolybdenum
+216|Chemical composition and lot certificate — on request
+217|certificate on request
+218|Ferrovanadium
+219|Ferromanganese
+220|Ferrotitanium
+221|Silicomanganese
+222|Ferrosilicon FeSi 75 in a big bag
+223|Ferrosilicon (FeSi), lumps
+224|Ferromolybdenum (FeMo)
+225|Ferrovanadium (FeV)
+226|Silicomanganese (SiMn)
+227|Ferrotitanium (FeTi)
+228|Ferroalloys · in stock
+229|Ferrosilicon FeSi 75
+230|Size
+231|10–50 mm
+232|Packing
+233|big bags
+234|Availability
+235|EU warehouse, customs-cleared in the EU
+236|Volume
+237|from 3 t (EXW collection) up to 1,500 t per month
+238|Tell us your requirements — we will send an offer within one business day.
+239|Country
+240|Application
+241|Size / grade
+242|Volume, t/month
+243|Delivery point
+244|Natural flake graphite — MT Technology
+245|Natural flake graphite
+246|Natural flake graphite, 92–96% fixed carbon (FC), for refractories and industry.
+247|Pricing depends on volume and size fraction and is provided on request. Economy grade and samples available on request.
+248|Material
+249|natural flake graphite
+250|Carbon
+251|92–96% fixed carbon (FC)
+252|Ash content
+253|max. 2.4%
+254|Typical analysis, grade −196
+255|fixed carbon ~96.5% (dry basis), ash 2.4%, volatiles 1.1%, moisture 0.6%
+256|Size fractions
+257|on request
+258|big bags of 900–1,300 kg
+259|HS / CN code (TARIC)
+260|refractories, crucibles, foundry, friction materials, batteries, lubricants
+261|Delivery
+262|to port or DAP
+263|Samples
+264|economy grade and samples on request
+265|Natural flake graphite, close-up
+266|MT Technology — industrial raw materials
+267|Industrial
+268|raw materials.
+269|We supply ferroalloys, graphite, slag conditioners and other raw materials, and we buy non-ferrous scrap, e-scrap and spent catalysts. Direct deliveries across Europe since 2018.
+270|Materials catalogue
+271|Other raw materials
+272|Nickel and stainless steel
+273|Aluminium-bearing slags
+274|Lead
+275|Logistics
+276|Ferroalloys, graphite, aluminium-bearing slags and other raw materials for metallurgy and industry.
+277|Slag former and slag fluidiser — a replacement for fluorspar and synthetic slags in steelmaking.
+278|Antimony, tungsten and cobalt feedstock, copper concentrates, zinc feedstock and more — from stock in Europe.
+279|We buy non-ferrous scrap, e-scrap, bronze and spent catalysts. Select a material to see the grades we accept.
+280|Tin
+281|Tin ingots, tin scrap and solders.
+282|Lead ingots and pigs, lead scrap, automotive lead-acid batteries.
+283|Titanium
+284|Titanium turnings and solids.
+285|Stainless steel is an alloy containing 8–10% nickel. Pure nickel and nickel alloys are a separate grade.
+286|partners
+287|countries
+288|Turnkey supply
+289|Raw materials for your production — from selection to delivery at your site
+290|MT Technology supplies steelworks, foundries and processors with raw materials on a turnkey basis: ferroalloys, stainless and nickel scrap, titanium feedstock, graphite, slags and other materials. We handle every stage, and the material arrives at the location you specify.
+291|Material selection
+292|We match grade, size fraction and chemistry to your process.
+293|Documentation
+294|Contract, certificates and customs clearance — a complete document package in line with EU requirements.
+295|Road, sea and rail — we organise transport and delivery to your specified location.
+296|Competitive terms
+297|Competitive prices and reliable supply to your schedule.
+298|Swipe right →
+299|Discuss supply
+300|Engineering, industrial solutions, logistics and castings — from technology to delivery.
+301|Industrial solutions
+302|Solutions for industry: sale of waste and by-products, supply of the raw materials you need.
+303|Road haulage, port transhipment, freight quotations and documentation.
+304|Since 2018 MT Technology has supplied and purchased industrial raw materials, delivered engineering projects and prepared new recycling lines for launch.
+305|More about us
+306|Non-ferrous and precious metals, ferroalloys, minor metals and raw materials — trends over one month, three months, six months and one year.
+307|Indicative prices for key items, $ USD
+308|DATA AS OF
+309|Metal
+310|Price
+311|Unit
+312|Chg %
+313|Trend
+314|Updated
+315|Indicative data from public market sources, updated hourly; not an offer. % change is over 24 hours. Price history has been recorded since 22.10.2026.
+316|Base metals
+317|$/t
+318|Zinc
+319|Nickel
+320|Precious metals
+321|Gold
+322|$/oz
+323|Silver
+324|Platinum
+325|Palladium
+326|Ferrochrome
+327|Ferrotungsten
+328|Ferroniobium
+329|Minor metals and scrap
+330|Molybdenum (China)
+331|$/kg
+332|Cobalt
+333|Lithium carbonate (China)
+334|Titanium sponge (China)
+335|Steel scrap HMS 1&2
+336|Tungsten (APT)
+337|Antimony 99.65%
+338|Flake graphite
+339|collecting data
+340|$/mtu
+341|$/lb
+342|updated
+343|Source temporarily unavailable — showing the last known value
+344|· last known
+345|Swipe to charts →
+346|Market news and analysis.
+347|Lead — MT Technology
+348|Ingots and pigs
+349|refined and secondary lead
+350|Soft lead
+351|sheet, pipe, cable sheathing
+352|Automotive batteries
+353|lead-acid starter batteries, whole
+354|Industrial batteries
+355|lead-acid traction and stationary
+356|Logistics — MT Technology
+357|Road
+358|trucks and containers
+359|Ports
+360|transhipment
+361|customs, certificates
+362|Describe the shipment — we will quote the freight cost.
+363|Route: from — to
+364|Cargo
+365|Weight, t
+366|Nickel and stainless steel — MT Technology
+367|Stainless steel 304 / 18-8
+368|8–10% Ni: clippings, sheet, scrap
+369|Stainless steel 316
+370|molybdenum-bearing
+371|stainless
+372|Pure nickel
+373|cathodes, anodes — separate grade
+374|Nickel alloys
+375|Global metal prices — MT Technology
+376|Select a metal and a period to view the price trend.
+377|1M
+378|3M
+379|6M
+380|1Y
+381|Period low
+382|Period high
+383|Period average
+384|Indicative data from public market sources; not an offer. % change is over 24 hours.
+385|Market commentary
+386|Base metals are trading in a narrow range: copper is supported by demand from the energy sector and power grids, aluminium by stable production costs. Nickel remains under pressure from oversupply, while tin stays volatile given the limited number of producers. Ferroalloys are tracking utilisation rates at European steel mills.
+387|over 24 hours
+388|Data from
+389|to
+390|, data points:
+391|. Updated
+392|last known value
+393|. Price history began accumulating recently and will be extended every hour.
+394|No data for this period
+395|history recorded since
+396|Other raw materials — MT Technology
+397|All the raw materials listed are held in stock in Europe.
+398|We can source other raw materials on request.
+399|Antimony feedstock
+400|in stock in Europe
+401|Copper concentrates
+402|Zinc feedstock
+403|Tungsten feedstock
+404|Cobalt feedstock
+405|Other raw materials
+406|Antimony feedstock (stibnite)
+407|Copper feedstock (chalcopyrite)
+408|Zinc feedstock (sphalerite)
+409|Antimony
+410|Photos: «Stibnite» — pepperedjane, public domain; «Antimony massive» — Aram Dulyan, public domain; «Chalcopyrite» — Robert M. Lavinsky, CC BY-SA 3.0; «Sphalerite, Creede» — Ivar Leidus, CC BY-SA 4.0; «Zinc fragment» — Alchemist-hp, FAL. All via Wikimedia Commons.
+411|Aluminium-bearing slags — MT Technology
+412|Briquetted spinel-bearing material is an effective alternative to fluorspar: it acts as a slag fluidiser without introducing fluorine compounds into the process. Click a photo to see the typical composition; lot certificates and application guidance are available on request.
+413|Purpose
+414|slag former, slag fluidiser (flux)
+415|Replaces
+416|fluorspar and synthetic slags
+417|Origin
+418|by-product of raw-material processing
+419|Chemistry
+420|typical analysis — see material card
+421|Briquetted spinel-bearing material
+422|Aluminium-bearing slag in big bags
+423|Big bags of aluminium-bearing slag in the warehouse
+424|Slags
+425|Vanadium aluminium slag
+426|Typical chemical composition, wt %
+427|Typical analysis; data for each lot on request.
+428|slag former, slag fluidiser
+429|Briquetted spinel-bearing material (from aluminium remelting)
+430|Chemical composition, wt %
+431|Moisture
+432|Phase composition
+433|Spinel MgAl₂O₄
+434|Corundum
+435|Aluminosilicates
+436|Free quartz
+437|slag-forming and slag-fluidising additive, flux component
+438|Advantage
+439|replaces fluorspar (CaF₂); contains no fluorine compounds
+440|Form
+441|briquettes 3–5 cm
+442|Industrial solutions — MT Technology
+443|AREA 01
+444|Waste and by-products
+445|If your plant generates waste or by-products, we will analyse their composition and propose the best solution: purchase, transfer for recycling or disposal through licensed EU facilities.
+446|AREA 02
+447|Supply of the raw materials you need
+448|If your production needs a specific raw material, we will source it by grade, size fraction and chemistry and organise delivery to your specified location.
+449|Describe your task in the form below — we will review it carefully and come back with a proposal.
+450|Describe your task — we will propose a solution within a few business days.
+451|Sale of waste or by-products
+452|Raw material supply
+453|Other
+454|Material, volume, frequency
+455|Describe your task
+456|Files (analyses, photos, specifications)
+457|Tin — MT Technology
+458|Pure tin
+459|ingots, anodes
+460|Solders
+461|Sn/Pb, lead-free, wire on spools
+462|Dross
+463|skimmings and slags
+464|Remelted tin in ingot moulds
+465|Photos: «Tin photo» — Sayus Savyetskyih, Wikimedia Commons, CC0; «Re-melted tin poured into ingot molds» — Kimberly A. Conrad (DVIDS), public domain; «Solder wire spool» — Suyash.dwivedi, Wikimedia Commons, CC BY-SA 4.0.
+466|Titanium — MT Technology
+467|clean, oil-free
+468|tubes, sheet, clippings
+469|Powder
+470|by agreement
+471|Titanium turnings
+472|Titanium sponge
+473|Photos: Ti-6Al-4V alloy turnings — Metals 2020, 10(2), 296 (MDPI), CC BY 4.0; «Titanium sponge cylinder» — Hi-Res Images of Chemical Elements, CC BY 3.0; «Titanium metal» — US Government, public domain.

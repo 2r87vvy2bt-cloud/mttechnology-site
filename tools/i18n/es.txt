@@ -1,0 +1,474 @@
+0|Sobre nosotros — MT Technology
+1|Todos los precios y gráficos
+2|Precios mundiales de los metales
+3|Vendemos
+4|Compramos
+5|Servicios
+6|Soluciones
+7|Precios
+8|Noticias
+9|Sobre nosotros
+10|Contacto
+11|‹ Volver al inicio
+12|La empresa
+13|MT Technology se fundó en Bulgaria en 2018. Comercializamos materias primas industriales para numerosos sectores, organizamos el transporte de mercancías y desarrollamos proyectos de ingeniería junto con institutos de investigación europeos. Nuestro trabajo se basa en la gestión sostenible de los recursos y en la innovación.
+14|año de fundación
+15|años en el mercado
+16|socios comerciales
+17|países en los que operan nuestros clientes
+18|UE
+19|todas las licencias para operar con materias primas
+20|Oficinas en Europa — próximamente
+21|Alemania
+22|Francia
+23|Polonia
+24|Austria
+25|Lituania
+26|Próximos proyectos
+27|Ambos proyectos se desarrollan en el marco de programas de apoyo a la innovación; su puesta en marcha está prevista para 2027. Invitamos a inversores y socios a colaborar con nosotros.
+28|LÍNEA 01
+29|Recepción y reciclaje de paneles solares
+30|Tecnología de desmontaje y clasificación de módulos al final de su vida útil y recuperación del silicio semiconductor.
+31|planta piloto de separación hidromecánica
+32|escalado e integración con operadores de reciclaje
+33|análisis de la composición y degradación de las células solares
+34|LÍNEA 02
+35|Reciclaje de baterías de litio-ferrofosfato (LFP)
+36|Procesamiento de celdas LFP usadas, incluidas baterías de tracción de vehículos eléctricos, con recuperación de los materiales activos.
+37|desmontaje mecánico y clasificación de componentes
+38|recuperación de compuestos de litio, hierro y fosfato
+39|métodos seguros de eliminación de electrolitos y carcasas
+40|PRÓXIMAMENTE
+41|Nuevos proyectos
+42|Habrá más proyectos. Será un placer contar con usted entre nuestros socios e inversores.
+43|Hablemos de colaboración
+44|Envíenos fotos del material — le responderemos en un día hábil.
+45|Teléfono
+46|Consultas generales
+47|Departamento comercial (compras y ventas)
+48|Oficina
+49|Sofía, Bulgaria
+50|Nombre
+51|Empresa
+52|Material, volumen, lugar de carga...
+53|Fotos del material
+54|Enviar consulta
+55|Cerrar
+56|Solicitar oferta
+57|© 2018–2026 MT Technology Ltd · Sofía, Bulgaria
+58|Versión
+59|próximamente
+60|Tipo de solicitud
+61|Campo
+62|Su solicitud ya se ha enviado. Podrá reenviarla dentro de 30 segundos.
+63|(El cliente adjuntó archivos:
+64|uds. — solicítelos por correo electrónico.)\n
+65|Indique un correo electrónico para la respuesta.
+66|No se pudo enviar la solicitud. Escríbanos a
+67|o llámenos:
+68|¡Gracias! Su solicitud se ha enviado — nos pondremos en contacto con usted en un día hábil.
+69|Demasiadas solicitudes desde su dirección. Inténtelo más tarde.
+70|Mercado
+71|Leer en la fuente ↗
+72|Aluminio — MT Technology
+73|Aluminio
+74|Perfiles, chatarra de fundición, chapa y alambre — clasificados por calidades.
+75|Extrusión
+76|perfiles 6060/6063
+77|Fundición
+78|llantas, culatas, chatarra de fundición
+79|Chapa
+80|chapa de aluminio
+81|Alambre
+82|alambre y cable
+83|Fotos
+84|Solicitar precio
+85|Bronce — MT Technology
+86|Bronce
+87|Bronce fosforoso y bronce de aluminio: chatarra, virutas, casquillos.
+88|Bronce fosforoso
+89|bronce estaño-fósforo (CuSnP)
+90|Bronce de aluminio
+91|bronce aluminio-hierro (CuAlFe)
+92|Chatarra
+93|chatarra en pieza, piezas fundidas
+94|Virutas
+95|secas, sin impurezas
+96|Casquillos
+97|casquillos y cojinetes usados
+98|Virutas de aleaciones de cobre
+99|Piezas de aleación de cobre
+100|Foto: «Sweep of
+101|» — BronxAquarian, Wikimedia Commons, CC BY-SA 4.0; tornillería de aleación de cobre — Pexels (licencia Pexels).
+102|Fundición — MT Technology
+103|Fundición industrial y arquitectónica, simulación, mecanizado — producción asociada en la UE.
+104|Fundición industrial
+105|Piezas fundidas según planos, modelos 3D y muestras — unitarias y en serie.
+106|construcción y reparación naval
+107|maquinaria, bombas y reductores
+108|valvulería y equipos de tuberías
+109|transportadores y equipos de elevación
+110|ferrocarril y energía
+111|maquinaria de construcción, agrícola, forestal y minera
+112|Fundición arquitectónica y urbana
+113|Preparamos su diseño para la fundición: geometría, contrasalidas, ángulos de desmoldeo, espesores de pared, machos, material y peso, puntos de fijación, cargas, superficie, recubrimiento y montaje.
+114|puentes y paseos marítimos
+115|elementos arquitectónicos y restauración
+116|mobiliario urbano: bancos, papeleras, barandillas
+117|Productos OEM
+118|fundición gris o dúctil, bronce bajo pedido; pintura RAL, recubrimientos epoxi y de poliuretano
+119|Ingeniería y simulación
+120|SOLIDWORKS, MAGMASOFT, cálculo por elementos finitos.
+121|diseño de piezas y análisis de fabricabilidad
+122|desarrollo de la tecnología de fundición
+123|utillaje de modelos y cajas de machos
+124|simulación de llenado, solidificación y alimentación
+125|cálculo de tensiones y resistencia
+126|optimización del diseño, sustitución de conjuntos soldados por piezas fundidas
+127|Mecanizado
+128|Torneado, fresado, taladrado, mandrinado, roscado.
+129|mecanizado de piezas de fundición propia
+130|mecanizado de piezas en bruto del cliente
+131|Materiales
+132|Fundición gris y dúctil, aceros, aleaciones de cobre y aluminio según normas europeas.
+133|EN 1706, EN 1982; suministro según EN 1559-1…4
+134|Equipamiento
+135|Moldeo en arena aglomerada con resina autofraguante (AlphaSet), fusión por inducción.
+136|hornos de inducción de 1,5 t
+137|piezas desde decenas de gramos hasta 2 t
+138|mezcladoras de 10 t/h y 3 t/h, regeneración de arena
+139|desmoldeo, desbarbado, tratamiento térmico
+140|Control de calidad
+141|Análisis químico rápido con espectrómetro y analizador C/S, metalografía.
+142|ensayos especiales a cargo de especialistas acreditados
+143|criterios de aceptación acordados según plano o solicitud
+144|Enviar solicitud
+145|Envíenos su plano — le responderemos en un día hábil.
+146|Plano / archivo
+147|Aleación
+148|Cantidad, uds.
+149|Comentario
+150|Catalizadores agotados — MT Technology
+151|Catalizadores agotados
+152|Catalizadores de refino Ni-Mo, V-Mo y Mo.
+153|níquel-molibdeno
+154|vanadio-molibdeno
+155|con contenido de molibdeno
+156|Valoración
+157|según certificado y fotos del lote
+158|Cobre — MT Technology
+159|Cobre
+160|Cable, alambre, tubos, radiadores y chatarra mixta. Valoración preliminar a partir de fotos.
+161|Cable y alambre
+162|brillante, estañado, troceado
+163|Productos de cable
+164|cable aislado, de potencia, armado, telefónico, granulado
+165|Tubos
+166|limpios y con impurezas
+167|Radiadores
+168|cobre-latón
+169|Mixto
+170|cobre mixto
+171|Ingeniería — MT Technology
+172|Ingeniería
+173|Tecnologías metalúrgicas e hidrometalúrgicas, concentración de minerales, medio ambiente — llave en mano.
+174|La ingeniería es la base de MT Technology. Junto con institutos de investigación europeos desarrollamos proyectos llave en mano: desde el concepto y la solución tecnológica hasta la puesta en marcha de plantas piloto industriales.
+175|Proceso metalúrgico
+176|Optimización de hornos de fusión, desoxidación y desgasificación al vacío, mayor rendimiento metálico.
+177|Tecnologías hidrometalúrgicas
+178|Recuperación de metales de minerales, concentrados y escorias mediante métodos químicos de bajo impacto.
+179|Recuperación electroquímica
+180|Electrólisis de níquel, cobalto y cobre, obtención de aleaciones.
+181|Concentración gravimétrica
+182|Selección y puesta en marcha de mesas vibratorias, espirales y canaletas concentradoras.
+183|Tratamiento de aguas residuales
+184|Tecnologías desde la eliminación de sólidos en suspensión hasta la precipitación de metales pesados.
+185|Consultoría medioambiental
+186|Auditoría ambiental, documentación de proyecto, dirección facultativa, puesta en servicio.
+187|Eliminación de residuos peligrosos
+188|A través de instalaciones autorizadas en la UE (categorías A y B): recogida, transporte, tratamiento, informes.
+189|Logística de carga
+190|Transitario, despacho aduanero, entrega puerta a puerta.
+191|Describa su necesidad — le responderemos en un día hábil.
+192|Descripción de la necesidad
+193|Chatarra electrónica — MT Technology
+194|Chatarra electrónica
+195|Placas, procesadores, módulos de memoria, conectores y equipos completos.
+196|Placas
+197|placas base, servidores, telecomunicaciones, automoción (ECU)
+198|Procesadores
+199|cerámicos, de fibra de vidrio, BGA
+200|Memoria
+201|RAM, módulos
+202|Conectores
+203|dorados, industriales
+204|Condensadores y relés
+205|con metales preciosos
+206|Equipos completos
+207|servidores, conmutadores, terminales
+208|Ferroaleaciones — MT Technology
+209|Ferroaleaciones
+210|FeSi 75 · FeMo · FeV · FeMn · FeTi · SiMn — todas las calidades en stock en Europa.
+211|Todas las calidades de ferroaleaciones presentadas están en stock en Europa.
+212|Seleccione una calidad para ver sus características.
+213|Ferrosilicio
+214|Detalles
+215|Ferromolibdeno
+216|Composición química y certificado del lote — bajo solicitud
+217|certificado bajo solicitud
+218|Ferrovanadio
+219|Ferromanganeso
+220|Ferrotitanio
+221|Silicomanganeso
+222|Ferrosilicio FeSi 75 en big bag
+223|Ferrosilicio (FeSi), en trozos
+224|Ferromolibdeno (FeMo)
+225|Ferrovanadio (FeV)
+226|Silicomanganeso (SiMn)
+227|Ferrotitanio (FeTi)
+228|Ferroaleaciones · en stock
+229|Ferrosilicio FeSi 75
+230|Granulometría
+231|10–50 mm
+232|Embalaje
+233|big bags
+234|Disponibilidad
+235|almacén en Europa, mercancía despachada en la UE
+236|Volumen
+237|desde 3 t (recogida EXW) hasta 1.500 t al mes
+238|Indíquenos los parámetros de su solicitud — le enviaremos una oferta en un día hábil.
+239|País
+240|Aplicación
+241|Granulometría / calidad
+242|Volumen, t/mes
+243|Lugar de entrega
+244|Grafito natural en escamas (flake) — MT Technology
+245|Grafito natural en escamas (flake)
+246|Grafito natural en escamas (flake), 92–96 % de carbono fijo (FC), para refractarios e industria.
+247|El precio depende del volumen y la granulometría y se facilita bajo solicitud. Calidad económica y muestras bajo solicitud.
+248|Material
+249|grafito natural en escamas (flake)
+250|Carbono
+251|92–96 % de carbono fijo (FC)
+252|Contenido de cenizas
+253|máx. 2,4 %
+254|Análisis típico, calidad −196
+255|carbono fijo ~96,5 % (base seca), cenizas 2,4 %, volátiles 1,1 %, humedad 0,6 %
+256|Granulometrías
+257|bajo solicitud
+258|big bags de 900–1.300 kg
+259|Código arancelario (TARIC)
+260|refractarios, crisoles, fundición, materiales de fricción, baterías, lubricantes
+261|Entrega
+262|hasta puerto o DAP
+263|Muestras
+264|calidad económica y muestras bajo solicitud
+265|Grafito natural en escamas (flake), primer plano
+266|MT Technology — materias primas industriales
+267|Materias primas
+268|industriales.
+269|Suministramos ferroaleaciones, grafito, formadores de escoria y otras materias primas; compramos chatarra no férrea y electrónica, así como catalizadores agotados. Suministro directo en toda Europa desde 2018.
+270|Catálogo de materiales
+271|Otras materias primas
+272|Níquel y acero inoxidable
+273|Escorias con aluminio
+274|Plomo
+275|Logística
+276|Ferroaleaciones, grafito, escorias con aluminio y otras materias primas para la metalurgia y la industria.
+277|Formador y fluidificante de escoria — sustituto del espato flúor y de las escorias sintéticas en acería.
+278|Materias primas de antimonio, wolframio y cobalto, concentrados de cobre, materias primas de zinc y más — desde almacén en Europa.
+279|Compramos chatarra no férrea y electrónica, bronce y catalizadores agotados. Seleccione un material para ver las calidades que aceptamos.
+280|Estaño
+281|Estaño en lingotes, chatarra de estaño y soldaduras.
+282|Plomo en lingotes, chatarra de plomo, baterías de automoción de plomo-ácido.
+283|Titanio
+284|Virutas y chatarra en pieza de titanio.
+285|El acero inoxidable es una aleación con un 8–10 % de níquel. El níquel puro y las aleaciones de níquel constituyen una calidad aparte.
+286|socios
+287|países
+288|Suministro llave en mano
+289|Materias primas para su producción — desde la selección hasta la ubicación que usted indique
+290|MT Technology abastece a acerías, fundiciones y transformadores con materias primas llave en mano: ferroaleaciones, chatarra inoxidable y de níquel, materias primas de titanio, grafito, escorias y otros materiales. Nos ocupamos de todas las etapas y el material llega a la ubicación que usted indique.
+291|Selección del material
+292|Seleccionamos la calidad, la granulometría y la composición química según su proceso.
+293|Documentación
+294|Contrato, certificados y despacho aduanero — documentación completa conforme a los requisitos de la UE.
+295|Carretera, puerto, ferrocarril — organizamos el transporte y la entrega hasta la ubicación indicada.
+296|Condiciones ventajosas
+297|Precios competitivos y suministro estable según su calendario.
+298|Deslice a la derecha →
+299|Hablemos del suministro
+300|Ingeniería, soluciones industriales, logística y fundición — de la tecnología a la entrega.
+301|Soluciones industriales
+302|Soluciones para empresas: comercialización de residuos y subproductos, suministro de las materias primas necesarias.
+303|Transporte por carretera, transbordo en puertos, cálculo del coste de transporte y gestión documental.
+304|Desde 2018, MT Technology suministra y compra materias primas industriales, desarrolla proyectos de ingeniería y prepara nuevas líneas de reciclaje.
+305|Más sobre nosotros
+306|Metales no férreos y preciosos, ferroaleaciones, metales menores y materias primas — evolución mensual, trimestral, semestral y anual.
+307|Valores de referencia de las principales posiciones, $ USD
+308|DATOS A
+309|Metal
+310|Precio
+311|Ud.
+312|Var. %
+313|Tendencia
+314|Actualizado
+315|Datos de referencia procedentes de fuentes de mercado públicas, actualizados cada hora; no constituyen una oferta. Variación % en 24 horas. Historial de precios registrado desde el 22.10.2026.
+316|Metales no férreos
+317|$/t
+318|Zinc
+319|Níquel
+320|Metales preciosos
+321|Oro
+322|$/oz
+323|Plata
+324|Platino
+325|Paladio
+326|Ferrocromo
+327|Ferrowolframio
+328|Ferroniobio
+329|Metales menores y chatarra
+330|Molibdeno (China)
+331|$/kg
+332|Cobalto
+333|Carbonato de litio (China)
+334|Esponja de titanio (China)
+335|Chatarra de acero HMS 1&2
+336|Wolframio (APT)
+337|Antimonio 99,65 %
+338|Grafito en escamas
+339|recopilando datos
+340|$/mtu
+341|$/lb
+342|actualizado
+343|Fuente no disponible temporalmente — se muestra el último valor conocido
+344|· último valor
+345|Deslice hacia los gráficos →
+346|Noticias y análisis de mercado.
+347|Plomo — MT Technology
+348|Lingotes
+349|plomo refinado y secundario
+350|Plomo dulce
+351|láminas, tubos, revestimiento de cables
+352|Baterías de automoción
+353|de arranque de plomo-ácido, completas
+354|Baterías industriales
+355|de tracción y estacionarias de plomo-ácido
+356|Logística — MT Technology
+357|Carretera
+358|camiones y contenedores
+359|Puertos
+360|transbordo
+361|aduana, certificados
+362|Describa el transporte — calcularemos el coste de entrega.
+363|Ruta: origen — destino
+364|Carga
+365|Peso, t
+366|Níquel y acero inoxidable — MT Technology
+367|Acero inoxidable 304 / 18-8
+368|8–10 % Ni: recortes, chapa, chatarra
+369|Acero inoxidable 316
+370|con molibdeno
+371|inoxidable
+372|Níquel puro
+373|cátodos, ánodos — calidad aparte
+374|Aleaciones de níquel
+375|Precios mundiales de los metales — MT Technology
+376|Seleccione un metal y un periodo para ver la evolución de los precios.
+377|1M
+378|3M
+379|6M
+380|1A
+381|Mínimo del periodo
+382|Máximo del periodo
+383|Media del periodo
+384|Datos de referencia procedentes de fuentes de mercado públicas; no constituyen una oferta. Variación % en 24 horas.
+385|Comentario de mercado
+386|Los metales no férreos cotizan en un rango estrecho: el cobre se apoya en la demanda del sector energético y de las redes eléctricas, y el aluminio en la estabilidad de los costes de producción. El níquel sigue presionado por el exceso de oferta, mientras que el estaño mantiene su volatilidad debido al reducido número de productores. Las ferroaleaciones siguen la utilización de la capacidad de las acerías europeas.
+387|en 24 horas
+388|Datos del
+389|al
+390|, puntos:
+391|. Actualizado
+392|último valor conocido
+393|. El historial de precios comenzó a registrarse recientemente y se ampliará cada hora.
+394|Sin datos para el periodo
+395|historial desde el
+396|Otras materias primas — MT Technology
+397|Todas las materias primas indicadas están en stock en Europa.
+398|Podemos conseguir otras materias primas bajo solicitud.
+399|Materias primas de antimonio
+400|en stock en Europa
+401|Concentrados de cobre
+402|Materias primas de zinc
+403|Materias primas de wolframio
+404|Materias primas de cobalto
+405|Otras materias primas
+406|Materia prima de antimonio (estibina)
+407|Materia prima de cobre (calcopirita)
+408|Materia prima de zinc (esfalerita)
+409|Antimonio
+410|Fotos: «Stibnite» — pepperedjane, dominio público; «Antimony massive» — Aram Dulyan, dominio público; «Chalcopyrite» — Robert M. Lavinsky, CC BY-SA 3.0; «Sphalerite, Creede» — Ivar Leidus, CC BY-SA 4.0; «Zinc fragment» — Alchemist-hp, FAL. Todas vía Wikimedia Commons.
+411|Escorias con aluminio — MT Technology
+412|El material briquetado con espinela es una alternativa eficaz al espato flúor: actúa como fluidificante de escoria sin introducir compuestos de flúor en el proceso. Haga clic en una foto para ver la composición típica; certificado del lote y recomendaciones de uso bajo solicitud.
+413|Uso
+414|formador de escoria, fluidificante de escoria (fundente)
+415|Sustituye a
+416|el espato flúor y las escorias sintéticas
+417|Origen
+418|producto del procesamiento de materias primas
+419|Composición química
+420|análisis típico — en la ficha del material
+421|Material briquetado con espinela
+422|Escoria con aluminio en big bags
+423|Big bags de escoria con aluminio en almacén
+424|Escorias
+425|Escoria alumínica de vanadio
+426|Composición química típica, % en peso
+427|Análisis típico; datos de cada lote bajo solicitud.
+428|formador de escoria, fluidificante de escoria
+429|Material briquetado con espinela (procedente de la refundición de aluminio)
+430|Composición química, % en peso
+431|Humedad
+432|Composición de fases
+433|Espinela MgAl₂O₄
+434|Corindón
+435|Aluminosilicatos
+436|Cuarzo libre
+437|aditivo formador y fluidificante de escoria, componente de fundentes
+438|Ventaja
+439|sustituye al espato flúor (CaF₂); no contiene compuestos de flúor
+440|Forma
+441|briquetas de 3–5 cm
+442|Soluciones industriales — MT Technology
+443|ÁREA 01
+444|Residuos y subproductos
+445|Si su planta genera residuos o subproductos, analizaremos su composición y le propondremos la mejor solución: compra, entrega para reciclaje o eliminación a través de instalaciones autorizadas en la UE.
+446|ÁREA 02
+447|Suministro de las materias primas necesarias
+448|Si su producción necesita una materia prima concreta, la seleccionaremos por calidad, granulometría y composición química y organizaremos la entrega hasta la ubicación indicada.
+449|Describa su necesidad en el formulario — la estudiaremos con atención y le enviaremos una propuesta.
+450|Describa su necesidad — le propondremos una solución en pocos días hábiles.
+451|Comercialización de residuos o subproductos
+452|Suministro de materias primas
+453|Otro
+454|Material, volumen, periodicidad
+455|Describa su necesidad
+456|Archivos (análisis, fotos, especificaciones)
+457|Estaño — MT Technology
+458|Estaño puro
+459|lingotes, ánodos
+460|Soldaduras
+461|Sn/Pb, sin plomo, hilo en bobinas
+462|Escoria (dross)
+463|espumas y escorias
+464|Estaño refundido en lingoteras
+465|Fotos: «Tin photo» — Sayus Savyetskyih, Wikimedia Commons, CC0; «Re-melted tin poured into ingot molds» — Kimberly A. Conrad (DVIDS), dominio público; «Solder wire spool» — Suyash.dwivedi, Wikimedia Commons, CC BY-SA 4.0.
+466|Titanio — MT Technology
+467|limpias, sin aceite
+468|tubos, chapa, recortes
+469|Polvo
+470|previa consulta
+471|Virutas de titanio
+472|Esponja de titanio
+473|Fotos: virutas de aleación Ti-6Al-4V — Metals 2020, 10(2), 296 (MDPI), CC BY 4.0; «Titanium sponge cylinder» — Hi-Res Images of Chemical Elements, CC BY 3.0; «Titanium metal» — Gobierno de EE. UU., dominio público.

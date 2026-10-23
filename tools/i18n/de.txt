@@ -1,0 +1,474 @@
+0|Über uns — MT Technology
+1|Alle Preise und Charts
+2|Weltmarktpreise für Metalle
+3|Wir verkaufen
+4|Wir kaufen
+5|Leistungen
+6|Lösungen
+7|Preise
+8|News
+9|Über uns
+10|Kontakt
+11|‹ Zur Startseite
+12|Über das Unternehmen
+13|MT Technology wurde 2018 in Bulgarien gegründet. Wir handeln mit industriellen Rohstoffen für unterschiedlichste Branchen, organisieren Frachtlogistik und realisieren Engineering-Projekte gemeinsam mit europäischen Forschungsinstituten. Grundlage unserer Arbeit sind nachhaltiges Ressourcenmanagement und Innovation.
+14|Gründungsjahr
+15|Jahre am Markt
+16|Geschäftspartner
+17|Länder, in denen unsere Kunden tätig sind
+18|EU
+19|alle Lizenzen für den Umgang mit Rohstoffen
+20|Büros in Europa — in Kürze
+21|Deutschland
+22|Frankreich
+23|Polen
+24|Österreich
+25|Litauen
+26|Geplante Projekte
+27|Beide Projekte werden im Rahmen von Förderprogrammen für innovative Lösungen umgesetzt; der Start ist für 2027 geplant. Investoren und Partner sind herzlich zur Zusammenarbeit eingeladen.
+28|LINIE 01
+29|Annahme und Recycling von Solarmodulen
+30|Technologie zur Demontage und Sortierung ausgedienter Module sowie zur Rückgewinnung von Halbleitersilizium.
+31|Pilotanlage zur hydromechanischen Trennung
+32|Scale-up und Integration mit Recyclingbetrieben
+33|Analyse der Zusammensetzung und Degradation von Solarzellen
+34|LINIE 02
+35|Recycling von Lithium-Eisenphosphat-Batterien (LFP)
+36|Aufbereitung verbrauchter LFP-Zellen, einschließlich Traktionsbatterien von Elektrofahrzeugen, mit Rückgewinnung der Aktivmaterialien.
+37|mechanische Demontage und Sortierung der Komponenten
+38|Rückgewinnung von Lithium-, Eisen- und Phosphatverbindungen
+39|sichere Entsorgungsverfahren für Elektrolyte und Gehäuse
+40|AUSBLICK
+41|Neue Projekte
+42|Weitere Projekte werden folgen. Wir freuen uns, Sie als Partner oder Investor begrüßen zu dürfen.
+43|Partnerschaft besprechen
+44|Senden Sie uns Fotos des Materials — wir antworten innerhalb eines Werktages.
+45|Telefon
+46|Allgemeine Anfragen
+47|Handel (Einkauf und Verkauf)
+48|Büro
+49|Sofia, Bulgarien
+50|Name
+51|Unternehmen
+52|Material, Menge, Verladeort...
+53|Fotos des Materials
+54|Anfrage senden
+55|Schließen
+56|Angebot anfordern
+57|© 2018–2026 MT Technology Ltd · Sofia, Bulgarien
+58|Version
+59|in Kürze
+60|Art der Anfrage
+61|Feld
+62|Ihre Anfrage wurde bereits gesendet. Ein erneutes Senden ist in 30 Sekunden möglich.
+63|(Der Kunde hat Dateien ausgewählt:
+64|Stk. — bitte per E-Mail anfordern.)\n
+65|Bitte geben Sie eine E-Mail-Adresse für unsere Antwort an.
+66|Ihre Anfrage konnte nicht gesendet werden. Bitte schreiben Sie uns an
+67|oder rufen Sie an:
+68|Vielen Dank! Ihre Anfrage wurde gesendet — wir melden uns innerhalb eines Werktages.
+69|Zu viele Anfragen von Ihrer Adresse. Bitte versuchen Sie es später erneut.
+70|Markt
+71|Zur Quelle ↗
+72|Aluminium — MT Technology
+73|Aluminium
+74|Profile, Gussschrott, Bleche und Draht — sortenrein nach Klassen.
+75|Strangpressprofile
+76|Profile 6060/6063
+77|Guss
+78|Felgen, Zylinderköpfe, Gussschrott
+79|Blech
+80|Aluminiumblech
+81|Draht
+82|Draht und Kabel
+83|Fotos
+84|Preis anfragen
+85|Bronze — MT Technology
+86|Bronze
+87|Phosphorbronze und Aluminiumbronze: Schrott, Späne, Buchsen.
+88|Phosphorbronze
+89|Zinn-Phosphor-Bronze (CuSnP)
+90|Aluminiumbronze
+91|Aluminium-Eisen-Bronze (CuAlFe)
+92|Schrott
+93|Stückschrott, Gussteile
+94|Späne
+95|trocken, ohne Fremdstoffe
+96|Buchsen
+97|gebrauchte Buchsen und Lagerschalen
+98|Späne aus Kupferlegierungen
+99|Erzeugnisse aus Kupferlegierungen
+100|Foto: «Sweep of
+101|» — BronxAquarian, Wikimedia Commons, CC BY-SA 4.0; Befestigungselemente aus Kupferlegierung — Pexels (Pexels-Lizenz).
+102|Guss — MT Technology
+103|Industrie- und Architekturguss, Simulation, mechanische Bearbeitung — Partnerfertigung in der EU.
+104|Industrieguss
+105|Gussteile nach Zeichnung, 3D-Modell oder Muster — Einzelstücke und Serien.
+106|Schiffbau und Schiffsreparatur
+107|Maschinenbau, Pumpen und Getriebe
+108|Armaturen und Rohrleitungstechnik
+109|Förder- und Hebetechnik
+110|Schienenverkehr und Energietechnik
+111|Bau-, Land-, Forst- und Bergbaumaschinen
+112|Architektur- und Stadtguss
+113|Wir bereiten Ihren Entwurf gießgerecht auf: Geometrie, Hinterschneidungen, Formschrägen, Wandstärken, Kerne, Werkstoff und Gewicht, Befestigungspunkte, Lasten, Oberfläche, Beschichtung und Montage.
+114|Brücken und Uferpromenaden
+115|Bauelemente und Restaurierung
+116|Stadtmobiliar: Bänke, Abfallbehälter, Geländer
+117|OEM-Produkte
+118|Grauguss oder Sphäroguss, auf Wunsch Bronze; Lackierung nach RAL, Epoxid- und Polyurethanbeschichtungen
+119|Engineering und Simulation
+120|SOLIDWORKS, MAGMASOFT, Finite-Elemente-Berechnungen.
+121|Bauteilkonstruktion und Fertigungsgerechtheitsanalyse
+122|Entwicklung der Gießtechnologie
+123|Modell- und Kernkastenbau
+124|Simulation von Formfüllung, Erstarrung und Speisung
+125|Spannungs- und Festigkeitsberechnung
+126|Konstruktionsoptimierung, Ersatz von Schweißbaugruppen durch Gussteile
+127|Mechanische Bearbeitung
+128|Drehen, Fräsen, Bohren, Ausdrehen, Gewindeschneiden.
+129|Bearbeitung eigener Gussteile
+130|Bearbeitung beigestellter Rohteile
+131|Werkstoffe
+132|Grauguss und Sphäroguss, Stähle, Kupfer- und Aluminiumlegierungen nach europäischen Normen.
+133|EN 1706, EN 1982; Lieferung nach EN 1559-1…4
+134|Ausrüstung
+135|Formen in kaltharzgebundenem Sand (AlphaSet), Induktionsschmelzen.
+136|Induktionsöfen 1,5 t
+137|Gussteile von wenigen Gramm bis 2 t
+138|Mischer 10 t/h und 3 t/h, Sandregenerierung
+139|Ausleeren, Putzen, Wärmebehandlung
+140|Qualitätskontrolle
+141|Chemische Schnellanalyse mit Spektrometer und C/S-Analysator, Metallografie.
+142|Sonderprüfungen durch akkreditierte Fachleute
+143|Abnahmekriterien nach Zeichnung oder Anfrage
+144|Anfrage stellen
+145|Senden Sie uns Ihre Zeichnung — wir antworten innerhalb eines Werktages.
+146|Zeichnung / Datei
+147|Legierung
+148|Stückzahl
+149|Kommentar
+150|Gebrauchte Katalysatoren — MT Technology
+151|Gebrauchte Katalysatoren
+152|Ni-Mo-, V-Mo- und Mo-Katalysatoren aus der Erdölraffination.
+153|Nickel-Molybdän
+154|Vanadium-Molybdän
+155|molybdänhaltig
+156|Bewertung
+157|anhand von Zertifikat und Fotos der Partie
+158|Kupfer — MT Technology
+159|Kupfer
+160|Kabel, Draht, Rohre, Kühler und Mischschrott. Vorabbewertung anhand von Fotos.
+161|Kabel und Draht
+162|blank, verzinnt, gehäckselt
+163|Kabelprodukte
+164|isolierte, Energie-, armierte und Telefonkabel, Granulat
+165|Rohre
+166|sauber und mit Anhaftungen
+167|Kühler
+168|Kupfer-Messing
+169|Mix
+170|Mischkupfer
+171|Engineering — MT Technology
+172|Engineering
+173|Metallurgische und hydrometallurgische Verfahren, Aufbereitung, Umwelttechnik — schlüsselfertig.
+174|Engineering ist das Fundament von MT Technology. Gemeinsam mit europäischen Forschungsinstituten realisieren wir schlüsselfertige Projekte — vom Konzept und der Verfahrenslösung bis zur Inbetriebnahme industrieller Pilotanlagen.
+175|Metallurgischer Prozess
+176|Optimierung von Schmelzöfen, Desoxidation und Vakuumentgasung, Steigerung des Metallausbringens.
+177|Hydrometallurgische Verfahren
+178|Gewinnung von Metallen aus Erzen, Konzentraten und Schlacken mit schonenden chemischen Verfahren.
+179|Elektrochemische Gewinnung
+180|Elektrolyse von Nickel, Kobalt und Kupfer, Herstellung von Legierungen.
+181|Schwerkraftaufbereitung
+182|Auswahl und Inbetriebnahme von Herden, Wendelscheidern und Rinnenkonzentratoren.
+183|Abwasserbehandlung
+184|Verfahren von der Abtrennung von Schwebstoffen bis zur Fällung von Schwermetallen.
+185|Umweltberatung
+186|Umweltaudits, Planungsunterlagen, Bauüberwachung, Inbetriebnahme.
+187|Entsorgung gefährlicher Abfälle
+188|Über lizenzierte Betriebe in der EU (Kategorien A und B): Sammlung, Transport, Behandlung, Berichtswesen.
+189|Frachtlogistik
+190|Spedition, Zollabfertigung, Lieferung von Tür zu Tür.
+191|Beschreiben Sie Ihre Aufgabe — wir antworten innerhalb eines Werktages.
+192|Aufgabenbeschreibung
+193|Elektronikschrott — MT Technology
+194|Elektronikschrott
+195|Platinen, Prozessoren, Speichermodule, Steckverbinder und komplette Geräte.
+196|Platinen
+197|Mainboards, Server, Telekom, Automotive (ECU)
+198|Prozessoren
+199|Keramik, Glasfaser, BGA
+200|Speicher
+201|RAM, Module
+202|Steckverbinder
+203|vergoldet, industriell
+204|Kondensatoren und Relais
+205|edelmetallhaltig
+206|Komplette Geräte
+207|Server, Switches, Terminals
+208|Ferrolegierungen — MT Technology
+209|Ferrolegierungen
+210|FeSi 75 · FeMo · FeV · FeMn · FeTi · SiMn — alle Sorten ab Lager in Europa.
+211|Alle aufgeführten Ferrolegierungssorten sind ab Lager in Europa verfügbar.
+212|Wählen Sie eine Sorte, um ihre Spezifikation zu sehen.
+213|Ferrosilizium
+214|Details
+215|Ferromolybdän
+216|Chemische Analyse und Partiezertifikat — auf Anfrage
+217|Zertifikat auf Anfrage
+218|Ferrovanadium
+219|Ferromangan
+220|Ferrotitan
+221|Silikomangan
+222|Ferrosilizium FeSi 75 im Big Bag
+223|Ferrosilizium (FeSi), Stücke
+224|Ferromolybdän (FeMo)
+225|Ferrovanadium (FeV)
+226|Silikomangan (SiMn)
+227|Ferrotitan (FeTi)
+228|Ferrolegierungen · verfügbar
+229|Ferrosilizium FeSi 75
+230|Körnung
+231|10–50 mm
+232|Verpackung
+233|Big Bags
+234|Verfügbarkeit
+235|Lager in Europa, in der EU verzollt
+236|Menge
+237|ab 3 t (Abholung EXW) bis 1.500 t pro Monat
+238|Nennen Sie uns Ihre Anforderungen — wir senden Ihnen innerhalb eines Werktages ein Angebot.
+239|Land
+240|Anwendung
+241|Körnung / Sorte
+242|Menge, t/Monat
+243|Lieferort
+244|Natürlicher Flockengraphit (Flake) — MT Technology
+245|Natürlicher Flockengraphit (Flake)
+246|Natürlicher Flockengraphit (Flake), 92–96 % fixer Kohlenstoff (FC), für Feuerfestprodukte und Industrie.
+247|Der Preis richtet sich nach Menge und Körnung und wird auf Anfrage genannt. Economy-Sorte und Muster auf Anfrage.
+248|Material
+249|natürlicher Flockengraphit (Flake)
+250|Kohlenstoff
+251|92–96 % fixer Kohlenstoff (FC)
+252|Aschegehalt
+253|max. 2,4 %
+254|Typische Analyse, Sorte −196
+255|fixer Kohlenstoff ~96,5 % (trocken), Asche 2,4 %, flüchtige Bestandteile 1,1 %, Feuchte 0,6 %
+256|Körnungen
+257|auf Anfrage
+258|Big Bags à 900–1.300 kg
+259|Zolltarifnummer (TARIC)
+260|Feuerfestprodukte, Tiegel, Gießereien, Reibbeläge, Batterien, Schmierstoffe
+261|Lieferung
+262|bis Hafen oder DAP
+263|Muster
+264|Economy-Sorte und Muster auf Anfrage
+265|Natürlicher Flockengraphit (Flake), Nahaufnahme
+266|MT Technology — industrielle Rohstoffe
+267|Industrielle
+268|Rohstoffe.
+269|Wir liefern Ferrolegierungen, Graphit, Schlackenbildner und weitere Rohstoffe und kaufen NE-Metallschrott, Elektronikschrott sowie gebrauchte Katalysatoren. Direktlieferungen in ganz Europa seit 2018.
+270|Materialkatalog
+271|Weitere Rohstoffe
+272|Nickel und Edelstahl
+273|Aluminiumhaltige Schlacken
+274|Blei
+275|Logistik
+276|Ferrolegierungen, Graphit, aluminiumhaltige Schlacken und weitere Rohstoffe für Metallurgie und Industrie.
+277|Schlackenbildner und Schlackenverflüssiger — Ersatz für Flussspat und synthetische Schlacken in der Stahlerzeugung.
+278|Antimon-, Wolfram- und Kobaltrohstoffe, Kupferkonzentrate, Zinkrohstoffe und mehr — ab Lager in Europa.
+279|Wir kaufen NE-Metallschrott, Elektronikschrott, Bronze und gebrauchte Katalysatoren. Wählen Sie ein Material, um die angenommenen Sorten zu sehen.
+280|Zinn
+281|Zinn in Barren, Zinnschrott und Lote.
+282|Blei in Barren und Masseln, Bleischrott, Starterbatterien (Blei-Säure).
+283|Titan
+284|Titanspäne und Stückschrott.
+285|Edelstahl ist eine Legierung mit 8–10 % Nickel. Reinnickel und Nickellegierungen bilden eine eigene Sorte.
+286|Partner
+287|Länder
+288|Schlüsselfertige Belieferung
+289|Rohstoffe für Ihre Produktion — von der Auswahl bis zum Wunschort
+290|MT Technology beliefert Hütten- und Gießereibetriebe sowie Verarbeiter schlüsselfertig mit Rohstoffen: Ferrolegierungen, Edelstahl- und Nickelschrott, Titanrohstoffe, Graphit, Schlacken und weitere Materialien. Wir übernehmen alle Schritte — das Material wird an den von Ihnen genannten Ort geliefert.
+291|Materialauswahl
+292|Wir wählen Sorte, Körnung und chemische Zusammensetzung passend zu Ihrem Prozess.
+293|Dokumente
+294|Vertrag, Zertifikate und Zollabfertigung — vollständige Dokumentation gemäß EU-Anforderungen.
+295|Straße, See, Schiene — wir organisieren Transport und Lieferung an den von Ihnen genannten Ort.
+296|Attraktive Konditionen
+297|Wettbewerbsfähige Preise und zuverlässige Lieferungen nach Ihrem Zeitplan.
+298|Nach rechts wischen →
+299|Lieferung besprechen
+300|Engineering, Industrielösungen, Logistik und Guss — von der Technologie bis zur Lieferung.
+301|Industrielösungen
+302|Lösungen für Unternehmen: Vermarktung von Abfällen und Nebenprodukten, Beschaffung benötigter Rohstoffe.
+303|Straßentransport, Hafenumschlag, Frachtkalkulation und Dokumentation.
+304|Seit 2018 liefert und kauft MT Technology industrielle Rohstoffe, realisiert Engineering-Projekte und bereitet neue Recyclinglinien vor.
+305|Mehr über uns
+306|NE- und Edelmetalle, Ferrolegierungen, Sondermetalle und Rohstoffe — Entwicklung über Monat, Quartal, Halbjahr und Jahr.
+307|Richtwerte für die wichtigsten Positionen, $ USD
+308|STAND
+309|Metall
+310|Preis
+311|Einh.
+312|Änd. %
+313|Verlauf
+314|Aktualisiert
+315|Richtwerte aus öffentlichen Marktquellen, stündlich aktualisiert; kein Angebot. Änderung in % — über 24 Stunden. Preishistorie seit 22.10.2026.
+316|NE-Metalle
+317|$/t
+318|Zink
+319|Nickel
+320|Edelmetalle
+321|Gold
+322|$/oz
+323|Silber
+324|Platin
+325|Palladium
+326|Ferrochrom
+327|Ferrowolfram
+328|Ferroniob
+329|Sondermetalle und Schrott
+330|Molybdän (China)
+331|$/kg
+332|Kobalt
+333|Lithiumcarbonat (China)
+334|Titanschwamm (China)
+335|Stahlschrott HMS 1&2
+336|Wolfram (APT)
+337|Antimon 99,65 %
+338|Flockengraphit
+339|Datenerfassung läuft
+340|$/mtu
+341|$/lb
+342|aktualisiert
+343|Quelle vorübergehend nicht verfügbar — letzter bekannter Wert
+344|· letzter Wert
+345|Zu den Charts wischen →
+346|Marktnachrichten und Analysen.
+347|Blei — MT Technology
+348|Barren und Masseln
+349|Raffinade- und Sekundärblei
+350|Weichblei
+351|Bleche, Rohre, Kabelmäntel
+352|Starterbatterien
+353|Blei-Säure-Starterbatterien, komplett
+354|Industriebatterien
+355|Blei-Säure-Traktions- und Stationärbatterien
+356|Logistik — MT Technology
+357|Straße
+358|Lkw und Container
+359|Häfen
+360|Umschlag
+361|Zoll, Zertifikate
+362|Beschreiben Sie den Transport — wir kalkulieren die Frachtkosten.
+363|Route: von — nach
+364|Ladung
+365|Gewicht, t
+366|Nickel und Edelstahl — MT Technology
+367|Edelstahl 304 / 18-8
+368|8–10 % Ni: Stanzabfälle, Blech, Schrott
+369|Edelstahl 316
+370|molybdänhaltig
+371|Edelstahl
+372|Reinnickel
+373|Kathoden, Anoden — eigene Sorte
+374|Nickellegierungen
+375|Weltmarktpreise für Metalle — MT Technology
+376|Wählen Sie Metall und Zeitraum, um die Preisentwicklung zu sehen.
+377|1M
+378|3M
+379|6M
+380|1J
+381|Tief im Zeitraum
+382|Hoch im Zeitraum
+383|Durchschnitt im Zeitraum
+384|Richtwerte aus öffentlichen Marktquellen; kein Angebot. Änderung in % — über 24 Stunden.
+385|Marktkommentar
+386|NE-Metalle handeln in einer engen Spanne: Kupfer wird von der Nachfrage aus Energiewirtschaft und Netzausbau gestützt, Aluminium von stabilen Produktionskosten. Nickel bleibt durch das Überangebot unter Druck, während Zinn angesichts weniger Produzenten volatil bleibt. Ferrolegierungen folgen der Auslastung der europäischen Stahlwerke.
+387|über 24 Stunden
+388|Daten vom
+389|bis
+390|, Datenpunkte:
+391|. Aktualisiert
+392|letzter bekannter Wert
+393|. Die Preishistorie wird erst seit Kurzem erfasst und stündlich ergänzt.
+394|Keine Daten für den Zeitraum
+395|Historie seit
+396|Weitere Rohstoffe — MT Technology
+397|Alle aufgeführten Rohstoffe sind ab Lager in Europa verfügbar.
+398|Weitere Rohstoffe beschaffen wir auf Anfrage.
+399|Antimonrohstoffe
+400|ab Lager in Europa verfügbar
+401|Kupferkonzentrate
+402|Zinkrohstoffe
+403|Wolframrohstoffe
+404|Kobaltrohstoffe
+405|Weitere Rohstoffe
+406|Antimonrohstoffe (Antimonit)
+407|Kupferrohstoffe (Chalkopyrit)
+408|Zinkrohstoffe (Sphalerit)
+409|Antimon
+410|Fotos: «Stibnite» — pepperedjane, gemeinfrei; «Antimony massive» — Aram Dulyan, gemeinfrei; «Chalcopyrite» — Robert M. Lavinsky, CC BY-SA 3.0; «Sphalerite, Creede» — Ivar Leidus, CC BY-SA 4.0; «Zinc fragment» — Alchemist-hp, FAL. Alle über Wikimedia Commons.
+411|Aluminiumhaltige Schlacken — MT Technology
+412|Brikettiertes spinellhaltiges Material ist eine wirksame Alternative zu Flussspat: Es wirkt als Schlackenverflüssiger, ohne Fluorverbindungen in den Prozess einzubringen. Klicken Sie auf ein Foto, um die typische Zusammensetzung zu sehen; Partiezertifikat und Anwendungsempfehlungen auf Anfrage.
+413|Verwendung
+414|Schlackenbildner, Schlackenverflüssiger (Flussmittel)
+415|Ersatz für
+416|Flussspat und synthetische Schlacken
+417|Herkunft
+418|Produkt der Rohstoffaufbereitung
+419|Chemie
+420|typische Analyse — siehe Materialkarte
+421|Brikettiertes spinellhaltiges Material
+422|Aluminiumhaltige Schlacke in Big Bags
+423|Big Bags mit aluminiumhaltiger Schlacke im Lager
+424|Schlacken
+425|Vanadium-Aluminium-Schlacke
+426|Typische chemische Zusammensetzung, Gew.-%
+427|Typische Analyse; Daten je Partie auf Anfrage.
+428|Schlackenbildner, Schlackenverflüssiger
+429|Brikettiertes spinellhaltiges Material (aus dem Umschmelzen von Aluminium)
+430|Chemische Zusammensetzung, Gew.-%
+431|Feuchte
+432|Phasenzusammensetzung
+433|Spinell MgAl₂O₄
+434|Korund
+435|Alumosilikate
+436|Freier Quarz
+437|schlackenbildender und -verflüssigender Zusatz, Flussmittelkomponente
+438|Vorteil
+439|ersetzt Flussspat (CaF₂); frei von Fluorverbindungen
+440|Form
+441|Briketts 3–5 cm
+442|Industrielösungen — MT Technology
+443|BEREICH 01
+444|Abfälle und Nebenprodukte
+445|Fallen in Ihrem Betrieb Abfälle oder Nebenprodukte an, analysieren wir deren Zusammensetzung und schlagen die optimale Lösung vor: Ankauf, Übergabe zur Verwertung oder Entsorgung über lizenzierte Betriebe in der EU.
+446|BEREICH 02
+447|Beschaffung benötigter Rohstoffe
+448|Benötigt Ihre Produktion einen bestimmten Rohstoff, wählen wir ihn nach Sorte, Körnung und chemischer Zusammensetzung aus und organisieren die Lieferung an den gewünschten Ort.
+449|Beschreiben Sie Ihre Aufgabe im Formular unten — wir prüfen sie sorgfältig und melden uns mit einem Vorschlag.
+450|Beschreiben Sie Ihre Aufgabe — wir schlagen innerhalb weniger Werktage eine Lösung vor.
+451|Vermarktung von Abfällen oder Nebenprodukten
+452|Rohstoffbeschaffung
+453|Sonstiges
+454|Material, Menge, Häufigkeit
+455|Beschreiben Sie Ihre Aufgabe
+456|Dateien (Analysen, Fotos, Spezifikationen)
+457|Zinn — MT Technology
+458|Reinzinn
+459|Barren, Anoden
+460|Lote
+461|Sn/Pb, bleifrei, Draht auf Spulen
+462|Krätze
+463|Abschöpfungen und Schlacken
+464|Umgeschmolzenes Zinn in Kokillen
+465|Fotos: «Tin photo» — Sayus Savyetskyih, Wikimedia Commons, CC0; «Re-melted tin poured into ingot molds» — Kimberly A. Conrad (DVIDS), gemeinfrei; «Solder wire spool» — Suyash.dwivedi, Wikimedia Commons, CC BY-SA 4.0.
+466|Titan — MT Technology
+467|sauber, ölfrei
+468|Rohre, Bleche, Stanzabfälle
+469|Pulver
+470|nach Absprache
+471|Titanspäne
+472|Titanschwamm
+473|Fotos: Späne der Legierung Ti-6Al-4V — Metals 2020, 10(2), 296 (MDPI), CC BY 4.0; «Titanium sponge cylinder» — Hi-Res Images of Chemical Elements, CC BY 3.0; «Titanium metal» — US-Regierung, gemeinfrei.
