@@ -1,7 +1,7 @@
 # Live price snapshot for the build (real data only; no synthetic series).
 import json as _j, urllib.request as _u, datetime as _dt
 HIST='https://prices-history-production.up.railway.app'
-import os as _o; EXTRA=_o.environ.get('MT_EXTRA','https://prices-extra-staging.up.railway.app')
+import os as _o; EXTRA=_o.environ.get('MT_EXTRA','https://mttechnology.eu/api/extra')
 METALS=[('nf','Cu','copper','Медь'),('nf','Al','aluminium','Алюминий'),('nf','Zn','zinc','Цинк'),('nf','Ni','nickel','Никель'),('nf','Pb','lead','Свинец'),('nf','Sn','tin','Олово'),
 ('pm','Au','gold','Золото'),('pm','Ag','silver','Серебро'),('pm','Pt','platinum','Платина'),('pm','Pd','palladium','Палладий'),
 ('fa','FeSi','ferrosilicon','Ферросилиций'),('fa','FeMn','ferromanganese','Ферромарганец'),('fa','SiMn','silicomanganese','Силикомарганец'),('fa','FeCr','ferrochrome','Феррохром'),
@@ -10,7 +10,7 @@ METALS=[('nf','Cu','copper','Медь'),('nf','Al','aluminium','Алюминий
 EMPTY_OK={'tungsten-apt','antimony','graphite'}
 EXTRA_IDS={'tungsten-apt','antimony','graphite','molybdenum','cobalt','lithium','titanium-sponge','steel-scrap'}
 UNIT={'USD/t':'$/т','USD/oz':'$/унц.','CNY/t':'¥/т','CNY/kg':'¥/кг','USD/kg':'$/кг','USD/mtu':'$/мту','USD/lb':'$/фунт'}
-def _get(p,base=None): return _j.load(_u.urlopen((base or HIST)+p,timeout=30))
+def _get(p,base=None): return _j.load(_u.urlopen(_u.Request((base or HIST)+p,headers={'User-Agent':'Mozilla/5.0 mt-build'}),timeout=30))
 def ohlc(pts,n=30):
     days={p[0][:10] for p in pts};kl=10 if len(days)>1 else 13;m={}
     for t,v in pts:
