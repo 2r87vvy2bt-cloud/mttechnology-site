@@ -1,20 +1,25 @@
 # Live price snapshot for the build (real data only; no synthetic series).
 import json as _j, urllib.request as _u, datetime as _dt
 HIST='https://prices-history-production.up.railway.app'
+EXTRA='https://prices-extra-staging.up.railway.app'
 METALS=[('nf','Cu','copper','Медь'),('nf','Al','aluminium','Алюминий'),('nf','Zn','zinc','Цинк'),('nf','Ni','nickel','Никель'),('nf','Pb','lead','Свинец'),('nf','Sn','tin','Олово'),
 ('pm','Au','gold','Золото'),('pm','Ag','silver','Серебро'),('pm','Pt','platinum','Платина'),('pm','Pd','palladium','Палладий'),
 ('fa','FeSi','ferrosilicon','Ферросилиций'),('fa','FeMn','ferromanganese','Ферромарганец'),('fa','SiMn','silicomanganese','Силикомарганец'),('fa','FeCr','ferrochrome','Феррохром'),
-('fa','FeMo','ferromolybdenum','Ферромолибден'),('fa','FeV','ferrovanadium','Феррованадий'),('fa','FeTi','ferrotitanium','Ферротитан'),('fa','FeW','ferrotungsten','Ферровольфрам'),('fa','FeNb','ferroniobium','Феррониобий')]
-UNIT={'USD/t':'$/т','USD/oz':'$/унц.'}
-def _get(p): return _j.load(_u.urlopen(HIST+p,timeout=30))
+('fa','FeMo','ferromolybdenum','Ферромолибден'),('fa','FeV','ferrovanadium','Феррованадий'),('fa','FeTi','ferrotitanium','Ферротитан'),('fa','FeW','ferrotungsten','Ферровольфрам'),('fa','FeNb','ferroniobium','Феррониобий'),
+('ot','Mo','molybdenum','Молибден (Китай)'),('ot','Co','cobalt','Кобальт'),('ot','Li','lithium','Карбонат лития (Китай)'),('ot','TiSp','titanium-sponge','Титановая губка (Китай)'),('ot','Scrap','steel-scrap','Стальной лом HMS 1&2')]
+EXTRA_IDS={'molybdenum','cobalt','lithium','titanium-sponge','steel-scrap'}
+UNIT={'USD/t':'$/т','USD/oz':'$/унц.','CNY/t':'¥/т','CNY/kg':'¥/кг'}
+def _get(p,base=None): return _j.load(_u.urlopen((base or HIST)+p,timeout=30))
 def build():
     lat={x['id']:x for x in _get('/latest')}
-    PD={'groups':{'nf':'Цветные металлы','pm':'Драгоценные металлы','fa':'Ферросплавы'},'series':{},'map':{}}
+    try: lat.update({x['id']:x for x in _get('/latest',EXTRA)})
+    except Exception: pass
+    PD={'groups':{'nf':'Цветные металлы','pm':'Драгоценные металлы','fa':'Ферросплавы','ot':'Редкие металлы и лом'},'series':{},'map':{}}
     asof=None
     for g,k,mid,name in METALS:
         L=lat.get(mid)
         if not L: continue
-        h=_get(f'/history?id={mid}&range=1y')
+        h=_get(f'/history?id={mid}&range=1y',EXTRA if mid in EXTRA_IDS else None)
         pts=h['points'] or [[L['ts'],L['price']]]
         PD['series'][k]={'group':g,'name':name,'id':mid,'unit':UNIT.get(L['unit'],L['unit']),'values':[p[1] for p in pts],'dates':[p[0][:10] for p in pts],
                          'last':L['price'],'change':L['change'],'ts':L['ts'],'stale':L['stale'],'since':L['since']}
