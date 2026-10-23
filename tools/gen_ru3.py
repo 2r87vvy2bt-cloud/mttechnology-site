@@ -72,7 +72,7 @@ import json as _j
 import sys as _sys,urllib.request as _u;_sys.path.insert(0,'/workspace');import live_prices as _lp,os as _os
 PD=_lp.build();_os.makedirs('/workspace/mt_preview_ru/data',exist_ok=True);_j.dump(PD,open('/workspace/mt_preview_ru/data/prices.json','w'),ensure_ascii=False)
 def _fmt(v): return (f'{v:,.0f}' if v>=100 else f'{v:,.2f}').replace(',',' ').replace('.',',')
-TICK=''.join(f'<span class="ticker-item" data-id="{s["id"]}">{c} <span>{_fmt(s["last"])} {s["unit"]}</span></span>' for c,s in PD['series'].items())
+TICK=''.join(f'<span class="ticker-item" data-id="{s["id"]}">{c} <span>{_fmt(s["last"])} {s["unit"]}</span></span>' for c,s in PD['series'].items() if s['last'] is not None)
 TICK='<span class="ticker-item"><span>Мировые цены на металлы</span></span>'+TICK
 def head(title): return f'''<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><style>{css}</style></head><body>
@@ -150,7 +150,7 @@ def _ncard(x):
     d='.'.join(reversed(x['date'].split('-')));c=(x.get('categories') or ['Рынок'])[0]
     return f'<a class="card" href="{_h.escape(x["link"])}" target="_blank" rel="noopener nofollow" style="text-decoration:none;color:inherit"><div class="tag">{d} · {_h.escape(c)}</div><h3>{_h.escape(x["title"])}</h3><p>{_h.escape(x["excerpt"][:180])}…</p><p style="font-size:11px;opacity:.5">Читать источник ↗</p></a>'
 try:
-    _NL=_news_pick(_j.load(_u.urlopen('https://mttechnology.eu/api/blog/posts?per_page=12&lang=ru',timeout=30))['data'])
+    _NL=_news_pick(_j.load(_u.urlopen(_u.Request('https://mttechnology.eu/api/blog/posts?per_page=12&lang=ru',headers={'User-Agent':'Mozilla/5.0'}),timeout=30))['data'])
     news=''.join(_ncard(x) for x in _NL)
 except Exception as _e:
     print('news fetch failed',_e);news='<div class="card"><h3>Новости рынка</h3><p>Лента новостей временно недоступна.</p></div>'
@@ -162,7 +162,7 @@ _PTD=[]
 for _g,_gn in PD['groups'].items():
     for _k,_v in PD['series'].items():
         if _v['group']!=_g: continue
-        _PTD.append({'k':_k,'id':_v['id'],'g':_gn,'n':_v['name'],'u':_v['unit'],'v':[round(x,2) for x in _v['values'][-31:]],'last':_v['last'],'ch':_v['change'],'ts':_v['ts'],'stale':_v['stale']})
+        _PTD.append({'k':_k,'id':_v['id'],'g':_gn,'n':_v['name'],'u':_v['unit'],'v':[round(x,2) for x in _v['values'][-31:]],'last':_v['last'],'ch':_v['change'],'ts':_v['ts'],'stale':_v['stale'],'m':_v.get('manual',False)})
 _ASOF=PD['asof']
 PTB=open('/workspace/prices_block.html').read()+'<script>const D='+json.dumps(_PTD,ensure_ascii=False)+',PT_ASOF="'+_ASOF+'";'+open('/workspace/prices_block.js').read()+'</script>'
 HEROJS='<script>'+open('/workspace/hero_logo.js').read()+'</script>'
@@ -217,7 +217,7 @@ for k,(t,tag,s,cov,gal,cls,sec) in C.items():
     open(f'{OUT}/{k}.html','w').write(head(t+' — MT Technology')+body+contact(k if k in FV else ('sell' if sec=='sell' else 'buy'))+FOOT+'</body></html>')
 import json,random,datetime
 random.seed(7);today=datetime.date(2026,10,22)
-D=PD
+D=dict(PD,series={c:x for c,x in PD['series'].items() if x['last'] is not None})
 tabs=''.join(f'<div class="px-g">{gn}</div>'+''.join(f'<button data-c="{c}"{" class=on" if c=="Cu" else ""}><b>{c}</b><span>{x["name"]}</span><i id="t_{c}"></i></button>' for c,x in D['series'].items() if x['group']==g) for g,gn in D['groups'].items())
 pcards=''.join(f'<h3 class="px-gh">{gn}</h3><div class="px-cards">'+''.join(f'<a class="px-c" href="#{c}" data-c="{c}"><div class="px-ch"><b>{c}</b><span>{x["name"]}</span></div><div class="px-cv" id="cv_{c}"></div><canvas id="sp_{c}" height="70"></canvas></a>' for c,x in D['series'].items() if x['group']==g)+'</div>' for g,gn in D['groups'].items())
 pbody=f'''<style>.px-wrap{{display:grid;grid-template-columns:260px 1fr;gap:22px;margin-top:30px}}@media(max-width:860px){{.px-wrap{{grid-template-columns:1fr}}.px-tabs{{display:flex;overflow-x:auto}}.px-tabs button{{min-width:150px}}}}
