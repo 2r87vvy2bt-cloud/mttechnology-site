@@ -8,7 +8,7 @@ METALS=[('nf','Cu','copper','Медь'),('nf','Al','aluminium','Алюминий
 ('fa','FeMo','ferromolybdenum','Ферромолибден'),('fa','FeV','ferrovanadium','Феррованадий'),('fa','FeTi','ferrotitanium','Ферротитан'),('fa','FeW','ferrotungsten','Ферровольфрам'),('fa','FeNb','ferroniobium','Феррониобий'),
 ('ot','Mo','molybdenum','Молибден (Китай)'),('ot','Co','cobalt','Кобальт'),('ot','Li','lithium','Карбонат лития (Китай)'),('ot','TiSp','titanium-sponge','Титановая губка (Китай)'),('ot','Scrap','steel-scrap','Стальной лом HMS 1&2')]
 EXTRA_IDS={'molybdenum','cobalt','lithium','titanium-sponge','steel-scrap'}
-UNIT={'USD/t':'$/т','USD/oz':'$/унц.','CNY/t':'¥/т','CNY/kg':'¥/кг'}
+UNIT={'USD/t':'$/т','USD/oz':'$/унц.','CNY/t':'¥/т','CNY/kg':'¥/кг','USD/kg':'$/кг'}
 def _get(p,base=None): return _j.load(_u.urlopen((base or HIST)+p,timeout=30))
 def build():
     lat={x['id']:x for x in _get('/latest')}
