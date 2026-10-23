@@ -11,6 +11,13 @@ EMPTY_OK={'tungsten-apt','antimony','graphite'}
 EXTRA_IDS={'tungsten-apt','antimony','graphite','molybdenum','cobalt','lithium','titanium-sponge','steel-scrap'}
 UNIT={'USD/t':'$/т','USD/oz':'$/унц.','CNY/t':'¥/т','CNY/kg':'¥/кг','USD/kg':'$/кг','USD/mtu':'$/мту','USD/lb':'$/фунт'}
 def _get(p,base=None): return _j.load(_u.urlopen((base or HIST)+p,timeout=30))
+def ohlc(pts,n=30):
+    days={p[0][:10] for p in pts};kl=10 if len(days)>1 else 13;m={}
+    for t,v in pts:
+        k=t[:kl];b=m.get(k)
+        if not b: m[k]=[k if kl==10 else k+':00',v,v,v,v]
+        else: b[2]=max(b[2],v);b[3]=min(b[3],v);b[4]=v
+    return list(m.values())[-n:]
 def build():
     lat={x['id']:x for x in _get('/latest')}
     try: lat.update({x['id']:x for x in _get('/latest',EXTRA)})
@@ -20,11 +27,11 @@ def build():
     for g,k,mid,name in METALS:
         L=lat.get(mid)
         if not L and mid in EMPTY_OK:
-            PD['series'][k]={'group':g,'name':name,'id':mid,'unit':'','values':[],'dates':[],'last':None,'change':None,'ts':None,'stale':False,'since':None,'manual':True}; PD['map'][mid]=k; continue
+            PD['series'][k]={'group':g,'name':name,'id':mid,'unit':'','values':[],'ohlc':[],'dates':[],'last':None,'change':None,'ts':None,'stale':False,'since':None,'manual':True}; PD['map'][mid]=k; continue
         if not L: continue
         h=_get(f'/history?id={mid}&range=1y',EXTRA if mid in EXTRA_IDS else None)
         pts=h['points'] or [[L['ts'],L['price']]]
-        PD['series'][k]={'group':g,'name':name,'id':mid,'unit':UNIT.get(L['unit'],L['unit']),'values':[p[1] for p in pts],'dates':[p[0][:10] for p in pts],
+        PD['series'][k]={'group':g,'name':name,'id':mid,'unit':UNIT.get(L['unit'],L['unit']),'values':[p[1] for p in pts],'ohlc':ohlc(pts),'dates':[p[0][:10] for p in pts],
                          'last':L['price'],'change':L['change'],'ts':L['ts'],'stale':L['stale'],'since':L['since'],'manual':L.get('manual',False)}
         PD['map'][mid]=k
         asof=max(asof or L['ts'],L['ts']) if not L.get('manual') else asof
