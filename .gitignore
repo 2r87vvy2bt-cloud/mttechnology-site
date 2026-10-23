@@ -5,3 +5,5 @@ feedback_service.py
 __pycache__/
 services/__pycache__/
 services/blog/blog.db
+data/news/candidates.json
+tools/news/candidates.json

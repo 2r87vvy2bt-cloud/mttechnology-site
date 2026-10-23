@@ -97,6 +97,9 @@ def init_db():
         c.execute("DELETE FROM quotes WHERE unit LIKE 'CNY%'")
         c.execute("CREATE TABLE IF NOT EXISTS manual(metal TEXT, ts TEXT, price REAL, unit TEXT, note TEXT, PRIMARY KEY(metal, ts))")
         c.execute("CREATE TABLE IF NOT EXISTS override(metal TEXT PRIMARY KEY)")
+        c.execute("CREATE TABLE IF NOT EXISTS news_state(id TEXT PRIMARY KEY, hidden INTEGER DEFAULT 0)")
+        c.execute("CREATE TABLE IF NOT EXISTS news_edit(id TEXT, lang TEXT, title TEXT, lead TEXT, ts TEXT, PRIMARY KEY(id, lang))")
+        c.execute("CREATE TABLE IF NOT EXISTS news_log(ts TEXT, id TEXT, action TEXT, lang TEXT, title TEXT, lead TEXT)")
         c.execute("CREATE TABLE IF NOT EXISTS xcheck(metal TEXT, ts TEXT, primary_price REAL, second_price REAL, diff_pct REAL, unit TEXT, PRIMARY KEY(metal, ts))")
 
 def num(s): return float(re.sub(r"[^\d.\-]", "", s.replace(",", "")) or 0)
@@ -226,7 +229,7 @@ def admin():
     if not https_only(): return redirect("https://" + request.host + request.path)
     if not session.get("ok"): return redirect("/admin/login")
     tok = csrf(); out = ["<h2>Ручной ввод цен</h2><p><small>Цена в долларах США. Каждое сохранение попадает в историю и на сайт "
-                         "с отметкой «обновлено ДД.ММ.ГГГГ».</small> <a href='/admin/logout'>Выйти</a></p>"]
+                         "с отметкой «обновлено ДД.ММ.ГГГГ».</small> <a href='/admin/news'>Новости</a> · <a href='/admin/logout'>Выйти</a></p>"]
     if request.args.get("m"): out.append(f"<p class=ok>{html.escape(request.args['m'])}</p>")
     with db() as c:
         ov = {r[0] for r in c.execute("SELECT metal FROM override")}
@@ -288,6 +291,69 @@ def admin_auto():
 @app.route("/admin/logout")
 def admin_logout():
     session.clear(); return redirect("/admin/login")
+
+# ───────────── news admin (hide / edit headline+lead; history kept in news_log) ─────────────
+SITE_URL = os.getenv("SITE_URL", "https://mttechnology.eu")
+NLANGS = ["bg", "ru", "uk", "en", "de", "fr", "es", "it"]
+
+def news_index():
+    try: return requests.get(SITE_URL + "/data/news/index.json", headers=UA, timeout=15).json()
+    except Exception as e: log.error("news index: %s", e); return []
+
+@app.route("/news/state")
+def news_state():
+    with db() as c:
+        hidden = [r[0] for r in c.execute("SELECT id FROM news_state WHERE hidden=1")]
+        edits = {}
+        for r in c.execute("SELECT id, lang, title, lead FROM news_edit"):
+            edits.setdefault(r["id"], {})[r["lang"]] = {k: r[k] for k in ("title", "lead") if r[k]}
+    return jsonify(hidden=hidden, edits=edits)
+
+@app.route("/admin/news")
+def admin_news():
+    if not https_only(): return redirect("https://" + request.host + request.path)
+    if not session.get("ok"): return redirect("/admin/login")
+    tok, lang = csrf(), request.args.get("lang", "bg")
+    if lang not in NLANGS: lang = "bg"
+    out = ["<h2>Новости</h2><p><small>Скрыть новость или поправить заголовок/лид. Изменения видны на сайте сразу. "
+           "<a href='/admin'>Цены</a> · <a href='/admin/logout'>Выйти</a></small></p><p>"
+           + " ".join(f"<a href='/admin/news?lang={l}'>{'<b>' + l.upper() + '</b>' if l == lang else l.upper()}</a>" for l in NLANGS) + "</p>"]
+    if request.args.get("m"): out.append(f"<p class=ok>{html.escape(request.args['m'])}</p>")
+    with db() as c:
+        hid = {r[0] for r in c.execute("SELECT id FROM news_state WHERE hidden=1")}
+        ed = {(r["id"], r["lang"]): r for r in c.execute("SELECT * FROM news_edit")}
+    for it in news_index():
+        nid = it["id"]; t = it["t"].get(lang, {}); e = ed.get((nid, lang))
+        ti = e["title"] if e and e["title"] else t.get("title", ""); le = e["lead"] if e and e["lead"] else t.get("lead", "")
+        h = nid in hid; q = html.escape
+        out.append(f"<div class=m><small>{q(it['date'])} · {q(it['category'])}{' · <b class=err>скрыта</b>' if h else ''}{' · отредактирована' if e else ''}</small>"
+                   f"<form method=post action='/admin/news/save'><input type=hidden name=csrf value='{tok}'><input type=hidden name=id value='{q(nid)}'>"
+                   f"<input type=hidden name=lang value='{lang}'><input name=title value='{q(ti)}' maxlength=200 style='width:100%;margin:6px 0'>"
+                   f"<textarea name=lead rows=3 maxlength=600 style='width:100%;font:inherit;background:#1c1c1c;color:#eee;border:1px solid #555;border-radius:6px;padding:8px'>{q(le)}</textarea>"
+                   f"<div class=row><button>Сохранить</button>"
+                   f"<button name=action value=reset style='background:#345;color:#eee'>Вернуть исходный текст</button>"
+                   f"<button name=action value={'show' if h else 'hide'} style='background:{'#363' if h else '#633'};color:#eee'>{'Показать' if h else 'Скрыть'}</button></div></form></div>")
+    return page("".join(out), "Новости — админка")
+
+@app.route("/admin/news/save", methods=["POST"])
+def admin_news_save():
+    if not session.get("ok") or not check_csrf(): return Response("Forbidden", 403)
+    f = request.form; nid, lang, act = f.get("id", "")[:120], f.get("lang", ""), f.get("action", "save")
+    if lang not in NLANGS or not re.fullmatch(r"[0-9a-z-]+", nid): return redirect("/admin/news?m=Ошибка")
+    ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    title, lead = f.get("title", "").strip()[:200], f.get("lead", "").strip()[:600]
+    with db() as c:
+        if act in ("hide", "show"):
+            c.execute("INSERT OR REPLACE INTO news_state VALUES(?,?)", (nid, 1 if act == "hide" else 0))
+        elif act == "reset":
+            c.execute("DELETE FROM news_edit WHERE id=? AND lang=?", (nid, lang))
+        else:
+            orig = next((x["t"].get(lang, {}) for x in news_index() if x["id"] == nid), {})
+            title = "" if title == orig.get("title") else title; lead = "" if lead == orig.get("lead") else lead
+            if title or lead: c.execute("INSERT OR REPLACE INTO news_edit VALUES(?,?,?,?,?)", (nid, lang, title, lead, ts))
+        c.execute("INSERT INTO news_log VALUES(?,?,?,?,?,?)", (ts, nid, act, lang, title, lead))
+    log.info("news admin: %s %s %s", act, nid, lang)
+    return redirect(f"/admin/news?lang={lang}&m=" + {"hide": "Скрыто", "show": "Показано", "reset": "Текст восстановлен"}.get(act, "Сохранено"))
 
 @app.route("/health")
 def health(): return jsonify(ok=True)
