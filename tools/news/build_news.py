@@ -31,7 +31,7 @@ CSS = """<style>
 .kf{display:flex;gap:8px;flex-wrap:wrap}.kf span{font-size:11.5px;border:1px solid rgba(242,201,76,.25);border-radius:6px;padding:3px 8px;color:#f2c94c}
 .nc .more{margin-top:auto;font-size:12px;color:#f2c94c;letter-spacing:.06em}
 .na{max-width:780px;margin:0 auto;padding:150px 24px 60px}.na h1{font-size:clamp(34px,5vw,52px)}.na .lead{font-size:18px;color:#d8d1bd}
-.na .nhero{height:260px;border-radius:16px;margin:28px 0}
+.nc .im picture,.na .nhero picture,.nimg picture{position:absolute;inset:0}.nimg{position:relative}.nc .im img,.na .nhero img,.nimg img{width:100%;height:100%;object-fit:cover;display:block}.nc .im b{z-index:1}.na .nhero{overflow:hidden;height:360px;border-radius:16px;margin:28px 0}
 .figs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.fig{border:1px solid rgba(242,201,76,.22);border-radius:12px;padding:16px}.fig b{display:block;font:500 26px 'Cormorant Garamond',serif;color:#f2c94c}.fig small{color:#9b9584;font-size:12px}
 .na h2{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:30px;margin:30px 0 10px;color:#f4efe2}.na p{margin:0 0 14px;color:#cfc8b4}
 .box{background:rgba(242,201,76,.07);border-left:3px solid #f2c94c;border-radius:8px;padding:18px 22px;margin:24px 0}.box ul{margin:0;padding:0}.box li{margin:6px 0 6px 18px;color:#e2dbc6}
@@ -39,7 +39,7 @@ CSS = """<style>
 .cta .btn{background:#f2c94c;color:#111;padding:11px 20px;border-radius:8px;font-weight:500;font-size:13px;text-decoration:none;white-space:nowrap}
 .src{border-top:1px solid rgba(255,255,255,.08);padding-top:14px;font-size:11.5px;color:#7f7a6d}.na .back{display:inline-block;margin-top:26px;color:#f2c94c;font-size:13px;text-decoration:none}
 @media(max-width:900px){.nw-g{grid-template-columns:1fr 1fr}.nw-g .feat{grid-column:span 2;grid-row:auto}}
-@media(max-width:640px){.nw,.na{padding:110px 18px 40px}.nw-g{grid-template-columns:1fr}.nw-g .feat{grid-column:auto}.nc.feat .im{height:190px}.nc.feat h3{font-size:28px}.na .lead{font-size:16px}.na .nhero{height:170px}.figs{grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start}}
+@media(max-width:640px){.nw,.na{padding:110px 18px 40px}.nw-g{grid-template-columns:1fr}.nw-g .feat{grid-column:auto}.nc.feat .im{height:190px}.nc.feat h3{font-size:28px}.na .lead{font-size:16px}.na .nhero{height:210px}.figs{grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start}}
 </style>"""
 
 # client-side: apply admin state (hidden / edited) from /api/extra/news/state
@@ -53,7 +53,17 @@ def shell(l):
     bot = rest[rest.index("<footer"):]
     return head, top, bot
 
-def page(l, fname, title, desc, body, extra_head="", body_attr=""):
+def pic(x, eager=False):
+    """<picture> for item image field (img/news/<image>.webp + .jpg fallback); empty -> gradient placeholder."""
+    i = x.get("image")
+    if not i: return ""
+    return (f'<picture><source srcset="/img/news/{i}.webp" type="image/webp"><img src="/img/news/{i}.jpg" alt="" '
+            f'loading="{"eager" if eager else "lazy"}" decoding="async"></picture>')
+
+def homepic(x):
+    return f'<div class="nimg" style="position:relative;height:150px;margin:-1px -1px 16px;border-radius:12px;overflow:hidden">{pic(x).replace('<picture>','<picture style="position:absolute;inset:0">').replace('<img ','<img style="width:100%;height:100%;object-fit:cover;display:block" ')}</div>' if x.get("image") else ""
+
+def page(l, fname, title, desc, body, extra_head="", body_attr="", image=None):
     head, top, bot = shell(l)
     head = re.sub(r"<title>.*?</title>", f"<title>{E(title)}</title>", head, flags=re.S)
     head = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{E(desc)}">', head)
@@ -62,7 +72,8 @@ def page(l, fname, title, desc, body, extra_head="", body_attr=""):
                   lambda m: m.group(1) + f"{BASE}/{DIR.get(m.group(2), '')}{fname}" + m.group(3), head)
     head = re.sub(r'<meta property="og:[^>]*>', "", head)
     og = (f'<meta property="og:type" content="{"article" if body_attr else "website"}"><meta property="og:title" content="{E(title)}">'
-          f'<meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{BASE}/{DIR[l]}{fname}">')
+          f'<meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{BASE}/{DIR[l]}{fname}">'
+          + (f'<meta property="og:image" content="{BASE}/img/news/{image}.jpg"><meta name="twitter:card" content="summary_large_image">' if image else ""))
     top = re.sub(r'href="/((?:[a-z]{2}/)?)about\.html" hreflang=', lambda m: f'href="/{m.group(1)}{fname}" hreflang=', top)
     top = top.replace("<body", f"<body{body_attr}", 1) if body_attr else top
     return head + og + extra_head + CSS + "</head>" + top + body + bot.replace("</body>", STATE_JS + "</body>", 1)
@@ -72,7 +83,7 @@ def card(x, l, feat=False):
     kf = "".join(f"<span>{E(val(f['v'], l))}</span>" for f in x["figures"][: 3 if feat else 1])
     lead = f'<p data-f="lead">{E(t["lead"])}</p>' if feat else ""
     return (f'<a class="nc{" feat" if feat else ""}" data-nid="{x["id"]}" data-c="{x["category"]}" href="news-{x["id"]}.html">'
-            f'<div class="im"><b>{E(u["cats"][x["category"]])}</b></div><div class="bd"><div class="mt">{fmt_date(x["date"])} · {x["minutes"]} {E(u["min"])}</div>'
+            f'<div class="im">{pic(x, feat)}<b>{E(u["cats"][x["category"]])}</b></div><div class="bd"><div class="mt">{fmt_date(x["date"])} · {x["minutes"]} {E(u["min"])}</div>'
             f'<h3 data-f="title">{E(t["title"])}</h3>{lead}<div class="kf">{kf}</div><div class="more">{E(u["read"])}</div></div></a>')
 
 def list_page(items, l):
@@ -93,19 +104,19 @@ def article(x, l):
           "inLanguage": l, "author": {"@type": "Organization", "name": "MT Technology"}, "publisher": {"@type": "Organization", "name": "MT Technology"},
           "mainEntityOfPage": f'{BASE}/{DIR[l]}news-{x["id"]}.html'}
     body = (f'<article class="nw na" data-nid="{x["id"]}"><div class="eyebrow">{E(u["cats"][x["category"]])} · {fmt_date(x["date"])} · {x["minutes"]} {E(u["min"])}</div>'
-            f'<h1 data-f="title">{E(t["title"])}</h1><p class="lead" data-f="lead">{E(t["lead"])}</p><div class="nhero"></div><div class="figs">{figs}</div>'
+            f'<h1 data-f="title">{E(t["title"])}</h1><p class="lead" data-f="lead">{E(t["lead"])}</p><div class="nhero">{pic(x, True)}</div><div class="figs">{figs}</div>'
             f'<h2>{E(u["what"])}</h2>{what}<div class="box"><div class="eyebrow" style="margin-bottom:8px">{E(u["means"])}</div><ul>{means}</ul></div>'
             f'<div class="cta"><div><h3>{E(t["cta"])}</h3><small style="color:#9b9584">{E(u["cta_sub"])}</small></div><a class="btn" href="index.html#contact">{E(u["cta_btn"])}</a></div>'
             f'<div class="src">{E(u["src"])}: {E(x["source"][l])}. {E(u["prep"])}</div><a class="back" href="news.html">{E(u["back"])}</a></article>')
     extra = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
-    return page(l, f'news-{x["id"]}.html', f'{t["title"]} — MT Technology', t["lead"], body, extra, f' data-article="{x["id"]}"')
+    return page(l, f'news-{x["id"]}.html', f'{t["title"]} — MT Technology', t["lead"], body, extra, f' data-article="{x["id"]}"', x.get("image"))
 
 def homepage(items, l):
     p = f"{ROOT}/{DIR[l]}index.html"
     s = open(p, encoding="utf-8").read()
     u = UI[l]
     cards = "".join(f'<a class="card visible news-card" data-nid="{x["id"]}" href="news-{x["id"]}.html" style="text-decoration:none;color:inherit">'
-                    f'<div class="tag">{fmt_date(x["date"])} · {E(u["cats"][x["category"]])}</div><h3 data-f="title">{E(x["t"][l]["title"])}</h3>'
+                    f'{homepic(x)}<div class="tag">{fmt_date(x["date"])} · {E(u["cats"][x["category"]])}</div><h3 data-f="title">{E(x["t"][l]["title"])}</h3>'
                     f'<p data-f="lead">{E(x["t"][l]["lead"])}</p></a>' for x in items[:3])
     new = (f'<section class="section" id="news" style="padding-top:0"><h2>{E(NUM[l])}</h2><p class="sub">{E(u["home_sub"])}</p>'
            f'<div class="cards"><div id="newsgrid" style="display:contents">{cards}</div></div>'
