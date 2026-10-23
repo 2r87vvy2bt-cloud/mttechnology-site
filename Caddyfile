@@ -32,6 +32,14 @@
         header Cache-Control "no-store"
         reverse_proxy http://{$HISTORY_HOST:prices-history.railway.internal}:8080
     }
+
+    handle_path /api/extra/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$EXTRA_HOST:prices-extra.railway.internal}:8080 {
+            header_up X-Forwarded-Prefix /api/extra
+            header_up X-Forwarded-Proto {http.request.header.X-Forwarded-Proto}
+        }
+    }
 }
 
 :443 {
@@ -67,5 +75,13 @@
     handle_path /api/history/* {
         header Cache-Control "no-store"
         reverse_proxy http://{$HISTORY_HOST:prices-history.railway.internal}:8080
+    }
+
+    handle_path /api/extra/* {
+        header Cache-Control "no-store"
+        reverse_proxy http://{$EXTRA_HOST:prices-extra.railway.internal}:8080 {
+            header_up X-Forwarded-Prefix /api/extra
+            header_up X-Forwarded-Proto {http.request.header.X-Forwarded-Proto}
+        }
     }
 }

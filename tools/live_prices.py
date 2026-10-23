@@ -1,7 +1,7 @@
 # Live price snapshot for the build (real data only; no synthetic series).
 import json as _j, urllib.request as _u, datetime as _dt
 HIST='https://prices-history-production.up.railway.app'
-EXTRA='https://prices-extra-staging.up.railway.app'
+import os as _o; EXTRA=_o.environ.get('MT_EXTRA','https://prices-extra-staging.up.railway.app')
 METALS=[('nf','Cu','copper','Медь'),('nf','Al','aluminium','Алюминий'),('nf','Zn','zinc','Цинк'),('nf','Ni','nickel','Никель'),('nf','Pb','lead','Свинец'),('nf','Sn','tin','Олово'),
 ('pm','Au','gold','Золото'),('pm','Ag','silver','Серебро'),('pm','Pt','platinum','Платина'),('pm','Pd','palladium','Палладий'),
 ('fa','FeSi','ferrosilicon','Ферросилиций'),('fa','FeMn','ferromanganese','Ферромарганец'),('fa','SiMn','silicomanganese','Силикомарганец'),('fa','FeCr','ferrochrome','Феррохром'),

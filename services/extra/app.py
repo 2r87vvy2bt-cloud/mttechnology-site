@@ -183,6 +183,21 @@ def check_csrf():
     t = request.form.get("csrf", "")
     return t and hmac.compare_digest(t, session.get("csrf", ""))
 
+@app.after_request
+def _prefix(resp):
+    p = request.headers.get("X-Forwarded-Prefix", "").rstrip("/")
+    if p and p.startswith("/") and all(c.isalnum() or c in "/-_" for c in p):
+        loc = resp.headers.get("Location")
+        if loc and loc.startswith("/admin"): resp.headers["Location"] = p + loc
+        elif loc and loc.startswith("https://") and "/admin" in loc and p not in loc:
+            h, _, rest = loc[8:].partition("/"); resp.headers["Location"] = "https://" + h + p + "/" + rest
+        if resp.mimetype == "text/html" and not resp.direct_passthrough:
+            b = resp.get_data(as_text=True)
+            for a in ("action='", "href='", 'action="', 'href="'):
+                b = b.replace(a + "/admin", a + p + "/admin")
+            resp.set_data(b)
+    return resp
+
 def https_only():
     return request.headers.get("X-Forwarded-Proto", "https") == "https"
 
