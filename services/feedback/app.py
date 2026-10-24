@@ -13,6 +13,10 @@ import threading
 import time
 from collections import defaultdict, deque
 from flask import Flask, request, jsonify
+import logging
+import crm
+
+logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 
@@ -103,6 +107,15 @@ def client():
                 **({"email": ["Email is required"]} if not email else {}),
             }
         }), 400
+
+    # CRM forwarding: parallel, best effort; email below is unaffected by CRM failures.
+    crm.forward_async(
+        name=name, email=email,
+        phone=(data.get("phone") or "").strip(),
+        description=(data.get("description") or "").strip(),
+        page_url=(data.get("page_url") or request.headers.get("Referer") or "").strip()[:500],
+        lang=(data.get("lang") or "").strip()[:5],
+    )
 
     try:
         send_email(
