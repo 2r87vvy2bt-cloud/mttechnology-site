@@ -1,0 +1,190 @@
+{
+ "id": "2026-10-27-copper-volatility-recyclers",
+ "date": "2026-10-27",
+ "category": "scrap",
+ "minutes": 3,
+ "source": {
+  "bg": "Recycling Today, 23.10.2026",
+  "ru": "Recycling Today, 23.10.2026",
+  "uk": "Recycling Today, 23.10.2026",
+  "en": "Recycling Today, 23.10.2026",
+  "de": "Recycling Today, 23.10.2026",
+  "fr": "Recycling Today, 23.10.2026",
+  "es": "Recycling Today, 23.10.2026",
+  "it": "Recycling Today, 23.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "от 2022",
+    "ru": "с 2022",
+    "uk": "з 2022",
+    "en": "Since 2022",
+    "de": "Seit 2022",
+    "fr": "Depuis 2022",
+    "es": "Desde 2022",
+    "it": "Dal 2022"
+   },
+   "l": {
+    "bg": "най-силните данни за световната промишленост",
+    "ru": "самые сильные данные по мировой промышленности",
+    "uk": "найсильніші дані щодо світової промисловості",
+    "en": "strongest global manufacturing data",
+    "de": "stärkste Daten der Weltindustrie",
+    "fr": "données manufacturières mondiales les plus solides",
+    "es": "datos manufactureros mundiales más sólidos",
+    "it": "dati manifatturieri globali più solidi"
+   }
+  },
+  {
+   "v": "COMEX / LME",
+   "l": {
+    "bg": "арбитражът между борсите — основен риск за износителите",
+    "ru": "арбитраж между биржами — главный риск для экспортёров",
+    "uk": "арбітраж між біржами — головний ризик для експортерів",
+    "en": "exchange arbitrage, the key risk for exporters",
+    "de": "Börsenarbitrage – das Hauptrisiko für Exporteure",
+    "fr": "l'arbitrage entre bourses, principal risque des exportateurs",
+    "es": "el arbitraje entre bolsas, principal riesgo para los exportadores",
+    "it": "l'arbitraggio tra borse, rischio principale per gli esportatori"
+   }
+  },
+  {
+   "v": {
+    "bg": "Фрахт ↑",
+    "ru": "Фрахт ↑",
+    "uk": "Фрахт ↑",
+    "en": "Freight ↑",
+    "de": "Fracht ↑",
+    "fr": "Fret ↑",
+    "es": "Flete ↑",
+    "it": "Noli ↑"
+   },
+   "l": {
+    "bg": "дизел, недостиг на кораби и Ормузкия проток",
+    "ru": "дизель, нехватка судов и Ормузский пролив",
+    "uk": "дизель, брак суден і Ормузька протока",
+    "en": "diesel, vessel shortages and the Strait of Hormuz",
+    "de": "Diesel, knappe Schiffe und die Straße von Hormus",
+    "fr": "gazole, pénurie de navires et détroit d'Ormuz",
+    "es": "diésel, escasez de buques y el estrecho de Ormuz",
+    "it": "gasolio, carenza di navi e stretto di Hormuz"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Волатилността на медта притиска рециклиращите компании: фрахтът и цената на капитала растат",
+   "lead": "Дългосрочното търсене на мед остава силно, но резките колебания в цените, борсовите разлики и по-скъпият фрахт засилват натиска върху компаниите, които преработват и използват медния скрап. Това е изводът от медната кръгла маса на ReMA в Чикаго.",
+   "what": [
+    "По думите на участниците главният двигател на цените е световната промишленост: данните за нея са най-силните от 2022 г., а изграждането на центрове за данни и енергийна инфраструктура за изкуствения интелект допълнително увеличава търсенето. Стратегическото значение на медта като критична суровина също расте. В същото време фрахтовите ставки и цената на дизела се повишиха, корабите са по-трудно достъпни, а затварянията на Ормузкия проток оставиха част от контейнерите блокирани.",
+    "Най-голямото безпокойство е волатилността: резки промени в разликата между COMEX и LME, преходи между бекуардация и контанго. Покупка по COMEX за износ и продажба по LME може да се окаже фатална за търговеца. По-високите цени на скрапа изискват повече оборотен капитал, а лихвите го оскъпяват — това удря най-силно малките самофинансиращи се площадки. Съветът на участниците: хеджирайте, за да се защитите, а не за да спекулирате, и работете с няколко купувачи."
+   ],
+   "means": [
+    "<b>Медният скрап</b> остава търсен; добре сортираните партии запазват премия, когато пазарът се колебае.",
+    "<b>Ценовият риск</b> е по-разумно да се прехвърли към партньор, който хеджира позициите си, вместо да се залага на борсовата разлика.",
+    "<b>Логистиката</b> трябва да се планира с резерв: фрахтът и сроковете на доставка остават непредвидими."
+   ],
+   "cta": "Продавате меден скрап?"
+  },
+  "ru": {
+   "title": "Волатильность меди давит на переработчиков: фрахт и стоимость капитала растут",
+   "lead": "Долгосрочный спрос на медь остаётся сильным, но резкие колебания цен, межбиржевые расхождения и дорогой фрахт усиливают давление на компании, которые перерабатывают и потребляют медный лом. Таков вывод медного круглого стола ReMA в Чикаго.",
+   "what": [
+    "По словам участников, главный драйвер цен — мировая промышленность: её показатели самые сильные с 2022 года, а строительство дата-центров и энергетической инфраструктуры для искусственного интеллекта дополнительно подстёгивает спрос. Растёт и стратегическое значение меди как критического сырья. При этом фрахтовые ставки и цена дизеля выросли, суда стали менее доступны, а перекрытия Ормузского пролива оставили часть контейнеров застрявшими в пути.",
+    "Главная тревога — волатильность: резкие изменения спреда между COMEX и LME, переходы от бэквордации к контанго. Покупка по COMEX под экспорт с продажей по LME может обернуться для трейдера катастрофой. Высокие цены на лом требуют больше оборотного капитала, а ставки делают его дороже — сильнее всего это бьёт по небольшим площадкам, работающим на собственные средства. Совет участников: хеджировать для защиты, а не для спекуляции, и работать с несколькими покупателями."
+   ],
+   "means": [
+    "<b>Медный лом</b> остаётся востребованным; хорошо отсортированные партии сохраняют премию, когда рынок лихорадит.",
+    "<b>Ценовой риск</b> разумнее передать партнёру, который хеджирует свои позиции, чем играть на межбиржевом спреде.",
+    "<b>Логистику</b> стоит планировать с запасом: фрахт и сроки доставки остаются непредсказуемыми."
+   ],
+   "cta": "Продаёте медный лом?"
+  },
+  "uk": {
+   "title": "Волатильність міді тисне на переробників: фрахт і вартість капіталу зростають",
+   "lead": "Довгостроковий попит на мідь лишається сильним, але різкі коливання цін, міжбіржові розбіжності та дорогий фрахт посилюють тиск на компанії, що переробляють і споживають мідний брухт. Такий висновок мідного круглого столу ReMA в Чикаго.",
+   "what": [
+    "За словами учасників, головний драйвер цін — світова промисловість: її показники найсильніші з 2022 року, а будівництво дата-центрів та енергетичної інфраструктури для штучного інтелекту додатково підживлює попит. Зростає й стратегічне значення міді як критичної сировини. Водночас фрахтові ставки й ціна дизеля зросли, судна стали менш доступними, а перекриття Ормузької протоки залишили частину контейнерів застряглими в дорозі.",
+    "Найбільше занепокоєння — волатильність: різкі зміни спреду між COMEX і LME, переходи від беквордації до контанго. Купівля за COMEX під експорт із продажем за LME може обернутися для трейдера катастрофою. Високі ціни на брухт потребують більше обігового капіталу, а ставки роблять його дорожчим — найбільше це б'є по невеликих майданчиках, що працюють на власні кошти. Порада учасників: хеджувати для захисту, а не для спекуляції, і працювати з кількома покупцями."
+   ],
+   "means": [
+    "<b>Мідний брухт</b> лишається затребуваним; добре відсортовані партії зберігають премію, коли ринок лихоманить.",
+    "<b>Ціновий ризик</b> розумніше передати партнерові, який хеджує свої позиції, ніж грати на міжбіржовому спреді.",
+    "<b>Логістику</b> варто планувати із запасом: фрахт і терміни доставки лишаються непередбачуваними."
+   ],
+   "cta": "Продаєте мідний брухт?"
+  },
+  "en": {
+   "title": "Copper volatility squeezes recyclers as freight and financing costs climb",
+   "lead": "Long-term copper demand remains robust, but sharp price swings, exchange spreads and costlier freight are adding pressure on companies that process and consume copper scrap. That was the message from the ReMA copper roundtable in Chicago.",
+   "what": [
+    "Panellists said the main price driver is global manufacturing, with the strongest data since 2022, while the build-out of AI data centres and the power infrastructure behind them is adding to demand. Copper's strategic value as a critical mineral is also rising. At the same time, freight rates and diesel prices have increased, vessel availability has tightened, and repeated closures of the Strait of Hormuz have left some containers stranded.",
+    "The chief concern is volatility: abrupt moves in the COMEX–LME spread and swings between backwardation and contango. Buying on COMEX for export and selling on LME pricing “can be lights out” for a trader. Higher scrap prices tie up more working capital, and higher interest rates make that capital dearer, hitting small, self-financed yards hardest. The panel's advice: hedge to protect positions rather than to speculate, and build relationships with several consumers."
+   ],
+   "means": [
+    "<b>Copper scrap</b> remains in demand; well-sorted lots keep their premium when the market turns choppy.",
+    "<b>Price risk</b> is better passed to a partner that hedges its book than carried as a bet on the exchange spread.",
+    "<b>Logistics</b> should be planned with a buffer: freight costs and transit times remain unpredictable."
+   ],
+   "cta": "Selling copper scrap?"
+  },
+  "de": {
+   "title": "Kupfervolatilität setzt Recycler unter Druck: Fracht und Finanzierung werden teurer",
+   "lead": "Die langfristige Kupfernachfrage bleibt robust, doch starke Preisschwankungen, Börsendifferenzen und höhere Frachtkosten erhöhen den Druck auf Unternehmen, die Kupferschrott verarbeiten und einsetzen. So das Fazit des Kupfer-Roundtables von ReMA in Chicago.",
+   "what": [
+    "Den Teilnehmern zufolge ist die Weltindustrie der wichtigste Preistreiber – mit den stärksten Daten seit 2022 –, während der Ausbau von KI-Rechenzentren und der zugehörigen Energieinfrastruktur die Nachfrage zusätzlich stützt. Auch die strategische Bedeutung von Kupfer als kritischer Rohstoff wächst. Gleichzeitig sind Frachtraten und Dieselpreise gestiegen, Schiffsraum ist knapper geworden, und wiederholte Sperrungen der Straße von Hormus haben Container festsitzen lassen.",
+    "Die größte Sorge gilt der Volatilität: abrupte Bewegungen im Spread zwischen COMEX und LME sowie Wechsel zwischen Backwardation und Contango. Wer für den Export auf COMEX-Basis kauft und auf LME-Basis verkauft, riskiert das Aus. Höhere Schrottpreise binden mehr Betriebskapital, das durch höhere Zinsen teurer wird – am stärksten trifft das kleine, eigenfinanzierte Schrottplätze. Der Rat der Runde: zur Absicherung hedgen, nicht zur Spekulation, und mit mehreren Abnehmern zusammenarbeiten."
+   ],
+   "means": [
+    "<b>Kupferschrott</b> bleibt gefragt; gut sortierte Partien behalten ihren Aufschlag, wenn der Markt unruhig wird.",
+    "<b>Preisrisiken</b> überträgt man besser an einen Partner, der seine Positionen absichert, statt auf den Börsenspread zu setzen.",
+    "<b>Logistik</b> sollte mit Puffer geplant werden: Frachtkosten und Laufzeiten bleiben unberechenbar."
+   ],
+   "cta": "Sie verkaufen Kupferschrott?"
+  },
+  "fr": {
+   "title": "La volatilité du cuivre met les recycleurs sous pression : fret et financement renchérissent",
+   "lead": "La demande de cuivre à long terme reste solide, mais les fortes variations de prix, les écarts entre bourses et un fret plus cher accentuent la pression sur les entreprises qui transforment et consomment des ferrailles de cuivre. C'est le constat de la table ronde cuivre de ReMA à Chicago.",
+   "what": [
+    "Selon les intervenants, le principal moteur des prix est l'industrie mondiale, dont les données sont les plus solides depuis 2022, tandis que la construction de centres de données pour l'IA et de l'infrastructure électrique associée soutient encore la demande. La valeur stratégique du cuivre en tant que matière critique progresse elle aussi. Dans le même temps, les taux de fret et le prix du gazole ont augmenté, la disponibilité des navires s'est réduite et les fermetures répétées du détroit d'Ormuz ont bloqué des conteneurs.",
+    "La principale inquiétude reste la volatilité : mouvements brusques de l'écart COMEX–LME et alternance entre déport et report. Acheter sur la base du COMEX pour l'export et revendre sur la base du LME peut être fatal pour un négociant. Des prix de ferraille plus élevés mobilisent davantage de fonds de roulement, renchéri par la hausse des taux, ce qui frappe surtout les petits ferrailleurs autofinancés. Le conseil des intervenants : se couvrir pour se protéger, non pour spéculer, et diversifier ses débouchés."
+   ],
+   "means": [
+    "<b>Les ferrailles de cuivre</b> restent recherchées ; les lots bien triés conservent leur prime quand le marché s'agite.",
+    "<b>Le risque de prix</b> gagne à être confié à un partenaire qui couvre ses positions plutôt qu'à un pari sur l'écart entre bourses.",
+    "<b>La logistique</b> doit être planifiée avec une marge : coûts de fret et délais restent imprévisibles."
+   ],
+   "cta": "Vous vendez des ferrailles de cuivre ?"
+  },
+  "es": {
+   "title": "La volatilidad del cobre presiona a los recicladores: suben el flete y el coste de financiación",
+   "lead": "La demanda de cobre a largo plazo sigue siendo sólida, pero las fuertes oscilaciones de precio, los diferenciales entre bolsas y el encarecimiento del flete aumentan la presión sobre las empresas que procesan y consumen chatarra de cobre. Es la conclusión de la mesa redonda del cobre de ReMA en Chicago.",
+   "what": [
+    "Según los ponentes, el principal motor de los precios es la industria mundial, con los datos más sólidos desde 2022, mientras que la construcción de centros de datos para la IA y de la infraestructura eléctrica asociada impulsa aún más la demanda. También crece el valor estratégico del cobre como materia prima crítica. Al mismo tiempo, los fletes y el precio del diésel han subido, hay menos buques disponibles y los cierres repetidos del estrecho de Ormuz han dejado contenedores varados.",
+    "La mayor preocupación es la volatilidad: movimientos bruscos del diferencial COMEX–LME y cambios entre backwardation y contango. Comprar con referencia COMEX para exportar y vender con referencia LME puede ser letal para un trader. Unos precios de chatarra más altos exigen más capital circulante, encarecido por los tipos de interés, lo que golpea sobre todo a los pequeños patios autofinanciados. El consejo de los ponentes: cubrirse para protegerse, no para especular, y trabajar con varios compradores."
+   ],
+   "means": [
+    "<b>La chatarra de cobre</b> sigue muy demandada; los lotes bien clasificados mantienen su prima cuando el mercado se agita.",
+    "<b>El riesgo de precio</b> conviene trasladarlo a un socio que cubra sus posiciones en lugar de apostar por el diferencial entre bolsas.",
+    "<b>La logística</b> debe planificarse con margen: el coste del flete y los plazos siguen siendo imprevisibles."
+   ],
+   "cta": "¿Vende chatarra de cobre?"
+  },
+  "it": {
+   "title": "La volatilità del rame mette sotto pressione i riciclatori: salgono noli e costo del capitale",
+   "lead": "La domanda di rame nel lungo periodo resta solida, ma le forti oscillazioni di prezzo, gli spread tra borse e noli più cari aumentano la pressione sulle aziende che lavorano e consumano rottami di rame. È quanto emerso dalla tavola rotonda sul rame di ReMA a Chicago.",
+   "what": [
+    "Secondo i relatori, il motore principale dei prezzi è la manifattura globale, con i dati più solidi dal 2022, mentre la costruzione di data center per l'IA e della relativa infrastruttura elettrica sostiene ulteriormente la domanda. Cresce anche il valore strategico del rame come materia prima critica. Allo stesso tempo noli e prezzo del gasolio sono aumentati, la disponibilità di navi si è ridotta e le ripetute chiusure dello stretto di Hormuz hanno lasciato container bloccati.",
+    "La preoccupazione principale è la volatilità: bruschi movimenti dello spread COMEX–LME e passaggi tra backwardation e contango. Comprare su base COMEX per l'export e vendere su base LME può essere fatale per un trader. Prezzi dei rottami più alti richiedono più capitale circolante, reso più caro dai tassi, e a soffrire di più sono i piccoli piazzali autofinanziati. Il consiglio dei relatori: coprirsi per proteggersi, non per speculare, e lavorare con più acquirenti."
+   ],
+   "means": [
+    "<b>I rottami di rame</b> restano richiesti; i lotti ben selezionati mantengono il premio quando il mercato è nervoso.",
+    "<b>Il rischio di prezzo</b> è meglio trasferirlo a un partner che copre le proprie posizioni piuttosto che scommettere sullo spread tra borse.",
+    "<b>La logistica</b> va pianificata con margine: costi dei noli e tempi di consegna restano imprevedibili."
+   ],
+   "cta": "Vendete rottami di rame?"
+  }
+ },
+ "image": "copper-wire-volatility"
+}

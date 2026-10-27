@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-27-china-fesi-prices-weak",
+ "date": "2026-10-27",
+ "category": "ferroalloys",
+ "minutes": 3,
+ "source": {
+  "bg": "Mysteel, 27.10.2026",
+  "ru": "Mysteel, 27.10.2026",
+  "uk": "Mysteel, 27.10.2026",
+  "en": "Mysteel, 27.10.2026",
+  "de": "Mysteel, 27.10.2026",
+  "fr": "Mysteel, 27.10.2026",
+  "es": "Mysteel, 27.10.2026",
+  "it": "Mysteel, 27.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "5 699 юана/т",
+    "ru": "5 699 юаней/т",
+    "uk": "5 699 юанів/т",
+    "en": "RMB 5,699/t",
+    "de": "5.699 RMB/t",
+    "fr": "5 699 RMB/t",
+    "es": "5.699 RMB/t",
+    "it": "5.699 RMB/t"
+   },
+   "l": {
+    "bg": "FeSi 75 на спот пазара в Китай с ДДС, 26.10 (−70 за седмица)",
+    "ru": "спот FeSi 75 в Китае с НДС, 26.10 (−70 за неделю)",
+    "uk": "спот FeSi 75 у Китаї з ПДВ, 26.10 (−70 за тиждень)",
+    "en": "FeSi 75 spot in China incl. VAT, 26 Oct (−70 w/w)",
+    "de": "FeSi-75-Spotpreis in China inkl. MwSt., 26.10. (−70 ggü. Vorwoche)",
+    "fr": "FeSi 75 au comptant en Chine, TVA incluse, 26/10 (−70 sur la semaine)",
+    "es": "FeSi 75 al contado en China con IVA, 26/10 (−70 semanal)",
+    "it": "FeSi 75 spot in Cina IVA inclusa, 26/10 (−70 su settimana)"
+   }
+  },
+  {
+   "v": {
+    "bg": "32,59%",
+    "ru": "32,59%",
+    "uk": "32,59%",
+    "en": "32.59%",
+    "de": "32,59 %",
+    "fr": "32,59 %",
+    "es": "32,59 %",
+    "it": "32,59%"
+   },
+   "l": {
+    "bg": "натоварване на 136 независими производители",
+    "ru": "загрузка 136 независимых производителей",
+    "uk": "завантаження 136 незалежних виробників",
+    "en": "utilisation at 136 independent producers",
+    "de": "Auslastung von 136 unabhängigen Produzenten",
+    "fr": "taux d'utilisation de 136 producteurs indépendants",
+    "es": "utilización de 136 productores independientes",
+    "it": "utilizzo di 136 produttori indipendenti"
+   }
+  },
+  {
+   "v": {
+    "bg": "93 100 т",
+    "ru": "93 100 т",
+    "uk": "93 100 т",
+    "en": "93,100 t",
+    "de": "93.100 t",
+    "fr": "93 100 t",
+    "es": "93.100 t",
+    "it": "93.100 t"
+   },
+   "l": {
+    "bg": "складови наличности при производителите (+3,24%)",
+    "ru": "складские запасы у производителей (+3,24%)",
+    "uk": "складські запаси у виробників (+3,24%)",
+    "en": "producer inventories (+3.24%)",
+    "de": "Lagerbestände der Produzenten (+3,24 %)",
+    "fr": "stocks chez les producteurs (+3,24 %)",
+    "es": "existencias de los productores (+3,24 %)",
+    "it": "scorte presso i produttori (+3,24%)"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Феросилицият в Китай поевтинява: производството расте, а търсенето от стоманодобива отслабва",
+   "lead": "Цените на FeSi 75 в Китай отстъпиха за пореден път: по-евтиният полукокс, по-ниските тръжни цени на стоманодобивните заводи и слабото търсене натискат пазара, докато производството и складовите наличности растат.",
+   "what": [
+    "Според Mysteel на 26 октомври спот цената на FeSi 75 в Китай е 5 699 юана/т с 13% ДДС (около 855 USD/т) — със 70 юана по-малко за седмица. Януарският фючърс за 2027 г. на борсата в Джънджоу приключи на 5 828 юана/т (−24). През седмицата до 22 октомври натоварването на 136 независими производители се повиши до 32,59% (+0,47 п.п.), а дневното производство — до 16 865 т (+1,69%).",
+    "Наличностите при производителите нараснаха с 3,24% до 93 100 т, докато потреблението от стоманодобива спадна с 0,80% за седмица. Маржът във Вътрешна Монголия е отрицателен — около −280 юана/т, затова анализаторите не изключват съкращения на производството близо до нивото на себестойността. През септември Китай е изнесъл 25 762 т феросилиций и е внесъл 9 174 т."
+   ],
+   "means": [
+    "<b>Цени:</b> краткосрочно пазарът остава под натиск, но при работа на загуба потенциалът за по-нататъшен спад е ограничен.",
+    "<b>Стоманодобивни и леярски заводи</b> могат да използват спокойния пазар, за да договорят обеми за първото тримесечие на 2027 г.",
+    "<b>Купувачите в Европа</b> е добре да следят китайските тръжни цени — те задават тона на световния пазар на феросилиций."
+   ],
+   "cta": "Нужен ви е FeSi 75?"
+  },
+  "ru": {
+   "title": "Ферросилиций в Китае дешевеет: выпуск растёт, а спрос металлургов слабеет",
+   "lead": "Цены на FeSi 75 в Китае снова снизились: подешевевший полукокс, более низкие тендерные цены металлургических заводов и вялый спрос давят на рынок, а производство и складские запасы растут.",
+   "what": [
+    "По данным Mysteel, 26 октября спотовая цена FeSi 75 в Китае составила 5 699 юаней/т с учётом 13% НДС (около 855 долл./т) — на 70 юаней ниже, чем неделей ранее. Январский фьючерс 2027 года на бирже в Чжэнчжоу закрылся на уровне 5 828 юаней/т (−24). За неделю до 22 октября загрузка 136 независимых производителей выросла до 32,59% (+0,47 п.п.), а суточный выпуск — до 16 865 т (+1,69%).",
+    "Запасы у производителей увеличились на 3,24%, до 93 100 т, тогда как потребление со стороны металлургов сократилось на 0,80% за неделю. Маржа во Внутренней Монголии отрицательная — около −280 юаней/т, поэтому аналитики не исключают сокращения выпуска вблизи уровня себестоимости. В сентябре Китай экспортировал 25 762 т ферросилиция и импортировал 9 174 т."
+   ],
+   "means": [
+    "<b>Цены:</b> в краткосрочной перспективе рынок остаётся под давлением, но при работе в убыток потенциал дальнейшего снижения ограничен.",
+    "<b>Металлургические и литейные заводы</b> могут воспользоваться спокойным рынком, чтобы законтрактовать объёмы на I квартал 2027 года.",
+    "<b>Покупателям в Европе</b> стоит следить за китайскими тендерными ценами — они задают тон мировому рынку ферросилиция."
+   ],
+   "cta": "Нужен FeSi 75?"
+  },
+  "uk": {
+   "title": "Феросиліцій у Китаї дешевшає: виробництво зростає, а попит металургів слабшає",
+   "lead": "Ціни на FeSi 75 у Китаї знову знизилися: дешевший напівкокс, нижчі тендерні ціни металургійних заводів і млявий попит тиснуть на ринок, тоді як виробництво й складські запаси зростають.",
+   "what": [
+    "За даними Mysteel, 26 жовтня спотова ціна FeSi 75 у Китаї становила 5 699 юанів/т з урахуванням 13% ПДВ (близько 855 дол./т) — на 70 юанів менше, ніж тижнем раніше. Січневий ф'ючерс 2027 року на біржі в Чженчжоу закрився на рівні 5 828 юанів/т (−24). За тиждень до 22 жовтня завантаження 136 незалежних виробників зросло до 32,59% (+0,47 в.п.), а добовий випуск — до 16 865 т (+1,69%).",
+    "Запаси у виробників збільшилися на 3,24%, до 93 100 т, тоді як споживання з боку металургів скоротилося на 0,80% за тиждень. Маржа у Внутрішній Монголії від'ємна — близько −280 юанів/т, тож аналітики не виключають скорочення випуску поблизу рівня собівартості. У вересні Китай експортував 25 762 т феросиліцію та імпортував 9 174 т."
+   ],
+   "means": [
+    "<b>Ціни:</b> у короткостроковій перспективі ринок лишається під тиском, але за збиткової роботи потенціал подальшого зниження обмежений.",
+    "<b>Металургійні та ливарні заводи</b> можуть скористатися спокійним ринком, щоб законтрактувати обсяги на I квартал 2027 року.",
+    "<b>Покупцям у Європі</b> варто стежити за китайськими тендерними цінами — вони задають тон світовому ринку феросиліцію."
+   ],
+   "cta": "Потрібен FeSi 75?"
+  },
+  "en": {
+   "title": "Chinese ferrosilicon softens as output rises and steel demand weakens",
+   "lead": "FeSi 75 prices in China have eased again. Cheaper semi-coke, lower steel-mill tender prices and lacklustre demand are weighing on the market, while output and inventories continue to build.",
+   "what": [
+    "According to Mysteel, spot FeSi 75 in China stood at RMB 5,699/t including 13% VAT on 26 October (about USD 855/t), down RMB 70 on the week. The January 2027 contract on the Zhengzhou Commodity Exchange settled at RMB 5,828/t (−24). In the week to 22 October, utilisation at 136 independent producers rose to 32.59% (+0.47 pp) and daily output climbed to 16,865 t (+1.69%).",
+    "Producer inventories grew by 3.24% to 93,100 t, while consumption by the steel sector fell 0.80% week on week. Margins in Inner Mongolia are negative at roughly RMB −280/t, so analysts do not rule out production cuts close to cost levels. In September China exported 25,762 t of ferrosilicon and imported 9,174 t."
+   ],
+   "means": [
+    "<b>Prices:</b> the market remains under pressure in the short term, but with producers running at a loss, further downside looks limited.",
+    "<b>Steelmakers and foundries</b> can use the quieter market to secure volumes for the first quarter of 2027.",
+    "<b>European buyers</b> should keep an eye on Chinese tender prices, which set the tone for the global ferrosilicon market."
+   ],
+   "cta": "Looking for FeSi 75?"
+  },
+  "de": {
+   "title": "Ferrosilizium in China wird billiger: Produktion steigt, Nachfrage der Stahlwerke lässt nach",
+   "lead": "Die Preise für FeSi 75 in China haben erneut nachgegeben. Günstigerer Halbkoks, niedrigere Ausschreibungspreise der Stahlwerke und eine schwache Nachfrage belasten den Markt, während Produktion und Lagerbestände steigen.",
+   "what": [
+    "Laut Mysteel lag der Spotpreis für FeSi 75 in China am 26. Oktober bei 5.699 RMB/t inklusive 13 % MwSt. (rund 855 USD/t) – 70 RMB weniger als in der Vorwoche. Der Januar-Kontrakt 2027 an der Rohstoffbörse Zhengzhou schloss bei 5.828 RMB/t (−24). In der Woche bis zum 22. Oktober stieg die Auslastung von 136 unabhängigen Produzenten auf 32,59 % (+0,47 Pp.), die Tagesproduktion auf 16.865 t (+1,69 %).",
+    "Die Lagerbestände der Produzenten wuchsen um 3,24 % auf 93.100 t, während der Verbrauch der Stahlindustrie gegenüber der Vorwoche um 0,80 % sank. In der Inneren Mongolei sind die Margen mit rund −280 RMB/t negativ; Analysten schließen daher Produktionskürzungen nahe der Kostenschwelle nicht aus. Im September exportierte China 25.762 t Ferrosilizium und importierte 9.174 t."
+   ],
+   "means": [
+    "<b>Preise:</b> Kurzfristig bleibt der Markt unter Druck, doch da viele Produzenten mit Verlust arbeiten, ist weiteres Abwärtspotenzial begrenzt.",
+    "<b>Stahlwerke und Gießereien</b> können den ruhigen Markt nutzen, um Mengen für das erste Quartal 2027 zu sichern.",
+    "<b>Käufer in Europa</b> sollten die chinesischen Ausschreibungspreise im Blick behalten – sie geben den Ton am Weltmarkt für Ferrosilizium an."
+   ],
+   "cta": "Sie benötigen FeSi 75?"
+  },
+  "fr": {
+   "title": "Le ferrosilicium recule en Chine : la production augmente, la demande sidérurgique faiblit",
+   "lead": "Les prix du FeSi 75 en Chine ont de nouveau fléchi. Un semi-coke moins cher, des prix d'appels d'offres sidérurgiques en baisse et une demande atone pèsent sur le marché, tandis que la production et les stocks progressent.",
+   "what": [
+    "Selon Mysteel, le FeSi 75 au comptant s'établissait en Chine à 5 699 RMB/t TVA de 13 % incluse le 26 octobre (environ 855 USD/t), en recul de 70 RMB sur la semaine. Le contrat janvier 2027 de la bourse de Zhengzhou a clôturé à 5 828 RMB/t (−24). Sur la semaine au 22 octobre, le taux d'utilisation de 136 producteurs indépendants est monté à 32,59 % (+0,47 pt) et la production journalière à 16 865 t (+1,69 %).",
+    "Les stocks des producteurs ont progressé de 3,24 %, à 93 100 t, tandis que la consommation de la sidérurgie a reculé de 0,80 % sur la semaine. En Mongolie-Intérieure, les marges sont négatives, à environ −280 RMB/t ; les analystes n'excluent donc pas des réductions de production à proximité des coûts. En septembre, la Chine a exporté 25 762 t de ferrosilicium et en a importé 9 174 t."
+   ],
+   "means": [
+    "<b>Prix :</b> le marché reste sous pression à court terme, mais avec des producteurs déficitaires, le potentiel de baisse supplémentaire paraît limité.",
+    "<b>Aciéries et fonderies</b> peuvent profiter d'un marché plus calme pour sécuriser leurs volumes du premier trimestre 2027.",
+    "<b>Les acheteurs européens</b> ont intérêt à suivre les prix des appels d'offres chinois, qui donnent le ton au marché mondial du ferrosilicium."
+   ],
+   "cta": "Besoin de FeSi 75 ?"
+  },
+  "es": {
+   "title": "El ferrosilicio se abarata en China: sube la producción y se debilita la demanda siderúrgica",
+   "lead": "Los precios del FeSi 75 en China han vuelto a ceder. El semicoque más barato, las menores cotizaciones de las licitaciones siderúrgicas y una demanda débil presionan el mercado, mientras la producción y las existencias aumentan.",
+   "what": [
+    "Según Mysteel, el FeSi 75 al contado en China se situó el 26 de octubre en 5.699 RMB/t con el 13 % de IVA (unos 855 USD/t), 70 RMB menos que una semana antes. El contrato de enero de 2027 en la bolsa de Zhengzhou cerró en 5.828 RMB/t (−24). En la semana hasta el 22 de octubre, la utilización de 136 productores independientes subió al 32,59 % (+0,47 p.p.) y la producción diaria, a 16.865 t (+1,69 %).",
+    "Las existencias de los productores crecieron un 3,24 %, hasta 93.100 t, mientras que el consumo del sector siderúrgico cayó un 0,80 % semanal. En Mongolia Interior los márgenes son negativos, de unos −280 RMB/t, por lo que los analistas no descartan recortes de producción cerca del nivel de costes. En septiembre China exportó 25.762 t de ferrosilicio e importó 9.174 t."
+   ],
+   "means": [
+    "<b>Precios:</b> a corto plazo el mercado sigue presionado, pero con productores en pérdidas el margen de nuevas caídas parece limitado.",
+    "<b>Acerías y fundiciones</b> pueden aprovechar la calma del mercado para asegurar volúmenes del primer trimestre de 2027.",
+    "<b>Los compradores europeos</b> deberían seguir los precios de las licitaciones chinas, que marcan la pauta del mercado mundial del ferrosilicio."
+   ],
+   "cta": "¿Necesita FeSi 75?"
+  },
+  "it": {
+   "title": "Il ferrosilicio cala in Cina: cresce la produzione, si indebolisce la domanda siderurgica",
+   "lead": "I prezzi del FeSi 75 in Cina sono tornati a scendere. Semicoke più economico, prezzi più bassi nelle gare delle acciaierie e una domanda debole pesano sul mercato, mentre produzione e scorte aumentano.",
+   "what": [
+    "Secondo Mysteel, il 26 ottobre il FeSi 75 spot in Cina quotava 5.699 RMB/t IVA del 13% inclusa (circa 855 USD/t), 70 RMB in meno rispetto alla settimana precedente. Il contratto gennaio 2027 della borsa di Zhengzhou ha chiuso a 5.828 RMB/t (−24). Nella settimana al 22 ottobre l'utilizzo di 136 produttori indipendenti è salito al 32,59% (+0,47 p.p.) e la produzione giornaliera a 16.865 t (+1,69%).",
+    "Le scorte dei produttori sono aumentate del 3,24%, a 93.100 t, mentre i consumi del settore siderurgico sono calati dello 0,80% su settimana. In Mongolia Interna i margini sono negativi, intorno a −280 RMB/t, e gli analisti non escludono tagli produttivi vicino ai livelli di costo. A settembre la Cina ha esportato 25.762 t di ferrosilicio e ne ha importate 9.174 t."
+   ],
+   "means": [
+    "<b>Prezzi:</b> nel breve il mercato resta sotto pressione, ma con produttori in perdita lo spazio per ulteriori ribassi appare limitato.",
+    "<b>Acciaierie e fonderie</b> possono approfittare di un mercato più calmo per assicurarsi i volumi del primo trimestre 2027.",
+    "<b>Gli acquirenti europei</b> dovrebbero monitorare i prezzi delle gare cinesi, che dettano il tono al mercato mondiale del ferrosilicio."
+   ],
+   "cta": "Cercate FeSi 75?"
+  }
+ },
+ "image": "fesi-china-weak"
+}

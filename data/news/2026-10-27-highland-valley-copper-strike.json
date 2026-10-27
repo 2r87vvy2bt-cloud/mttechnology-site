@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-27-highland-valley-copper-strike",
+ "date": "2026-10-27",
+ "category": "nonferrous",
+ "minutes": 3,
+ "source": {
+  "bg": "The Northern Miner, 26.10.2026",
+  "ru": "The Northern Miner, 26.10.2026",
+  "uk": "The Northern Miner, 26.10.2026",
+  "en": "The Northern Miner, 26.10.2026",
+  "de": "The Northern Miner, 26.10.2026",
+  "fr": "The Northern Miner, 26.10.2026",
+  "es": "The Northern Miner, 26.10.2026",
+  "it": "The Northern Miner, 26.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "~1 200",
+    "ru": "~1 200",
+    "uk": "~1 200",
+    "en": "~1,200",
+    "de": "~1.200",
+    "fr": "~1 200",
+    "es": "~1.200",
+    "it": "~1.200"
+   },
+   "l": {
+    "bg": "работници в стачка от 24 октомври",
+    "ru": "работников бастуют с 24 октября",
+    "uk": "працівників страйкують з 24 жовтня",
+    "en": "workers on strike since 24 October",
+    "de": "Beschäftigte streiken seit dem 24. Oktober",
+    "fr": "salariés en grève depuis le 24 octobre",
+    "es": "trabajadores en huelga desde el 24 de octubre",
+    "it": "lavoratori in sciopero dal 24 ottobre"
+   }
+  },
+  {
+   "v": {
+    "bg": "127 100 т",
+    "ru": "127 100 т",
+    "uk": "127 100 т",
+    "en": "127,100 t",
+    "de": "127.100 t",
+    "fr": "127 100 t",
+    "es": "127.100 t",
+    "it": "127.100 t"
+   },
+   "l": {
+    "bg": "мед, произведена от рудника през 2025 г.",
+    "ru": "меди произвёл рудник в 2025 году",
+    "uk": "міді виробив рудник у 2025 році",
+    "en": "of copper produced by the mine in 2025",
+    "de": "Kupfer förderte die Mine 2025",
+    "fr": "de cuivre produites par la mine en 2025",
+    "es": "de cobre producidas por la mina en 2025",
+    "it": "di rame prodotte dalla miniera nel 2025"
+   }
+  },
+  {
+   "v": {
+    "bg": "~28%",
+    "ru": "~28%",
+    "uk": "~28%",
+    "en": "~28%",
+    "de": "~28 %",
+    "fr": "~28 %",
+    "es": "~28 %",
+    "it": "~28%"
+   },
+   "l": {
+    "bg": "от медното производство на Teck",
+    "ru": "медного производства Teck",
+    "uk": "мідного виробництва Teck",
+    "en": "of Teck's copper output",
+    "de": "der Kupferproduktion von Teck",
+    "fr": "de la production de cuivre de Teck",
+    "es": "de la producción de cobre de Teck",
+    "it": "della produzione di rame di Teck"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Стачка в най-големия меден рудник на Канада: Highland Valley Copper работи с намален капацитет",
+   "lead": "Около 1 200 работници в рудника Highland Valley Copper на Teck в Британска Колумбия стачкуват от 24 октомври. Рудникът произвежда над една четвърт от медта на компанията, а пазарът на рафинирана мед и без това е напрегнат.",
+   "what": [
+    "Синдикатът United Steelworkers Local 7619 започна стачка в събота, след като колективният трудов договор изтече на 30 септември. За стачката са гласували всичките 944 участвали в гласуването членове. Спорът е за заплатите, пенсиите и числеността на персонала. Teck съобщава, че рудникът продължава да работи с намален капацитет.",
+    "През 2025 г. Highland Valley Copper е произвел 127 100 т мед — около 28% от общо 453 500 т на Teck. Неотдавна животът на рудника беше удължен до 2046 г., а Teck е в процес на сливане с Anglo American. Въздействието върху предлагането ще зависи от продължителността на стачката."
+   ],
+   "means": [
+    "<b>Медни концентрати:</b> всяко продължително спиране намалява предлагането за топилните заводи и поддържа ниски таксите за преработка (TC/RC).",
+    "<b>Рафинирана мед и скрап:</b> рискът за предлагането поддържа цените; качественият меден скрап остава търсена алтернатива на катодите.",
+    "<b>Купувачите</b> е разумно да планират обемите за следващите месеци предварително и да фиксират част от цената."
+   ],
+   "cta": "Купувате медни катоди или скрап?"
+  },
+  "ru": {
+   "title": "Забастовка на крупнейшем медном руднике Канады: Highland Valley Copper работает на пониженной мощности",
+   "lead": "Около 1 200 работников рудника Highland Valley Copper компании Teck в Британской Колумбии бастуют с 24 октября. Рудник даёт более четверти меди компании, а рынок рафинированной меди и без того напряжён.",
+   "what": [
+    "Профсоюз United Steelworkers Local 7619 объявил забастовку в субботу, после того как коллективный договор истёк 30 сентября. За забастовку проголосовали все 944 участвовавших в голосовании члена профсоюза. Разногласия касаются зарплат, пенсий и численности персонала. Teck сообщает, что рудник продолжает работать на пониженной мощности.",
+    "В 2025 году Highland Valley Copper произвёл 127 100 т меди — около 28% от общего объёма Teck в 453 500 т. Недавно срок эксплуатации рудника продлили до 2046 года, а сама Teck находится в процессе слияния с Anglo American. Влияние на предложение будет зависеть от продолжительности забастовки."
+   ],
+   "means": [
+    "<b>Медные концентраты:</b> любая затяжная остановка сокращает предложение для металлургических заводов и удерживает плату за переработку (TC/RC) на низком уровне.",
+    "<b>Рафинированная медь и лом:</b> риск для предложения поддерживает цены; качественный медный лом остаётся востребованной альтернативой катодам.",
+    "<b>Покупателям</b> разумно заранее спланировать объёмы на ближайшие месяцы и зафиксировать часть цены."
+   ],
+   "cta": "Покупаете медные катоды или лом?"
+  },
+  "uk": {
+   "title": "Страйк на найбільшому мідному руднику Канади: Highland Valley Copper працює на зниженій потужності",
+   "lead": "Близько 1 200 працівників рудника Highland Valley Copper компанії Teck у Британській Колумбії страйкують з 24 жовтня. Рудник дає понад чверть міді компанії, а ринок рафінованої міді й без того напружений.",
+   "what": [
+    "Профспілка United Steelworkers Local 7619 оголосила страйк у суботу, після того як колективний договір завершився 30 вересня. За страйк проголосували всі 944 члени профспілки, які брали участь у голосуванні. Розбіжності стосуються зарплат, пенсій і чисельності персоналу. Teck повідомляє, що рудник і далі працює на зниженій потужності.",
+    "У 2025 році Highland Valley Copper виробив 127 100 т міді — близько 28% загального обсягу Teck у 453 500 т. Нещодавно термін експлуатації рудника подовжили до 2046 року, а сама Teck перебуває в процесі злиття з Anglo American. Вплив на пропозицію залежатиме від тривалості страйку."
+   ],
+   "means": [
+    "<b>Мідні концентрати:</b> будь-яка тривала зупинка скорочує пропозицію для металургійних заводів і втримує плату за переробку (TC/RC) на низькому рівні.",
+    "<b>Рафінована мідь і брухт:</b> ризик для пропозиції підтримує ціни; якісний мідний брухт лишається затребуваною альтернативою катодам.",
+    "<b>Покупцям</b> варто заздалегідь спланувати обсяги на найближчі місяці та зафіксувати частину ціни."
+   ],
+   "cta": "Купуєте мідні катоди чи брухт?"
+  },
+  "en": {
+   "title": "Strike at Canada's largest copper mine leaves Highland Valley Copper running at reduced capacity",
+   "lead": "Around 1,200 workers at Teck's Highland Valley Copper mine in British Columbia have been on strike since 24 October. The mine supplies more than a quarter of the company's copper, in an already tight refined copper market.",
+   "what": [
+    "United Steelworkers Local 7619 walked out on Saturday after the collective agreement expired on 30 September, with all 944 members who voted backing the strike. The dispute centres on wages, pensions and staffing levels. Teck says the mine continues to operate at reduced capacity.",
+    "Highland Valley Copper produced 127,100 t of copper in 2025, about 28% of Teck's total of 453,500 t. The mine's life was recently extended to 2046, and Teck is in the process of merging with Anglo American. The impact on supply will depend on how long the strike lasts."
+   ],
+   "means": [
+    "<b>Copper concentrates:</b> any prolonged stoppage reduces supply to smelters and keeps treatment and refining charges (TC/RCs) low.",
+    "<b>Refined copper and scrap:</b> supply risk is supportive for prices; high-grade copper scrap remains a sought-after alternative to cathode.",
+    "<b>Buyers</b> would be well advised to plan volumes for the coming months early and fix part of the price."
+   ],
+   "cta": "Buying copper cathode or scrap?"
+  },
+  "de": {
+   "title": "Streik in Kanadas größter Kupfermine: Highland Valley Copper läuft mit reduzierter Kapazität",
+   "lead": "Rund 1.200 Beschäftigte der Mine Highland Valley Copper von Teck in British Columbia streiken seit dem 24. Oktober. Die Mine liefert mehr als ein Viertel des Kupfers des Konzerns – und das in einem ohnehin angespannten Markt für raffiniertes Kupfer.",
+   "what": [
+    "Die Gewerkschaft United Steelworkers Local 7619 trat am Samstag in den Streik, nachdem der Tarifvertrag am 30. September ausgelaufen war; alle 944 abstimmenden Mitglieder stimmten dafür. Strittig sind Löhne, Renten und Personalstärke. Teck zufolge arbeitet die Mine mit reduzierter Kapazität weiter.",
+    "Highland Valley Copper förderte 2025 127.100 t Kupfer, rund 28 % der Gesamtproduktion von Teck in Höhe von 453.500 t. Die Lebensdauer der Mine wurde kürzlich bis 2046 verlängert, zudem befindet sich Teck in der Fusion mit Anglo American. Die Auswirkungen auf das Angebot hängen von der Dauer des Streiks ab."
+   ],
+   "means": [
+    "<b>Kupferkonzentrate:</b> Jeder längere Stillstand verknappt das Angebot für Hütten und hält die Schmelz- und Raffinierlöhne (TC/RC) niedrig.",
+    "<b>Raffiniertes Kupfer und Schrott:</b> Das Angebotsrisiko stützt die Preise; hochwertiger Kupferschrott bleibt eine gefragte Alternative zu Kathoden.",
+    "<b>Käufer</b> sollten ihre Mengen für die kommenden Monate frühzeitig planen und einen Teil des Preises fixieren."
+   ],
+   "cta": "Sie kaufen Kupferkathoden oder -schrott?"
+  },
+  "fr": {
+   "title": "Grève dans la plus grande mine de cuivre du Canada : Highland Valley Copper tourne au ralenti",
+   "lead": "Environ 1 200 salariés de la mine Highland Valley Copper de Teck, en Colombie-Britannique, sont en grève depuis le 24 octobre. La mine assure plus d'un quart du cuivre du groupe, sur un marché du cuivre raffiné déjà tendu.",
+   "what": [
+    "La section 7619 du syndicat United Steelworkers a déclenché la grève samedi, après l'expiration de la convention collective le 30 septembre ; les 944 membres ayant voté l'ont approuvée. Le différend porte sur les salaires, les retraites et les effectifs. Selon Teck, la mine continue de fonctionner à capacité réduite.",
+    "Highland Valley Copper a produit 127 100 t de cuivre en 2025, soit environ 28 % des 453 500 t de Teck. La durée de vie de la mine a récemment été prolongée jusqu'en 2046, et Teck est en cours de fusion avec Anglo American. L'impact sur l'offre dépendra de la durée de la grève."
+   ],
+   "means": [
+    "<b>Concentrés de cuivre :</b> tout arrêt prolongé réduit l'offre pour les fonderies et maintient les frais de traitement et d'affinage (TC/RC) à un bas niveau.",
+    "<b>Cuivre raffiné et ferrailles :</b> le risque sur l'offre soutient les prix ; les ferrailles de cuivre de qualité restent une alternative recherchée aux cathodes.",
+    "<b>Les acheteurs</b> ont intérêt à planifier tôt leurs volumes des prochains mois et à fixer une partie du prix."
+   ],
+   "cta": "Vous achetez des cathodes ou des ferrailles de cuivre ?"
+  },
+  "es": {
+   "title": "Huelga en la mayor mina de cobre de Canadá: Highland Valley Copper opera a capacidad reducida",
+   "lead": "Unos 1.200 trabajadores de la mina Highland Valley Copper de Teck, en Columbia Británica, están en huelga desde el 24 de octubre. La mina aporta más de una cuarta parte del cobre de la compañía, en un mercado de cobre refinado ya tensionado.",
+   "what": [
+    "La sección 7619 del sindicato United Steelworkers inició la huelga el sábado, tras expirar el convenio colectivo el 30 de septiembre; los 944 afiliados que votaron la respaldaron. El conflicto gira en torno a salarios, pensiones y plantilla. Teck afirma que la mina sigue operando a capacidad reducida.",
+    "Highland Valley Copper produjo 127.100 t de cobre en 2025, alrededor del 28 % de las 453.500 t de Teck. La vida útil de la mina se amplió recientemente hasta 2046 y Teck está en proceso de fusión con Anglo American. El impacto en la oferta dependerá de la duración de la huelga."
+   ],
+   "means": [
+    "<b>Concentrados de cobre:</b> cualquier parada prolongada reduce la oferta para las fundiciones y mantiene bajos los cargos de tratamiento y refinado (TC/RC).",
+    "<b>Cobre refinado y chatarra:</b> el riesgo de oferta sostiene los precios; la chatarra de cobre de calidad sigue siendo una alternativa muy demandada al cátodo.",
+    "<b>Los compradores</b> harían bien en planificar con antelación los volúmenes de los próximos meses y fijar parte del precio."
+   ],
+   "cta": "¿Compra cátodos o chatarra de cobre?"
+  },
+  "it": {
+   "title": "Sciopero nella più grande miniera di rame del Canada: Highland Valley Copper a capacità ridotta",
+   "lead": "Circa 1.200 lavoratori della miniera Highland Valley Copper di Teck, nella Columbia Britannica, sono in sciopero dal 24 ottobre. La miniera fornisce oltre un quarto del rame del gruppo, in un mercato del rame raffinato già teso.",
+   "what": [
+    "La sezione 7619 del sindacato United Steelworkers ha proclamato lo sciopero sabato, dopo la scadenza del contratto collettivo il 30 settembre; tutti i 944 iscritti che hanno votato si sono espressi a favore. La vertenza riguarda salari, pensioni e organici. Teck riferisce che la miniera continua a operare a capacità ridotta.",
+    "Nel 2025 Highland Valley Copper ha prodotto 127.100 t di rame, circa il 28% delle 453.500 t complessive di Teck. La vita utile della miniera è stata di recente estesa al 2046 e Teck è in fase di fusione con Anglo American. L'impatto sull'offerta dipenderà dalla durata dello sciopero."
+   ],
+   "means": [
+    "<b>Concentrati di rame:</b> ogni fermo prolungato riduce l'offerta per le fonderie e mantiene bassi i costi di trattamento e raffinazione (TC/RC).",
+    "<b>Rame raffinato e rottami:</b> il rischio sull'offerta sostiene i prezzi; i rottami di rame di qualità restano un'alternativa ricercata al catodo.",
+    "<b>Gli acquirenti</b> farebbero bene a pianificare per tempo i volumi dei prossimi mesi e a fissare parte del prezzo."
+   ],
+   "cta": "Acquistate catodi o rottami di rame?"
+  }
+ },
+ "image": "copper-mine-strike"
+}
