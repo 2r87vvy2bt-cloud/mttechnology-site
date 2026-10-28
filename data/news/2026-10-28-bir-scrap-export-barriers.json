@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-28-bir-scrap-export-barriers",
+ "date": "2026-10-28",
+ "category": "scrap",
+ "minutes": 3,
+ "image": "brass-scrap-trade",
+ "source": {
+  "bg": "Recycling Today, 27.10.2026",
+  "ru": "Recycling Today, 27.10.2026",
+  "uk": "Recycling Today, 27.10.2026",
+  "en": "Recycling Today, 27.10.2026",
+  "de": "Recycling Today, 27.10.2026",
+  "fr": "Recycling Today, 27.10.2026",
+  "es": "Recycling Today, 27.10.2026",
+  "it": "Recycling Today, 27.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "≈ 1/3",
+    "ru": "≈ 1/3",
+    "uk": "≈ 1/3",
+    "en": "≈ 1/3",
+    "de": "≈ 1/3",
+    "fr": "≈ 1/3",
+    "es": "≈ 1/3",
+    "it": "≈ 1/3"
+   },
+   "l": {
+    "bg": "дял на рециклираната мед в суровината за световното производство на мед, 2024 г.",
+    "ru": "доля вторичной меди в сырье мирового производства меди, 2024",
+    "uk": "частка вторинної міді в сировині світового виробництва міді, 2024",
+    "en": "share of recycled copper in global copper feedstock, 2024",
+    "de": "Anteil von Recyclingkupfer am Einsatzmaterial der Weltkupferproduktion, 2024",
+    "fr": "part du cuivre recyclé dans les matières premières de la production mondiale de cuivre, 2024",
+    "es": "cuota del cobre reciclado en la materia prima de la producción mundial de cobre, 2024",
+    "it": "quota di rame riciclato nella materia prima della produzione mondiale di rame, 2024"
+   }
+  },
+  {
+   "v": {
+    "bg": "42 млн т",
+    "ru": "42 млн т",
+    "uk": "42 млн т",
+    "en": "42 Mt",
+    "de": "42 Mio. t",
+    "fr": "42 Mt",
+    "es": "42 Mt",
+    "it": "42 Mt"
+   },
+   "l": {
+    "bg": "очаквано световно търсене на меден скрап до 2040 г. (+50%)",
+    "ru": "ожидаемый мировой спрос на медный лом к 2040 г. (+50%)",
+    "uk": "очікуваний світовий попит на мідний брухт до 2040 р. (+50%)",
+    "en": "expected global copper scrap demand by 2040 (+50%)",
+    "de": "erwartete weltweite Nachfrage nach Kupferschrott bis 2040 (+50 %)",
+    "fr": "demande mondiale attendue de ferrailles de cuivre d'ici 2040 (+50 %)",
+    "es": "demanda mundial prevista de chatarra de cobre en 2040 (+50 %)",
+    "it": "domanda mondiale attesa di rottami di rame al 2040 (+50%)"
+   }
+  },
+  {
+   "v": {
+    "bg": "41,7%",
+    "ru": "41,7%",
+    "uk": "41,7%",
+    "en": "41.7%",
+    "de": "41,7 %",
+    "fr": "41,7 %",
+    "es": "41,7 %",
+    "it": "41,7%"
+   },
+   "l": {
+    "bg": "дял на месинга в износа на меден скрап от ЕС, 2025 г.",
+    "ru": "доля латуни в экспорте медного лома из ЕС, 2025",
+    "uk": "частка латуні в експорті мідного брухту з ЄС, 2025",
+    "en": "brass share of EU copper scrap exports, 2025",
+    "de": "Messinganteil an den EU-Exporten von Kupferschrott, 2025",
+    "fr": "part du laiton dans les exportations européennes de ferrailles de cuivre, 2025",
+    "es": "cuota del latón en las exportaciones de chatarra de cobre de la UE, 2025",
+    "it": "quota dell'ottone nell'export UE di rottami di rame, 2025"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Ограниченията върху износа на скрап заплашват рециклирането на цветни метали в Европа",
+   "lead": "На конвенцията на Международното бюро по рециклиране (BIR) в Малага експерти предупредиха: забраните и квотите за износ на метален скрап могат да намалят събирането и преработката му, вместо да ги увеличат.",
+   "what": [
+    "На заседанието на секция „Цветни метали“ на BIR на 26 октомври беше представено проучване за последиците от търговските бариери за медния скрап. Според авторите около една трета от суровината за световното производство на мед през 2024 г. е дошла от рециклиране, а търсенето на меден скрап до 2040 г. може да достигне 42 млн т — с 50% повече от днес.",
+    "Изследователите посочват четири риска от ограниченията за износ: по-малко пазари за продажба, по-ниски вътрешни цени на скрапа, по-слабо събиране и сортиране на сложните фракции и по-малко средства за инвестиции. Особено уязвим е месингът: през 2025 г. той е 41,7% от износа на меден скрап от ЕС, като 80% от него отиват в Китай и Индия. Европейските преработватели признават, че при рязко спиране на износа в дворовете им ще се натрупат „планини от месинг“."
+   ],
+   "means": [
+    "<b>Продавачите на месинг и сложни медни фракции</b> трябва да следят дебата в ЕС: евентуални ограничения могат бързо да свият пазара и да натиснат цените.",
+    "<b>Добре сортираният скрап</b> — отделен цинк от мед, чисти фракции — запазва търсенето в Европа и при по-строги правила.",
+    "<b>Купувачите в Азия</b> е разумно да договарят обеми и графици на доставки отрано, докато регулацията се изяснява."
+   ],
+   "cta": "Продавате меден или месингов скрап?"
+  },
+  "ru": {
+   "title": "Ограничения на экспорт лома угрожают переработке цветных металлов в Европе",
+   "lead": "На конвенции Международного бюро по переработке (BIR) в Малаге эксперты предупредили: запреты и квоты на экспорт металлолома могут сократить его сбор и переработку, а не увеличить их.",
+   "what": [
+    "На заседании секции цветных металлов BIR 26 октября представили исследование о последствиях торговых барьеров для медного лома. По оценке авторов, около трети сырья для мирового производства меди в 2024 году пришлось на вторичную медь, а спрос на медный лом к 2040 году может достичь 42 млн т — на 50% больше нынешнего уровня.",
+    "Исследователи называют четыре риска экспортных ограничений: меньше рынков сбыта, более низкие внутренние цены на лом, ослабление сбора и сортировки сложных фракций и меньше средств на инвестиции. Особенно уязвима латунь: в 2025 году на неё пришлось 41,7% экспорта медного лома из ЕС, причём 80% этих объёмов ушли в Китай и Индию. Европейские переработчики признают, что при резкой остановке экспорта на их площадках скопятся «горы латуни»."
+   ],
+   "means": [
+    "<b>Продавцам латуни и сложных медных фракций</b> стоит следить за дискуссией в ЕС: возможные ограничения способны быстро сузить рынок и надавить на цены.",
+    "<b>Хорошо отсортированный лом</b> — с отделённым цинком, чистые фракции — сохраняет спрос в Европе даже при ужесточении правил.",
+    "<b>Покупателям в Азии</b> разумно заранее согласовывать объёмы и графики поставок, пока регулирование не прояснилось."
+   ],
+   "cta": "Продаёте медный или латунный лом?"
+  },
+  "uk": {
+   "title": "Обмеження експорту брухту загрожують переробці кольорових металів у Європі",
+   "lead": "На конвенції Міжнародного бюро з переробки (BIR) у Малазі експерти застерегли: заборони та квоти на експорт металобрухту можуть скоротити його збирання й переробку, а не збільшити їх.",
+   "what": [
+    "На засіданні секції кольорових металів BIR 26 жовтня представили дослідження про наслідки торговельних бар'єрів для мідного брухту. За оцінкою авторів, близько третини сировини для світового виробництва міді у 2024 році становила вторинна мідь, а попит на мідний брухт до 2040 року може сягнути 42 млн т — на 50% більше, ніж нині.",
+    "Дослідники називають чотири ризики експортних обмежень: менше ринків збуту, нижчі внутрішні ціни на брухт, слабше збирання та сортування складних фракцій і менше коштів на інвестиції. Найвразливіша латунь: у 2025 році вона становила 41,7% експорту мідного брухту з ЄС, причому 80% цих обсягів пішли до Китаю та Індії. Європейські переробники визнають, що за різкої зупинки експорту на їхніх майданчиках накопичаться «гори латуні»."
+   ],
+   "means": [
+    "<b>Продавцям латуні та складних мідних фракцій</b> варто стежити за дискусією в ЄС: можливі обмеження здатні швидко звузити ринок і тиснути на ціни.",
+    "<b>Добре відсортований брухт</b> — з відокремленим цинком, чисті фракції — зберігає попит у Європі навіть за суворіших правил.",
+    "<b>Покупцям в Азії</b> доцільно заздалегідь погоджувати обсяги та графіки поставок, доки регулювання не з'ясувалося."
+   ],
+   "cta": "Продаєте мідний або латунний брухт?"
+  },
+  "en": {
+   "title": "Scrap export curbs threaten non-ferrous recycling in Europe",
+   "lead": "At the Bureau of International Recycling (BIR) convention in Málaga, speakers warned that bans and quotas on metal scrap exports may reduce collection and processing rather than boost it.",
+   "what": [
+    "The BIR Non-Ferrous Metals Division meeting on 26 October heard findings from a study on the effects of trade barriers on recovered copper. Its authors estimate that around one third of the feedstock for global copper production in 2024 came from recycling, and that demand for copper scrap could reach 42 million tonnes by 2040 — 50% above today's level.",
+    "The researchers set out four risks of export restrictions: fewer sales outlets, lower domestic scrap prices, weaker collection and sorting of complex grades, and less capital for investment. Brass is most exposed: in 2025 it accounted for 41.7% of EU copper scrap exports, with 80% of that volume going to China and India. European processors conceded that an abrupt halt to exports would leave “mountains of brass” in their yards."
+   ],
+   "means": [
+    "<b>Sellers of brass and complex copper grades</b> should follow the EU debate closely: restrictions could shrink the market quickly and weigh on prices.",
+    "<b>Well-sorted scrap</b> — zinc separated from copper, clean grades — keeps its demand in Europe even under tighter rules.",
+    "<b>Buyers in Asia</b> would be wise to agree volumes and delivery schedules early, while the regulatory picture is still taking shape."
+   ],
+   "cta": "Selling copper or brass scrap?"
+  },
+  "de": {
+   "title": "Exportbeschränkungen für Schrott gefährden das NE-Metall-Recycling in Europa",
+   "lead": "Auf dem Kongress des Bureau of International Recycling (BIR) in Málaga warnten Experten: Ausfuhrverbote und Quoten für Metallschrott könnten Sammlung und Aufbereitung eher verringern als stärken.",
+   "what": [
+    "In der Sitzung der BIR-Sparte Nichteisenmetalle am 26. Oktober wurde eine Studie zu den Folgen von Handelsbarrieren für Kupferschrott vorgestellt. Den Autoren zufolge stammte 2024 rund ein Drittel des Einsatzmaterials der weltweiten Kupferproduktion aus dem Recycling; die Nachfrage nach Kupferschrott könnte bis 2040 auf 42 Mio. t steigen — 50 % mehr als heute.",
+    "Die Forscher nennen vier Risiken von Exportbeschränkungen: weniger Absatzmärkte, niedrigere Inlandspreise für Schrott, schwächere Sammlung und Sortierung komplexer Sorten sowie weniger Mittel für Investitionen. Besonders betroffen ist Messing: 2025 entfielen darauf 41,7 % der EU-Exporte von Kupferschrott, 80 % davon gingen nach China und Indien. Europäische Aufbereiter räumten ein, dass ein abrupter Exportstopp „Berge von Messing“ auf ihren Plätzen hinterlassen würde."
+   ],
+   "means": [
+    "<b>Verkäufer von Messing und komplexen Kupfersorten</b> sollten die EU-Debatte genau verfolgen: Beschränkungen könnten den Markt rasch verengen und die Preise drücken.",
+    "<b>Gut sortierter Schrott</b> — Zink vom Kupfer getrennt, saubere Sorten — bleibt in Europa auch unter strengeren Regeln gefragt.",
+    "<b>Käufer in Asien</b> tun gut daran, Mengen und Liefertermine frühzeitig zu vereinbaren, solange der Rechtsrahmen noch offen ist."
+   ],
+   "cta": "Sie verkaufen Kupfer- oder Messingschrott?"
+  },
+  "fr": {
+   "title": "Les restrictions à l'export de ferrailles menacent le recyclage des non-ferreux en Europe",
+   "lead": "Lors de la convention du Bureau of International Recycling (BIR) à Malaga, des experts ont averti que les interdictions et quotas d'exportation de ferrailles pourraient réduire la collecte et le traitement au lieu de les stimuler.",
+   "what": [
+    "La réunion de la division Métaux non ferreux du BIR, le 26 octobre, a présenté une étude sur les effets des barrières commerciales sur le cuivre de récupération. Selon ses auteurs, environ un tiers des matières premières de la production mondiale de cuivre en 2024 provenait du recyclage, et la demande de ferrailles de cuivre pourrait atteindre 42 millions de tonnes d'ici 2040, soit 50 % de plus qu'aujourd'hui.",
+    "Les chercheurs identifient quatre risques liés aux restrictions à l'export : moins de débouchés, des prix intérieurs plus bas, une collecte et un tri plus faibles des qualités complexes et moins de capitaux pour investir. Le laiton est le plus exposé : en 2025, il représentait 41,7 % des exportations européennes de ferrailles de cuivre, dont 80 % à destination de la Chine et de l'Inde. Des recycleurs européens reconnaissent qu'un arrêt brutal des exportations laisserait des « montagnes de laiton » sur leurs parcs."
+   ],
+   "means": [
+    "<b>Les vendeurs de laiton et de qualités cuivreuses complexes</b> doivent suivre de près le débat européen : des restrictions pourraient vite réduire le marché et peser sur les prix.",
+    "<b>Les ferrailles bien triées</b> — zinc séparé du cuivre, qualités propres — restent recherchées en Europe, même avec des règles plus strictes.",
+    "<b>Les acheteurs asiatiques</b> ont intérêt à fixer tôt volumes et calendriers de livraison, tant que le cadre réglementaire reste flou."
+   ],
+   "cta": "Vous vendez des ferrailles de cuivre ou de laiton ?"
+  },
+  "es": {
+   "title": "Las restricciones a la exportación de chatarra amenazan el reciclaje de no férreos en Europa",
+   "lead": "En la convención del Bureau of International Recycling (BIR) en Málaga, varios expertos advirtieron que las prohibiciones y cuotas a la exportación de chatarra pueden reducir su recogida y tratamiento en lugar de impulsarlos.",
+   "what": [
+    "En la reunión de la división de metales no férreos del BIR, el 26 de octubre, se presentó un estudio sobre los efectos de las barreras comerciales en el cobre recuperado. Según sus autores, cerca de un tercio de la materia prima de la producción mundial de cobre en 2024 procedió del reciclaje, y la demanda de chatarra de cobre podría alcanzar 42 millones de toneladas en 2040, un 50 % más que hoy.",
+    "Los investigadores señalan cuatro riesgos de las restricciones a la exportación: menos mercados de venta, precios internos más bajos, una recogida y clasificación más débiles de las calidades complejas y menos capital para invertir. El latón es el más expuesto: en 2025 supuso el 41,7 % de las exportaciones de chatarra de cobre de la UE, y el 80 % de ese volumen fue a China e India. Recicladores europeos admiten que un frenazo brusco de las exportaciones dejaría «montañas de latón» en sus parques."
+   ],
+   "means": [
+    "<b>Los vendedores de latón y calidades complejas de cobre</b> deben seguir de cerca el debate en la UE: las restricciones podrían estrechar rápido el mercado y presionar los precios.",
+    "<b>La chatarra bien clasificada</b> — zinc separado del cobre, calidades limpias — mantiene su demanda en Europa incluso con normas más estrictas.",
+    "<b>A los compradores asiáticos</b> les conviene pactar volúmenes y calendarios de entrega con antelación, mientras se aclara la regulación."
+   ],
+   "cta": "¿Vende chatarra de cobre o latón?"
+  },
+  "it": {
+   "title": "Le restrizioni all'export di rottami minacciano il riciclo dei non ferrosi in Europa",
+   "lead": "Alla convention del Bureau of International Recycling (BIR) a Malaga gli esperti hanno avvertito che divieti e quote all'export di rottami metallici potrebbero ridurne raccolta e lavorazione invece di aumentarle.",
+   "what": [
+    "Alla riunione della divisione Metalli non ferrosi del BIR del 26 ottobre è stato presentato uno studio sugli effetti delle barriere commerciali sul rame da recupero. Secondo gli autori, nel 2024 circa un terzo della materia prima della produzione mondiale di rame proveniva dal riciclo, e la domanda di rottami di rame potrebbe raggiungere 42 milioni di tonnellate entro il 2040, il 50% in più rispetto a oggi.",
+    "I ricercatori indicano quattro rischi delle restrizioni all'export: meno sbocchi commerciali, prezzi interni dei rottami più bassi, raccolta e selezione più deboli delle qualità complesse e meno capitali da investire. L'ottone è il più esposto: nel 2025 rappresentava il 41,7% dell'export UE di rottami di rame, e l'80% di questi volumi è andato in Cina e India. I riciclatori europei ammettono che uno stop improvviso all'export lascerebbe «montagne di ottone» nei loro piazzali."
+   ],
+   "means": [
+    "<b>Chi vende ottone e qualità complesse di rame</b> dovrebbe seguire da vicino il dibattito UE: eventuali restrizioni potrebbero restringere rapidamente il mercato e pesare sui prezzi.",
+    "<b>I rottami ben selezionati</b> — zinco separato dal rame, qualità pulite — restano richiesti in Europa anche con regole più severe.",
+    "<b>Agli acquirenti asiatici</b> conviene concordare per tempo volumi e calendari di consegna, finché il quadro normativo non si chiarisce."
+   ],
+   "cta": "Vende rottami di rame o ottone?"
+  }
+ }
+}

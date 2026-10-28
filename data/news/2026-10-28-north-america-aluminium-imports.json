@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-28-north-america-aluminium-imports",
+ "date": "2026-10-28",
+ "category": "nonferrous",
+ "minutes": 3,
+ "image": "aluminium-imports-na",
+ "source": {
+  "bg": "Recycling Today, 27.10.2026",
+  "ru": "Recycling Today, 27.10.2026",
+  "uk": "Recycling Today, 27.10.2026",
+  "en": "Recycling Today, 27.10.2026",
+  "de": "Recycling Today, 27.10.2026",
+  "fr": "Recycling Today, 27.10.2026",
+  "es": "Recycling Today, 27.10.2026",
+  "it": "Recycling Today, 27.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "+3,5%",
+    "ru": "+3,5%",
+    "uk": "+3,5%",
+    "en": "+3.5%",
+    "de": "+3,5 %",
+    "fr": "+3,5 %",
+    "es": "+3,5 %",
+    "it": "+3,5%"
+   },
+   "l": {
+    "bg": "търсене на алуминий в САЩ и Канада, I полугодие 2026 г. (г/г)",
+    "ru": "спрос на алюминий в США и Канаде, I полугодие 2026 (г/г)",
+    "uk": "попит на алюміній у США та Канаді, I півріччя 2026 (р/р)",
+    "en": "US and Canadian aluminium demand, H1 2026 (y/y)",
+    "de": "Aluminiumnachfrage in den USA und Kanada, 1. Hj. 2026 (ggü. Vj.)",
+    "fr": "demande d'aluminium aux États-Unis et au Canada, S1 2026 (sur un an)",
+    "es": "demanda de aluminio en EE. UU. y Canadá, 1S 2026 (interanual)",
+    "it": "domanda di alluminio in USA e Canada, 1° sem. 2026 (a/a)"
+   }
+  },
+  {
+   "v": {
+    "bg": "6,785 млн т",
+    "ru": "6,785 млн т",
+    "uk": "6,785 млн т",
+    "en": "6.785 Mt",
+    "de": "6,785 Mio. t",
+    "fr": "6,785 Mt",
+    "es": "6,785 Mt",
+    "it": "6,785 Mt"
+   },
+   "l": {
+    "bg": "общо търсене през януари–юни (местни доставки + внос)",
+    "ru": "совокупный спрос в январе–июне (местные поставки + импорт)",
+    "uk": "сукупний попит у січні–червні (місцеві постачання + імпорт)",
+    "en": "total demand, January–June (domestic shipments + imports)",
+    "de": "Gesamtnachfrage Januar–Juni (Inlandslieferungen + Importe)",
+    "fr": "demande totale de janvier à juin (livraisons locales + importations)",
+    "es": "demanda total enero–junio (envíos locales + importaciones)",
+    "it": "domanda totale gennaio–giugno (consegne interne + import)"
+   }
+  },
+  {
+   "v": {
+    "bg": "−3,6%",
+    "ru": "−3,6%",
+    "uk": "−3,6%",
+    "en": "−3.6%",
+    "de": "−3,6 %",
+    "fr": "−3,6 %",
+    "es": "−3,6 %",
+    "it": "−3,6%"
+   },
+   "l": {
+    "bg": "доставки на полуфабрикати от местните заводи (г/г)",
+    "ru": "поставки полуфабрикатов местными заводами (г/г)",
+    "uk": "постачання напівфабрикатів місцевими заводами (р/р)",
+    "en": "semi-finished shipments by domestic mills (y/y)",
+    "de": "Halbzeuglieferungen heimischer Werke (ggü. Vj.)",
+    "fr": "livraisons de demi-produits par les usines locales (sur un an)",
+    "es": "envíos de semielaborados de las plantas locales (interanual)",
+    "it": "consegne di semilavorati degli stabilimenti locali (a/a)"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Търсенето на алуминий в Северна Америка расте, но го покрива вносът",
+   "lead": "През първото полугодие на 2026 г. търсенето на алуминий в САЩ и Канада се е увеличило с 3,5%, но ръстът идва основно от внос на полуфабрикати, докато местните заводи намаляват доставките.",
+   "what": [
+    "Според статистическия доклад на Aluminum Association общото търсене (местни доставки плюс внос) от януари до юни е около 6,785 млн т, а видимото потребление (търсене минус износ) — 6,07 млн т, с 1,8% повече за година. Ръстът следва спад от около 0,8% през цялата 2025 г. Въпреки митата в САЩ вносът на полуфабрикати, включително листов алуминий, е покрил голяма част от допълнителното търсене.",
+    "Доставките на полуфабрикати от заводите в САЩ и Канада са намалели с 3,6% на годишна база, а износът на канадски алуминиеви блокове за трети страни е нараснал. Асоциацията призовава за повече първично и вторично производство в САЩ, достъпна енергия и целеви търговски мерки — сред възможните инструменти тя споменава и контрол върху износа на алуминиев скрап."
+   ],
+   "means": [
+    "<b>Пазарът на алуминиев скрап</b> може да се промени: ако САЩ въведат ограничения за износа, предлагането за Азия и Европа ще се пренасочи и премиите ще се раздвижат.",
+    "<b>Купувачите на алуминий в Европа</b> трябва да отчитат по-силното търсене на внос в Северна Америка при планирането на доставките.",
+    "<b>Чистите и сортирани алуминиеви фракции</b> остават най-ликвидни при всякакви търговски мерки."
+   ],
+   "cta": "Търсите алуминий или алуминиев скрап?"
+  },
+  "ru": {
+   "title": "Спрос на алюминий в Северной Америке растёт, но его покрывает импорт",
+   "lead": "В первом полугодии 2026 года спрос на алюминий в США и Канаде вырос на 3,5%, однако рост обеспечил в основном импорт полуфабрикатов, тогда как местные заводы сократили поставки.",
+   "what": [
+    "По данным статистического отчёта Aluminum Association, совокупный спрос (местные поставки плюс импорт) за январь–июнь составил около 6,785 млн т, а видимое потребление (спрос за вычетом экспорта) — 6,07 млн т, на 1,8% больше, чем годом ранее. Рост последовал за снижением примерно на 0,8% по итогам всего 2025 года. Несмотря на пошлины в США, значительную часть дополнительного спроса закрыл импорт полуфабрикатов, включая алюминиевый лист.",
+    "Поставки полуфабрикатов заводами США и Канады снизились на 3,6% год к году, а экспорт канадских алюминиевых чушек в третьи страны вырос. Ассоциация призывает наращивать первичное и вторичное производство в США, обеспечить доступную энергию и целевые торговые меры — среди возможных инструментов она называет и контроль экспорта алюминиевого лома."
+   ],
+   "means": [
+    "<b>Рынок алюминиевого лома</b> может измениться: если США введут ограничения на экспорт, предложение для Азии и Европы перераспределится, а премии придут в движение.",
+    "<b>Покупателям алюминия в Европе</b> стоит учитывать возросший спрос Северной Америки на импорт при планировании поставок.",
+    "<b>Чистые и отсортированные алюминиевые фракции</b> остаются самыми ликвидными при любых торговых мерах."
+   ],
+   "cta": "Нужен алюминий или алюминиевый лом?"
+  },
+  "uk": {
+   "title": "Попит на алюміній у Північній Америці зростає, але його покриває імпорт",
+   "lead": "У першому півріччі 2026 року попит на алюміній у США та Канаді зріс на 3,5%, проте зростання забезпечив переважно імпорт напівфабрикатів, тоді як місцеві заводи скоротили постачання.",
+   "what": [
+    "За даними статистичного звіту Aluminum Association, сукупний попит (місцеві постачання плюс імпорт) за січень–червень становив близько 6,785 млн т, а видиме споживання (попит за вирахуванням експорту) — 6,07 млн т, на 1,8% більше, ніж роком раніше. Зростання настало після зниження приблизно на 0,8% за підсумками всього 2025 року. Попри мита в США, значну частину додаткового попиту закрив імпорт напівфабрикатів, зокрема алюмінієвого листа.",
+    "Постачання напівфабрикатів заводами США та Канади знизилися на 3,6% рік до року, а експорт канадських алюмінієвих чушок до третіх країн зріс. Асоціація закликає нарощувати первинне й вторинне виробництво в США, забезпечити доступну енергію та цільові торговельні заходи — серед можливих інструментів вона називає й контроль експорту алюмінієвого брухту."
+   ],
+   "means": [
+    "<b>Ринок алюмінієвого брухту</b> може змінитися: якщо США запровадять обмеження на експорт, пропозиція для Азії та Європи перерозподілиться, а премії почнуть рухатися.",
+    "<b>Покупцям алюмінію в Європі</b> варто враховувати зрослий попит Північної Америки на імпорт під час планування постачань.",
+    "<b>Чисті та відсортовані алюмінієві фракції</b> лишаються найліквіднішими за будь-яких торговельних заходів."
+   ],
+   "cta": "Потрібен алюміній або алюмінієвий брухт?"
+  },
+  "en": {
+   "title": "North American aluminium demand grows, but imports fill the gap",
+   "lead": "Aluminium demand in the US and Canada rose 3.5% in the first half of 2026, yet the growth came mainly from imports of semi-finished products while domestic mills shipped less.",
+   "what": [
+    "According to the Aluminum Association's statistical report, total demand (domestic shipments plus imports) reached an estimated 6.785 million tonnes from January to June, and apparent consumption (demand minus exports) 6.07 million tonnes, up 1.8% year on year. The rebound follows an estimated 0.8% decline over the whole of 2025. Despite US tariffs, imports of semis, including aluminium sheet, met much of the additional demand.",
+    "Shipments of semi-finished products by US and Canadian mills fell 3.6% year on year, while exports of Canadian aluminium ingot to third countries increased. The association is calling for more primary and recycled production in the US, affordable energy and targeted trade enforcement — and lists scrap export controls among the possible tools."
+   ],
+   "means": [
+    "<b>The aluminium scrap market</b> could shift: if the US restricts exports, supply to Asia and Europe will be redirected and premiums will move.",
+    "<b>Aluminium buyers in Europe</b> should factor stronger North American import demand into their supply planning.",
+    "<b>Clean, well-sorted aluminium grades</b> remain the most liquid, whatever trade measures follow."
+   ],
+   "cta": "Looking for aluminium or aluminium scrap?"
+  },
+  "de": {
+   "title": "Aluminiumnachfrage in Nordamerika wächst — gedeckt wird sie durch Importe",
+   "lead": "Die Aluminiumnachfrage in den USA und Kanada stieg im ersten Halbjahr 2026 um 3,5 %, doch das Wachstum stammte vor allem aus Halbzeugimporten, während heimische Werke weniger lieferten.",
+   "what": [
+    "Laut dem Statistikbericht der Aluminum Association belief sich die Gesamtnachfrage (Inlandslieferungen plus Importe) von Januar bis Juni auf rund 6,785 Mio. t, der scheinbare Verbrauch (Nachfrage abzüglich Exporte) auf 6,07 Mio. t — 1,8 % mehr als im Vorjahr. Die Erholung folgt auf einen Rückgang von etwa 0,8 % im Gesamtjahr 2025. Trotz US-Zöllen deckten Halbzeugimporte, darunter Aluminiumblech, einen Großteil der zusätzlichen Nachfrage.",
+    "Die Halbzeuglieferungen der Werke in den USA und Kanada sanken um 3,6 % gegenüber dem Vorjahr, während die Exporte kanadischer Aluminiumbarren in Drittländer zunahmen. Der Verband fordert mehr Primär- und Sekundärproduktion in den USA, bezahlbare Energie und gezielte Handelsmaßnahmen — und nennt dabei auch Exportkontrollen für Aluminiumschrott."
+   ],
+   "means": [
+    "<b>Der Markt für Aluminiumschrott</b> könnte sich verschieben: Beschränken die USA die Ausfuhr, werden Mengen für Asien und Europa umgelenkt und die Prämien geraten in Bewegung.",
+    "<b>Aluminiumkäufer in Europa</b> sollten die stärkere Importnachfrage Nordamerikas in ihre Beschaffungsplanung einbeziehen.",
+    "<b>Saubere, sortenreine Aluminiumschrotte</b> bleiben unabhängig von Handelsmaßnahmen am liquidesten."
+   ],
+   "cta": "Sie suchen Aluminium oder Aluminiumschrott?"
+  },
+  "fr": {
+   "title": "La demande d'aluminium progresse en Amérique du Nord, mais ce sont les importations qui la couvrent",
+   "lead": "La demande d'aluminium aux États-Unis et au Canada a augmenté de 3,5 % au premier semestre 2026, mais la hausse provient surtout des importations de demi-produits, tandis que les usines locales ont livré moins.",
+   "what": [
+    "Selon le rapport statistique de l'Aluminum Association, la demande totale (livraisons locales plus importations) a atteint environ 6,785 millions de tonnes de janvier à juin, et la consommation apparente (demande moins exportations) 6,07 millions de tonnes, en hausse de 1,8 % sur un an. Ce rebond fait suite à un recul d'environ 0,8 % sur l'ensemble de 2025. Malgré les droits de douane américains, les importations de demi-produits, dont la tôle d'aluminium, ont couvert une grande partie de la demande supplémentaire.",
+    "Les livraisons de demi-produits des usines américaines et canadiennes ont reculé de 3,6 % sur un an, tandis que les exportations de lingots d'aluminium canadiens vers des pays tiers ont progressé. L'association plaide pour davantage de production primaire et recyclée aux États-Unis, une énergie abordable et des mesures commerciales ciblées, en citant notamment des contrôles à l'exportation des ferrailles d'aluminium."
+   ],
+   "means": [
+    "<b>Le marché des ferrailles d'aluminium</b> pourrait évoluer : si les États-Unis restreignent les exportations, les flux vers l'Asie et l'Europe seront réorientés et les primes bougeront.",
+    "<b>Les acheteurs européens d'aluminium</b> doivent intégrer la demande d'importation plus forte de l'Amérique du Nord dans leur planification.",
+    "<b>Les qualités d'aluminium propres et bien triées</b> restent les plus liquides, quelles que soient les mesures commerciales."
+   ],
+   "cta": "Vous cherchez de l'aluminium ou des ferrailles d'aluminium ?"
+  },
+  "es": {
+   "title": "La demanda de aluminio crece en Norteamérica, pero la cubren las importaciones",
+   "lead": "La demanda de aluminio en EE. UU. y Canadá aumentó un 3,5 % en el primer semestre de 2026, pero el crecimiento procedió sobre todo de las importaciones de semielaborados, mientras las plantas locales enviaron menos.",
+   "what": [
+    "Según el informe estadístico de la Aluminum Association, la demanda total (envíos locales más importaciones) alcanzó unos 6,785 millones de toneladas entre enero y junio, y el consumo aparente (demanda menos exportaciones) 6,07 millones de toneladas, un 1,8 % más que un año antes. La recuperación llega tras un descenso de alrededor del 0,8 % en el conjunto de 2025. Pese a los aranceles en EE. UU., las importaciones de semielaborados, incluida la chapa de aluminio, cubrieron buena parte de la demanda adicional.",
+    "Los envíos de semielaborados de las plantas de EE. UU. y Canadá cayeron un 3,6 % interanual, mientras aumentaron las exportaciones de lingote de aluminio canadiense a terceros países. La asociación pide más producción primaria y reciclada en EE. UU., energía asequible y medidas comerciales específicas, y menciona entre las posibles herramientas el control de las exportaciones de chatarra de aluminio."
+   ],
+   "means": [
+    "<b>El mercado de chatarra de aluminio</b> podría cambiar: si EE. UU. restringe las exportaciones, la oferta para Asia y Europa se redirigirá y las primas se moverán.",
+    "<b>Los compradores europeos de aluminio</b> deben tener en cuenta la mayor demanda de importación de Norteamérica al planificar sus suministros.",
+    "<b>Las calidades de aluminio limpias y bien clasificadas</b> siguen siendo las más líquidas, sean cuales sean las medidas comerciales."
+   ],
+   "cta": "¿Busca aluminio o chatarra de aluminio?"
+  },
+  "it": {
+   "title": "Cresce la domanda di alluminio in Nord America, ma a coprirla sono le importazioni",
+   "lead": "Nel primo semestre 2026 la domanda di alluminio in USA e Canada è salita del 3,5%, ma la crescita è dovuta soprattutto alle importazioni di semilavorati, mentre gli stabilimenti locali hanno consegnato meno.",
+   "what": [
+    "Secondo il rapporto statistico dell'Aluminum Association, la domanda totale (consegne interne più import) tra gennaio e giugno è stata di circa 6,785 milioni di tonnellate e il consumo apparente (domanda meno export) di 6,07 milioni di tonnellate, in aumento dell'1,8% su base annua. Il rimbalzo segue un calo di circa lo 0,8% nell'intero 2025. Nonostante i dazi statunitensi, le importazioni di semilavorati, tra cui la lamiera di alluminio, hanno coperto gran parte della domanda aggiuntiva.",
+    "Le consegne di semilavorati degli stabilimenti di USA e Canada sono scese del 3,6% su base annua, mentre è cresciuto l'export di lingotti di alluminio canadesi verso paesi terzi. L'associazione chiede più produzione primaria e riciclata negli USA, energia accessibile e misure commerciali mirate, citando tra gli strumenti possibili anche i controlli sull'export di rottami di alluminio."
+   ],
+   "means": [
+    "<b>Il mercato dei rottami di alluminio</b> potrebbe cambiare: se gli USA limitano l'export, l'offerta per Asia ed Europa sarà riorientata e i premi si muoveranno.",
+    "<b>Gli acquirenti europei di alluminio</b> dovrebbero considerare la maggiore domanda di import del Nord America nella pianificazione delle forniture.",
+    "<b>Le qualità di alluminio pulite e ben selezionate</b> restano le più liquide, qualunque misura commerciale venga adottata."
+   ],
+   "cta": "Cerca alluminio o rottami di alluminio?"
+  }
+ }
+}
