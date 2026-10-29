@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-29-brazil-nickel-offtake",
+ "date": "2026-10-29",
+ "category": "nonferrous",
+ "minutes": 3,
+ "image": "brazil-nickel-jaguar",
+ "source": {
+  "bg": "Mining.com, 28.10.2026",
+  "ru": "Mining.com, 28.10.2026",
+  "uk": "Mining.com, 28.10.2026",
+  "en": "Mining.com, 28.10.2026",
+  "de": "Mining.com, 28.10.2026",
+  "fr": "Mining.com, 28.10.2026",
+  "es": "Mining.com, 28.10.2026",
+  "it": "Mining.com, 28.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "40 млн USD",
+    "ru": "40 млн USD",
+    "uk": "40 млн USD",
+    "en": "USD 40m",
+    "de": "40 Mio. USD",
+    "fr": "40 M USD",
+    "es": "40 M USD",
+    "it": "40 mln USD"
+   },
+   "l": {
+    "bg": "дялово участие на Glencore и CNGR (по 20 млн USD)",
+    "ru": "вложения Glencore и CNGR в капитал (по 20 млн USD)",
+    "uk": "вкладення Glencore і CNGR у капітал (по 20 млн USD)",
+    "en": "equity investment by Glencore and CNGR (USD 20m each)",
+    "de": "Eigenkapitalbeteiligung von Glencore und CNGR (je 20 Mio. USD)",
+    "fr": "prise de participation de Glencore et CNGR (20 M USD chacun)",
+    "es": "inversión en capital de Glencore y CNGR (20 M USD cada una)",
+    "it": "investimento azionario di Glencore e CNGR (20 mln USD ciascuna)"
+   }
+  },
+  {
+   "v": {
+    "bg": "≈22 500 т",
+    "ru": "≈22 500 т",
+    "uk": "≈22 500 т",
+    "en": "≈22,500 t",
+    "de": "≈22.500 t",
+    "fr": "≈22 500 t",
+    "es": "≈22.500 t",
+    "it": "≈22.500 t"
+   },
+   "l": {
+    "bg": "никел в концентрат годишно по договорите за изкупуване (от 2029 г.)",
+    "ru": "никеля в концентрате в год по договорам offtake (с 2029 г.)",
+    "uk": "нікелю в концентраті на рік за договорами offtake (з 2029 р.)",
+    "en": "contained nickel per year under the offtake deals (from 2029)",
+    "de": "enthaltenes Nickel pro Jahr aus den Abnahmeverträgen (ab 2029)",
+    "fr": "de nickel contenu par an au titre des contrats d'enlèvement (dès 2029)",
+    "es": "de níquel contenido al año según los contratos de compra (desde 2029)",
+    "it": "di nichel contenuto all'anno nei contratti di offtake (dal 2029)"
+   }
+  },
+  {
+   "v": {
+    "bg": "380 млн USD",
+    "ru": "380 млн USD",
+    "uk": "380 млн USD",
+    "en": "USD 380m",
+    "de": "380 Mio. USD",
+    "fr": "380 M USD",
+    "es": "380 M USD",
+    "it": "380 mln USD"
+   },
+   "l": {
+    "bg": "капиталови разходи за изграждане на проекта Jaguar",
+    "ru": "капитальные затраты на строительство проекта Jaguar",
+    "uk": "капітальні витрати на будівництво проєкту Jaguar",
+    "en": "capital cost to build the Jaguar project",
+    "de": "Investitionskosten für den Bau des Projekts Jaguar",
+    "fr": "coût d'investissement pour construire le projet Jaguar",
+    "es": "inversión necesaria para construir el proyecto Jaguar",
+    "it": "costo di investimento per realizzare il progetto Jaguar"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Glencore и CNGR застават зад нов никелов рудник в Бразилия",
+   "lead": "Двете компании влизат с по 20 млн USD в капитала на Centaurus Metals и си осигуряват цялата прогнозна продукция за първите пет години на сулфидния проект Jaguar в щата Пара — една от малкото нови никелови мощности извън Индонезия.",
+   "what": [
+    "Centaurus ще получи общо 40 млн USD на два транша: първоначално по 12,5 млн USD от всеки инвеститор, а вторите по 7,5 млн USD зависят от одобрение от акционерите и окончателно инвестиционно решение. Glencore и китайският производител на материали за батерии CNGR ще изкупуват всеки поне 20 000 сухи тона концентрат с около 30% никел годишно по отделни петгодишни договори от първото полугодие на 2029 г. Заедно с действащ договор на Glencore от март това покрива цялата прогнозна продукция за първите пет години — около 22 500 т никел в концентрат годишно, с обща нетна стойност на продажбите от около 900 млн USD при текущите цени.",
+    "Цената ще бъде обвързана с котировката на никела в брой на LME, като делът от стойността на метала, платим на Centaurus, ще зависи от пазарните условия; предвидени са и плащания за съпътстващите мед и кобалт. Купувачите могат да прекратят договорите, ако първата пратка не бъде изпратена до края на 2029 г. Участието на CNGR изисква китайско разрешение за инвестиции в чужбина, като условията за втория транш са с краен срок 31 януари 2027 г. Проектът струва около 380 млн USD, а процесът по осигуряване на основното дългово финансиране е в напреднал етап."
+   ],
+   "means": [
+    "<b>Нов никел извън Индонезия</b> диверсифицира предлагането, но реални обеми ще има едва след 2029 г. — до тогава пазарът остава зависим от индонезийските доставки.",
+    "<b>Ценообразуването спрямо LME</b> остава стандарт и за концентрата — купувачите на никелов скрап и сплави трябва да следят борсовата котировка.",
+    "<b>Големите търговци заключват ресурс години напред:</b> за индустриалните потребители това е сигнал да осигурят дългосрочни договори за скрап от неръждаема стомана и никелови сплави."
+   ],
+   "cta": "Търсите никел или никелов скрап?"
+  },
+  "ru": {
+   "title": "Glencore и CNGR поддержали новый никелевый рудник в Бразилии",
+   "lead": "Две компании вкладывают по 20 млн USD в капитал Centaurus Metals и получают весь прогнозный выпуск первых пяти лет сульфидного проекта Jaguar в штате Пара — одной из немногих новых никелевых мощностей за пределами Индонезии.",
+   "what": [
+    "Centaurus получит в общей сложности 40 млн USD двумя траншами: сначала по 12,5 млн USD от каждого инвестора, а вторые платежи по 7,5 млн USD зависят от одобрения акционеров и окончательного инвестиционного решения. Glencore и китайский производитель материалов для аккумуляторов CNGR будут выкупать не менее 20 000 сухих тонн концентрата с содержанием около 30% никеля в год каждый по отдельным пятилетним договорам с первого полугодия 2029 года. Вместе с действующим мартовским контрактом Glencore это покрывает весь прогнозный выпуск первых пяти лет — около 22 500 т никеля в концентрате в год при совокупной чистой стоимости продаж около 900 млн USD по текущим ценам.",
+    "Цена будет привязана к котировке никеля cash на LME, а доля стоимости металла, оплачиваемая Centaurus, будет зависеть от рыночной конъюнктуры; предусмотрены и платежи за попутные медь и кобальт. Покупатели вправе расторгнуть договоры, если первая партия концентрата не будет отгружена до конца 2029 года. Участие CNGR требует китайского разрешения на зарубежные инвестиции, а условия второго транша имеют крайний срок 31 января 2027 года. Проект оценивается примерно в 380 млн USD, а привлечение основного долгового финансирования находится на продвинутой стадии."
+   ],
+   "means": [
+    "<b>Новый никель за пределами Индонезии</b> диверсифицирует предложение, но реальные объёмы появятся только после 2029 года — до тех пор рынок зависит от индонезийских поставок.",
+    "<b>Привязка к LME</b> остаётся стандартом и для концентрата — покупателям никелевого лома и сплавов стоит следить за биржевой котировкой.",
+    "<b>Крупные трейдеры закрепляют ресурс на годы вперёд:</b> для промышленных потребителей это сигнал заключать долгосрочные контракты на лом нержавеющей стали и никелевых сплавов."
+   ],
+   "cta": "Нужен никель или никелевый лом?"
+  },
+  "uk": {
+   "title": "Glencore і CNGR підтримали нову нікелеву копальню в Бразилії",
+   "lead": "Дві компанії вкладають по 20 млн USD у капітал Centaurus Metals і отримують увесь прогнозний випуск перших п'яти років сульфідного проєкту Jaguar у штаті Пара — однієї з небагатьох нових нікелевих потужностей за межами Індонезії.",
+   "what": [
+    "Centaurus загалом отримає 40 млн USD двома траншами: спочатку по 12,5 млн USD від кожного інвестора, а другі платежі по 7,5 млн USD залежать від схвалення акціонерів і остаточного інвестиційного рішення. Glencore і китайський виробник матеріалів для акумуляторів CNGR викуповуватимуть щонайменше по 20 000 сухих тонн концентрату з вмістом близько 30% нікелю на рік за окремими п'ятирічними договорами з першого півріччя 2029 року. Разом із чинним березневим контрактом Glencore це покриває весь прогнозний випуск перших п'яти років — близько 22 500 т нікелю в концентраті на рік за сукупної чистої вартості продажів близько 900 млн USD за поточними цінами.",
+    "Ціну буде прив'язано до котирування нікелю cash на LME, а частка вартості металу, яку отримає Centaurus, залежатиме від ринкової кон'юнктури; передбачено й платежі за супутні мідь і кобальт. Покупці можуть розірвати договори, якщо першу партію концентрату не буде відвантажено до кінця 2029 року. Участь CNGR потребує китайського дозволу на зарубіжні інвестиції, а умови другого траншу мають кінцевий строк 31 січня 2027 року. Проєкт оцінюється приблизно в 380 млн USD, а залучення основного боргового фінансування перебуває на завершальній стадії."
+   ],
+   "means": [
+    "<b>Новий нікель за межами Індонезії</b> диверсифікує пропозицію, але реальні обсяги з'являться лише після 2029 року — доти ринок залежить від індонезійських постачань.",
+    "<b>Прив'язка до LME</b> залишається стандартом і для концентрату — покупцям нікелевого брухту та сплавів варто стежити за біржовим котируванням.",
+    "<b>Великі трейдери закріплюють ресурс на роки вперед:</b> для промислових споживачів це сигнал укладати довгострокові контракти на брухт нержавіючої сталі та нікелевих сплавів."
+   ],
+   "cta": "Потрібен нікель або нікелевий брухт?"
+  },
+  "en": {
+   "title": "Glencore and CNGR back a new nickel mine in Brazil",
+   "lead": "The two companies are each taking a USD 20m equity stake in Centaurus Metals and securing the entire forecast output for the first five years of the Jaguar sulphide project in Pará state — one of the few new nickel sources outside Indonesia.",
+   "what": [
+    "Centaurus will receive USD 40m in two tranches: an initial USD 12.5m from each investor, with a second USD 7.5m each dependent on shareholder approval and a final investment decision. Glencore and Chinese battery-materials producer CNGR will each buy at least 20,000 dry tonnes a year of concentrate grading around 30% nickel under separate five-year agreements starting in the first half of 2029. Together with an existing Glencore contract signed in March, this covers Jaguar's entire forecast output for its first five years — roughly 22,500 t of contained nickel a year, with an estimated combined net sales value of about USD 900m at current prices.",
+    "Pricing will be linked to the LME cash nickel price, with the share of metal value paid to Centaurus varying with market conditions; the contracts also pay for copper and cobalt by-products. The buyers may terminate if the first concentrate shipment has not been made by the end of 2029. CNGR's participation requires Chinese outbound investment approval, with conditions for the second tranche subject to a 31 January 2027 deadline. The project carries a capital cost of around USD 380m, and the senior debt financing process is well advanced."
+   ],
+   "means": [
+    "<b>New nickel outside Indonesia</b> diversifies supply, but meaningful volumes will only arrive after 2029 — until then the market remains reliant on Indonesian tonnage.",
+    "<b>LME-linked pricing</b> remains the norm for concentrate too, so buyers of nickel scrap and alloys should keep a close eye on the exchange price.",
+    "<b>Major traders are locking in resources years ahead:</b> a signal for industrial consumers to secure long-term contracts for stainless steel and nickel alloy scrap."
+   ],
+   "cta": "Looking for nickel or nickel scrap?"
+  },
+  "de": {
+   "title": "Glencore und CNGR unterstützen neue Nickelmine in Brasilien",
+   "lead": "Beide Unternehmen beteiligen sich mit je 20 Mio. USD an Centaurus Metals und sichern sich die gesamte prognostizierte Produktion der ersten fünf Jahre des Sulfidprojekts Jaguar im Bundesstaat Pará – eine der wenigen neuen Nickelquellen außerhalb Indonesiens.",
+   "what": [
+    "Centaurus erhält insgesamt 40 Mio. USD in zwei Tranchen: zunächst je 12,5 Mio. USD pro Investor, eine zweite Zahlung von je 7,5 Mio. USD hängt von der Zustimmung der Aktionäre und der finalen Investitionsentscheidung ab. Glencore und der chinesische Batteriematerialhersteller CNGR werden im Rahmen separater Fünfjahresverträge ab dem ersten Halbjahr 2029 jeweils mindestens 20.000 Trockentonnen Konzentrat mit rund 30 % Nickel pro Jahr abnehmen. Zusammen mit einem bestehenden Glencore-Vertrag vom März ist damit die gesamte prognostizierte Produktion der ersten fünf Jahre abgedeckt – rund 22.500 t enthaltenes Nickel pro Jahr bei einem geschätzten Nettoumsatzwert von etwa 900 Mio. USD zu aktuellen Preisen.",
+    "Die Preise orientieren sich am LME-Cash-Preis für Nickel, wobei der an Centaurus gezahlte Anteil am Metallwert von den Marktbedingungen abhängt; zusätzlich werden Kupfer und Kobalt als Nebenprodukte vergütet. Die Abnehmer können kündigen, falls die erste Konzentratlieferung nicht bis Ende 2029 erfolgt. Die Beteiligung von CNGR erfordert eine chinesische Genehmigung für Auslandsinvestitionen; für die Bedingungen der zweiten Tranche gilt eine Frist bis zum 31. Januar 2027. Das Projekt kostet rund 380 Mio. USD, die vorrangige Fremdfinanzierung ist weit fortgeschritten."
+   ],
+   "means": [
+    "<b>Neues Nickel außerhalb Indonesiens</b> diversifiziert das Angebot, nennenswerte Mengen kommen jedoch erst nach 2029 – bis dahin bleibt der Markt von indonesischen Tonnagen abhängig.",
+    "<b>Die LME-Bindung</b> bleibt auch bei Konzentrat Standard – Käufer von Nickelschrott und Legierungen sollten den Börsenpreis genau verfolgen.",
+    "<b>Große Händler sichern sich Ressourcen auf Jahre:</b> ein Signal für Industrieabnehmer, langfristige Verträge für Edelstahl- und Nickellegierungsschrott abzuschließen."
+   ],
+   "cta": "Sie suchen Nickel oder Nickelschrott?"
+  },
+  "fr": {
+   "title": "Glencore et CNGR soutiennent une nouvelle mine de nickel au Brésil",
+   "lead": "Les deux groupes prennent chacun une participation de 20 M USD dans Centaurus Metals et s'assurent toute la production prévue des cinq premières années du projet sulfuré Jaguar, dans l'État du Pará — l'une des rares nouvelles sources de nickel hors d'Indonésie.",
+   "what": [
+    "Centaurus recevra 40 M USD en deux tranches : d'abord 12,5 M USD par investisseur, puis 7,5 M USD chacun sous réserve de l'approbation des actionnaires et de la décision finale d'investissement. Glencore et le fabricant chinois de matériaux pour batteries CNGR achèteront chacun au moins 20 000 tonnes sèches par an de concentré titrant environ 30 % de nickel, dans le cadre de contrats distincts de cinq ans à partir du premier semestre 2029. Avec un contrat Glencore déjà signé en mars, c'est toute la production prévue des cinq premières années qui est couverte, soit environ 22 500 t de nickel contenu par an, pour une valeur nette de ventes estimée à quelque 900 M USD aux prix actuels.",
+    "Le prix sera indexé sur le cours cash du nickel au LME, la part de la valeur du métal versée à Centaurus variant selon les conditions de marché ; le cuivre et le cobalt coproduits seront également rémunérés. Les acheteurs pourront résilier si la première expédition de concentré n'a pas eu lieu fin 2029. La participation de CNGR requiert une autorisation chinoise d'investissement à l'étranger, les conditions de la seconde tranche étant assorties d'une échéance au 31 janvier 2027. Le projet représente un investissement d'environ 380 M USD, et le financement par dette senior est bien avancé."
+   ],
+   "means": [
+    "<b>Du nickel nouveau hors d'Indonésie</b> diversifie l'offre, mais les volumes significatifs n'arriveront qu'après 2029 ; d'ici là, le marché reste dépendant du tonnage indonésien.",
+    "<b>L'indexation sur le LME</b> reste la norme, y compris pour le concentré : les acheteurs de ferrailles de nickel et d'alliages doivent suivre de près le cours.",
+    "<b>Les grands négociants verrouillent des ressources des années à l'avance :</b> un signal pour les industriels de sécuriser des contrats longs sur les ferrailles d'inox et d'alliages de nickel."
+   ],
+   "cta": "Vous cherchez du nickel ou des ferrailles de nickel ?"
+  },
+  "es": {
+   "title": "Glencore y CNGR respaldan una nueva mina de níquel en Brasil",
+   "lead": "Ambas compañías invierten 20 M USD cada una en el capital de Centaurus Metals y se aseguran toda la producción prevista de los cinco primeros años del proyecto de sulfuros Jaguar, en el estado de Pará, una de las pocas nuevas fuentes de níquel fuera de Indonesia.",
+   "what": [
+    "Centaurus recibirá 40 M USD en dos tramos: primero 12,5 M USD de cada inversor y después 7,5 M USD cada uno, sujetos a la aprobación de los accionistas y a la decisión final de inversión. Glencore y el fabricante chino de materiales para baterías CNGR comprarán cada una al menos 20.000 toneladas secas al año de concentrado con alrededor del 30 % de níquel, mediante contratos separados de cinco años a partir del primer semestre de 2029. Junto con un contrato de Glencore firmado en marzo, queda cubierta toda la producción prevista de los cinco primeros años: unas 22.500 t de níquel contenido al año, con un valor neto de ventas estimado de unos 900 M USD a precios actuales.",
+    "El precio estará vinculado a la cotización cash del níquel en la LME, y la parte del valor del metal que cobrará Centaurus variará según las condiciones de mercado; los contratos también pagan el cobre y el cobalto como subproductos. Los compradores podrán rescindir si el primer embarque de concentrado no se realiza antes de finales de 2029. La participación de CNGR requiere la autorización china de inversión en el exterior, y las condiciones del segundo tramo tienen como plazo el 31 de enero de 2027. El proyecto requiere una inversión de unos 380 M USD, y la financiación con deuda sénior está muy avanzada."
+   ],
+   "means": [
+    "<b>Níquel nuevo fuera de Indonesia</b> diversifica la oferta, pero los volúmenes relevantes no llegarán hasta después de 2029; hasta entonces el mercado depende del tonelaje indonesio.",
+    "<b>La referencia LME</b> sigue siendo la norma también para el concentrado: los compradores de chatarra de níquel y aleaciones deben seguir de cerca la cotización.",
+    "<b>Los grandes traders aseguran recursos con años de antelación:</b> una señal para que los consumidores industriales cierren contratos a largo plazo de chatarra inoxidable y de aleaciones de níquel."
+   ],
+   "cta": "¿Busca níquel o chatarra de níquel?"
+  },
+  "it": {
+   "title": "Glencore e CNGR sostengono una nuova miniera di nichel in Brasile",
+   "lead": "Le due società investono 20 mln USD ciascuna nel capitale di Centaurus Metals e si assicurano l'intera produzione prevista dei primi cinque anni del progetto a solfuri Jaguar, nello stato del Pará: una delle poche nuove fonti di nichel al di fuori dell'Indonesia.",
+   "what": [
+    "Centaurus riceverà 40 mln USD in due tranche: inizialmente 12,5 mln USD da ciascun investitore, mentre un secondo versamento di 7,5 mln USD ciascuno dipende dall'approvazione degli azionisti e dalla decisione finale d'investimento. Glencore e il produttore cinese di materiali per batterie CNGR acquisteranno ciascuno almeno 20.000 tonnellate secche all'anno di concentrato con circa il 30% di nichel, con contratti quinquennali separati a partire dal primo semestre 2029. Insieme a un contratto Glencore già firmato a marzo, è coperta l'intera produzione prevista dei primi cinque anni: circa 22.500 t di nichel contenuto all'anno, per un valore netto delle vendite stimato in circa 900 mln USD ai prezzi attuali.",
+    "Il prezzo sarà legato alla quotazione cash del nichel al LME, con una quota del valore del metallo pagata a Centaurus variabile in base alle condizioni di mercato; i contratti remunerano anche rame e cobalto come sottoprodotti. Gli acquirenti potranno recedere se la prima spedizione di concentrato non avverrà entro fine 2029. La partecipazione di CNGR richiede l'autorizzazione cinese agli investimenti all'estero, e le condizioni della seconda tranche hanno come scadenza il 31 gennaio 2027. Il progetto richiede investimenti per circa 380 mln USD e il finanziamento a debito senior è in fase avanzata."
+   ],
+   "means": [
+    "<b>Nuovo nichel fuori dall'Indonesia</b> diversifica l'offerta, ma volumi significativi arriveranno solo dopo il 2029: fino ad allora il mercato resta dipendente dal tonnellaggio indonesiano.",
+    "<b>Il riferimento LME</b> resta lo standard anche per il concentrato: chi acquista rottami di nichel e leghe dovrebbe seguire da vicino la quotazione.",
+    "<b>I grandi trader bloccano risorse con anni di anticipo:</b> un segnale per i consumatori industriali a fissare contratti di lungo periodo per rottami inox e di leghe di nichel."
+   ],
+   "cta": "Cerca nichel o rottami di nichel?"
+  }
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-29-world-bank-copper-outlook",
+ "date": "2026-10-29",
+ "category": "nonferrous",
+ "minutes": 3,
+ "image": "copper-outlook-grid",
+ "source": {
+  "bg": "The Northern Miner, 28.10.2026",
+  "ru": "The Northern Miner, 28.10.2026",
+  "uk": "The Northern Miner, 28.10.2026",
+  "en": "The Northern Miner, 28.10.2026",
+  "de": "The Northern Miner, 28.10.2026",
+  "fr": "The Northern Miner, 28.10.2026",
+  "es": "The Northern Miner, 28.10.2026",
+  "it": "The Northern Miner, 28.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "13 000 USD/т",
+    "ru": "13 000 USD/т",
+    "uk": "13 000 USD/т",
+    "en": "USD 13,000/t",
+    "de": "13.000 USD/t",
+    "fr": "13 000 USD/t",
+    "es": "13.000 USD/t",
+    "it": "13.000 USD/t"
+   },
+   "l": {
+    "bg": "прогноза на Световната банка за средната цена на медта през 2027 г. (+18% спрямо април)",
+    "ru": "прогноз Всемирного банка средней цены меди на 2027 г. (+18% к апрелю)",
+    "uk": "прогноз Світового банку середньої ціни міді на 2027 р. (+18% до квітня)",
+    "en": "World Bank 2027 average copper price forecast (+18% vs April)",
+    "de": "Prognose der Weltbank für den durchschnittlichen Kupferpreis 2027 (+18 % gegenüber April)",
+    "fr": "prévision de la Banque mondiale pour le prix moyen du cuivre en 2027 (+18 % par rapport à avril)",
+    "es": "previsión del Banco Mundial para el precio medio del cobre en 2027 (+18 % frente a abril)",
+    "it": "previsione della Banca Mondiale sul prezzo medio del rame nel 2027 (+18% rispetto ad aprile)"
+   }
+  },
+  {
+   "v": {
+    "bg": "13 200 USD/т",
+    "ru": "13 200 USD/т",
+    "uk": "13 200 USD/т",
+    "en": "USD 13,200/t",
+    "de": "13.200 USD/t",
+    "fr": "13 200 USD/t",
+    "es": "13.200 USD/t",
+    "it": "13.200 USD/t"
+   },
+   "l": {
+    "bg": "очаквана средна цена на медта за 2026 г.",
+    "ru": "ожидаемая средняя цена меди за 2026 г.",
+    "uk": "очікувана середня ціна міді за 2026 р.",
+    "en": "expected average copper price for 2026",
+    "de": "erwarteter durchschnittlicher Kupferpreis 2026",
+    "fr": "prix moyen attendu du cuivre en 2026",
+    "es": "precio medio previsto del cobre en 2026",
+    "it": "prezzo medio atteso del rame nel 2026"
+   }
+  },
+  {
+   "v": {
+    "bg": "147 / 63",
+    "ru": "147 / 63",
+    "uk": "147 / 63",
+    "en": "147 / 63",
+    "de": "147 / 63",
+    "fr": "147 / 63",
+    "es": "147 / 63",
+    "it": "147 / 63"
+   },
+   "l": {
+    "bg": "ограничителни срещу облекчаващи мерки в търговията с критични суровини до септември",
+    "ru": "ограничительных и смягчающих мер в торговле критическим сырьём до сентября",
+    "uk": "обмежувальних і пом'якшувальних заходів у торгівлі критичною сировиною до вересня",
+    "en": "restrictive vs easing trade measures on critical minerals through September",
+    "de": "beschränkende gegenüber erleichternden Handelsmaßnahmen bei kritischen Rohstoffen bis September",
+    "fr": "mesures commerciales restrictives contre mesures d'assouplissement sur les minerais critiques jusqu'en septembre",
+    "es": "medidas comerciales restrictivas frente a medidas de apertura sobre minerales críticos hasta septiembre",
+    "it": "misure commerciali restrittive contro misure di apertura sui minerali critici fino a settembre"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Световната банка вдигна прогнозата си за медта с 18%: цените остават близо до рекордите",
+   "lead": "В есенния си доклад Световната банка очаква медта да струва средно 13 000 USD/т през 2027 г. — само с 1,5% под нивото на тази година. Новият добив не успява да навакса търсенето от електроенергийните мрежи и центровете за данни.",
+   "what": [
+    "Банката повиши прогнозата си за 2027 г. с 18% спрямо април, а за 2026 г. вече очаква средна цена от 13 200 USD/т. Ръстът не се дължи изцяло на потреблението: през първото полугодие световното търсене дори леко спадна, но прекъсванията в рудниците и преместването на рафинирана мед към складовете в САЩ свиха наличностите на другите пазари. Несигурността около американските вносни мита, които може да влязат в сила през януари, рискува да предизвика ново складиране и регионален недостиг.",
+    "Предлагането от рудниците ще расте бавно: Индонезия все още преодолява последиците от метеорологичните прекъсвания, а Чили се сблъсква с оперативни ограничения и спад на съдържанието на метал в рудата. Freeport-McMoRan понижи прогнозата си за продажбите на мед до около 3 млрд фунта (≈1,36 млн т) през 2026 г. и 3,7 млрд фунта през 2027 г. Отделно ДР Конго забрани износа на меден концентрат от август. Банката повиши и прогнозите за калай (45 000 USD/т) и цинк (3 100 USD/т) за 2027 г., а за никела не очаква съществена промяна."
+   ],
+   "means": [
+    "<b>Купувачите на мед и меден скрап</b> е разумно да планират бюджетите за 2027 г. при цени около 13 000 USD/т, а не да чакат осезаемо поевтиняване.",
+    "<b>Скрапът придобива стратегическа роля:</b> при бавен ръст на добива вторичната мед остава най-бързият източник на допълнителен метал.",
+    "<b>Митата и износните ограничения</b> могат внезапно да изкривят регионалните премии — затова при договорите е по-добре да се фиксират обемите и графиците предварително."
+   ],
+   "cta": "Търсите мед или меден скрап?"
+  },
+  "ru": {
+   "title": "Всемирный банк повысил прогноз по меди на 18%: цены останутся у рекордов",
+   "lead": "В осеннем докладе Всемирный банк ожидает, что в 2027 году медь будет стоить в среднем 13 000 USD/т — всего на 1,5% ниже уровня этого года. Новые рудники не успевают за спросом со стороны электросетей и центров обработки данных.",
+   "what": [
+    "Банк повысил прогноз на 2027 год на 18% по сравнению с апрельским, а средняя цена 2026 года теперь ожидается на уровне 13 200 USD/т. Рост объясняется не только потреблением: в первом полугодии мировой спрос даже немного снизился, но перебои на рудниках и перемещение рафинированной меди на склады в США сократили доступность металла на других рынках. Неопределённость с американскими импортными пошлинами, которые могут вступить в силу в январе, грозит новым накоплением запасов и региональным дефицитом.",
+    "Рудное предложение будет расти медленно: Индонезия всё ещё устраняет последствия погодных сбоев, а Чили сталкивается с операционными ограничениями и падением содержания металла в руде. Freeport-McMoRan снизила прогноз продаж меди примерно до 3 млрд фунтов (≈1,36 млн т) в 2026 году и 3,7 млрд фунтов в 2027 году. Кроме того, ДР Конго с августа запретила экспорт медного концентрата. Банк также повысил прогнозы на 2027 год по олову (45 000 USD/т) и цинку (3 100 USD/т), а по никелю существенных изменений не ждёт."
+   ],
+   "means": [
+    "<b>Покупателям меди и медного лома</b> разумно закладывать в бюджет 2027 года цены около 13 000 USD/т, а не ждать заметного удешевления.",
+    "<b>Лом приобретает стратегическое значение:</b> при медленном росте добычи вторичная медь остаётся самым быстрым источником дополнительного металла.",
+    "<b>Пошлины и экспортные ограничения</b> могут резко сдвинуть региональные премии — поэтому объёмы и графики поставок лучше фиксировать в контрактах заранее."
+   ],
+   "cta": "Нужна медь или медный лом?"
+  },
+  "uk": {
+   "title": "Світовий банк підвищив прогноз щодо міді на 18%: ціни залишаться біля рекордів",
+   "lead": "В осінній доповіді Світовий банк очікує, що у 2027 році мідь коштуватиме в середньому 13 000 USD/т — лише на 1,5% нижче за рівень цього року. Нові копальні не встигають за попитом з боку електромереж і центрів обробки даних.",
+   "what": [
+    "Банк підвищив прогноз на 2027 рік на 18% порівняно з квітневим, а середню ціну 2026 року тепер очікує на рівні 13 200 USD/т. Зростання пояснюється не лише споживанням: у першому півріччі світовий попит навіть дещо знизився, але перебої на копальнях і переміщення рафінованої міді на склади у США скоротили доступність металу на інших ринках. Невизначеність щодо американських імпортних мит, які можуть набути чинності в січні, загрожує новим накопиченням запасів і регіональним дефіцитом.",
+    "Рудна пропозиція зростатиме повільно: Індонезія досі усуває наслідки погодних збоїв, а Чилі стикається з операційними обмеженнями та падінням вмісту металу в руді. Freeport-McMoRan знизила прогноз продажів міді приблизно до 3 млрд фунтів (≈1,36 млн т) у 2026 році та 3,7 млрд фунтів у 2027 році. Крім того, ДР Конго з серпня заборонила експорт мідного концентрату. Банк також підвищив прогнози на 2027 рік щодо олова (45 000 USD/т) і цинку (3 100 USD/т), а щодо нікелю суттєвих змін не очікує."
+   ],
+   "means": [
+    "<b>Покупцям міді та мідного брухту</b> варто закладати в бюджет 2027 року ціни близько 13 000 USD/т, а не чекати помітного здешевлення.",
+    "<b>Брухт набуває стратегічного значення:</b> за повільного зростання видобутку вторинна мідь залишається найшвидшим джерелом додаткового металу.",
+    "<b>Мита й експортні обмеження</b> можуть різко зсунути регіональні премії — тому обсяги та графіки постачань краще фіксувати в контрактах заздалегідь."
+   ],
+   "cta": "Потрібна мідь або мідний брухт?"
+  },
+  "en": {
+   "title": "World Bank lifts copper forecast by 18% as prices hold near record highs",
+   "lead": "The World Bank's autumn outlook puts the 2027 average copper price at USD 13,000/t — only 1.5% below this year's level — as new mine supply struggles to keep pace with demand from power grids and data centres.",
+   "what": [
+    "The bank raised its 2027 forecast by 18% from April and now expects copper to average USD 13,200/t in 2026. The rally has not been driven by consumption alone: global demand actually eased slightly in the first half, but mine disruptions and the flow of refined metal into US warehouses tightened availability elsewhere. Uncertainty over US import tariffs that could take effect in January risks another round of stockpiling and regional shortages.",
+    "Mine supply growth is set to stay subdued, with Indonesia still recovering from weather-related disruptions and Chile facing operational constraints and declining ore grades. Freeport-McMoRan has cut its copper sales guidance to about 3 bn lb (≈1.36 Mt) for 2026 and 3.7 bn lb for 2027. The DR Congo, meanwhile, banned copper concentrate exports in August. The bank also raised its 2027 forecasts for tin (USD 45,000/t) and zinc (USD 3,100/t), while expecting little change in nickel."
+   ],
+   "means": [
+    "<b>Buyers of copper and copper scrap</b> should budget for 2027 at around USD 13,000/t rather than bank on a meaningful correction.",
+    "<b>Scrap gains strategic weight:</b> with mine output growing slowly, secondary copper remains the fastest source of additional metal.",
+    "<b>Tariffs and export restrictions</b> can shift regional premiums abruptly, so it pays to lock in volumes and delivery schedules early."
+   ],
+   "cta": "Looking for copper or copper scrap?"
+  },
+  "de": {
+   "title": "Weltbank hebt Kupferprognose um 18 % an – Preise bleiben nahe Rekordniveau",
+   "lead": "Im Herbstausblick erwartet die Weltbank für 2027 einen durchschnittlichen Kupferpreis von 13.000 USD/t – nur 1,5 % unter dem diesjährigen Niveau. Neue Minen halten mit der Nachfrage aus Stromnetzen und Rechenzentren nicht Schritt.",
+   "what": [
+    "Die Bank hob ihre Prognose für 2027 gegenüber April um 18 % an und rechnet für 2026 nun mit einem Durchschnitt von 13.200 USD/t. Der Anstieg ist nicht allein dem Verbrauch geschuldet: Im ersten Halbjahr gab die weltweite Nachfrage sogar leicht nach, doch Minenausfälle und der Abfluss von raffiniertem Kupfer in US-Lagerhäuser verknappten das Angebot andernorts. Die Unsicherheit über US-Importzölle, die im Januar in Kraft treten könnten, droht eine erneute Lagerhaltung und regionale Engpässe auszulösen.",
+    "Das Minenangebot dürfte nur langsam wachsen: Indonesien kämpft noch mit den Folgen witterungsbedingter Ausfälle, Chile mit betrieblichen Einschränkungen und sinkenden Erzgehalten. Freeport-McMoRan senkte seine Prognose für den Kupferabsatz auf rund 3 Mrd. lb (≈1,36 Mio. t) für 2026 und 3,7 Mrd. lb für 2027. Zudem verbietet die DR Kongo seit August die Ausfuhr von Kupferkonzentrat. Die Bank erhöhte auch ihre Prognosen für Zinn (45.000 USD/t) und Zink (3.100 USD/t) für 2027; bei Nickel erwartet sie kaum Veränderungen."
+   ],
+   "means": [
+    "<b>Käufer von Kupfer und Kupferschrott</b> sollten für 2027 mit rund 13.000 USD/t planen, statt auf eine spürbare Korrektur zu setzen.",
+    "<b>Schrott gewinnt strategisches Gewicht:</b> Bei langsam wachsender Minenproduktion bleibt Sekundärkupfer die schnellste Quelle für zusätzliches Metall.",
+    "<b>Zölle und Exportbeschränkungen</b> können regionale Prämien abrupt verschieben – Mengen und Liefertermine sollten daher frühzeitig vertraglich fixiert werden."
+   ],
+   "cta": "Sie suchen Kupfer oder Kupferschrott?"
+  },
+  "fr": {
+   "title": "La Banque mondiale relève de 18 % sa prévision sur le cuivre : les prix restent proches des records",
+   "lead": "Dans ses perspectives d'automne, la Banque mondiale table sur un prix moyen du cuivre de 13 000 USD/t en 2027, à peine 1,5 % sous le niveau de cette année, l'offre minière peinant à suivre la demande des réseaux électriques et des centres de données.",
+   "what": [
+    "La banque a relevé sa prévision pour 2027 de 18 % par rapport à avril et attend désormais une moyenne de 13 200 USD/t en 2026. La hausse ne tient pas qu'à la consommation : la demande mondiale a même légèrement reculé au premier semestre, mais les perturbations minières et l'afflux de cuivre raffiné vers les entrepôts américains ont réduit la disponibilité ailleurs. L'incertitude sur des droits de douane américains susceptibles d'entrer en vigueur en janvier pourrait relancer le stockage et créer des pénuries régionales.",
+    "La croissance de l'offre minière restera modeste : l'Indonésie se remet encore d'aléas climatiques et le Chili fait face à des contraintes opérationnelles et à la baisse des teneurs. Freeport-McMoRan a abaissé ses prévisions de ventes de cuivre à environ 3 Md lb (≈1,36 Mt) pour 2026 et 3,7 Md lb pour 2027. La RD Congo a par ailleurs interdit les exportations de concentré de cuivre en août. La banque a aussi relevé ses prévisions 2027 pour l'étain (45 000 USD/t) et le zinc (3 100 USD/t), sans attendre de changement notable pour le nickel."
+   ],
+   "means": [
+    "<b>Les acheteurs de cuivre et de ferrailles de cuivre</b> ont intérêt à budgéter 2027 autour de 13 000 USD/t plutôt qu'à miser sur une correction marquée.",
+    "<b>Les ferrailles prennent un poids stratégique :</b> la production minière progressant lentement, le cuivre secondaire reste la source la plus rapide de métal supplémentaire.",
+    "<b>Droits de douane et restrictions à l'export</b> peuvent déplacer brutalement les primes régionales : mieux vaut fixer tôt volumes et calendriers de livraison."
+   ],
+   "cta": "Vous cherchez du cuivre ou des ferrailles de cuivre ?"
+  },
+  "es": {
+   "title": "El Banco Mundial eleva un 18 % su previsión para el cobre: los precios seguirán cerca de máximos",
+   "lead": "En su informe de otoño, el Banco Mundial prevé un precio medio del cobre de 13.000 USD/t en 2027, apenas un 1,5 % por debajo del nivel de este año, porque la nueva oferta minera no logra seguir el ritmo de la demanda de las redes eléctricas y los centros de datos.",
+   "what": [
+    "El banco elevó su previsión para 2027 un 18 % respecto a abril y ahora espera una media de 13.200 USD/t en 2026. La subida no se explica solo por el consumo: en el primer semestre la demanda mundial incluso bajó ligeramente, pero las interrupciones en minas y el traslado de cobre refinado a almacenes de EE. UU. redujeron la disponibilidad en otros mercados. La incertidumbre sobre los aranceles estadounidenses a la importación, que podrían entrar en vigor en enero, amenaza con nuevas acumulaciones de existencias y escasez regional.",
+    "La oferta minera crecerá lentamente: Indonesia aún se recupera de interrupciones por el clima y Chile afronta limitaciones operativas y leyes de mineral decrecientes. Freeport-McMoRan recortó su previsión de ventas de cobre a unos 3.000 M lb (≈1,36 Mt) en 2026 y 3.700 M lb en 2027. Además, la RD del Congo prohibió en agosto la exportación de concentrado de cobre. El banco también subió sus previsiones para 2027 del estaño (45.000 USD/t) y el zinc (3.100 USD/t), y no espera cambios relevantes en el níquel."
+   ],
+   "means": [
+    "<b>Los compradores de cobre y chatarra de cobre</b> deberían presupuestar 2027 en torno a 13.000 USD/t en lugar de esperar un abaratamiento significativo.",
+    "<b>La chatarra gana peso estratégico:</b> con una producción minera que crece despacio, el cobre secundario sigue siendo la vía más rápida de metal adicional.",
+    "<b>Aranceles y restricciones a la exportación</b> pueden mover de golpe las primas regionales: conviene fijar con antelación volúmenes y calendarios de entrega."
+   ],
+   "cta": "¿Busca cobre o chatarra de cobre?"
+  },
+  "it": {
+   "title": "La Banca Mondiale alza del 18% la previsione sul rame: prezzi vicini ai massimi",
+   "lead": "Nelle prospettive d'autunno la Banca Mondiale stima un prezzo medio del rame di 13.000 USD/t nel 2027, appena l'1,5% sotto il livello di quest'anno, perché la nuova offerta mineraria non tiene il passo con la domanda di reti elettriche e data center.",
+   "what": [
+    "La banca ha alzato la previsione per il 2027 del 18% rispetto ad aprile e ora si attende una media di 13.200 USD/t nel 2026. Il rialzo non dipende solo dai consumi: nel primo semestre la domanda mondiale è persino calata leggermente, ma le interruzioni nelle miniere e il trasferimento di rame raffinato nei magazzini statunitensi hanno ridotto la disponibilità altrove. L'incertezza sui dazi USA all'importazione, che potrebbero entrare in vigore a gennaio, rischia di innescare nuovi accumuli di scorte e carenze regionali.",
+    "L'offerta mineraria crescerà lentamente: l'Indonesia sta ancora superando le interruzioni dovute al meteo e il Cile deve fare i conti con vincoli operativi e tenori in calo. Freeport-McMoRan ha ridotto la previsione di vendite di rame a circa 3 mld di libbre (≈1,36 Mt) nel 2026 e 3,7 mld nel 2027. La RD del Congo, inoltre, ha vietato ad agosto l'export di concentrato di rame. La banca ha alzato anche le previsioni 2027 per stagno (45.000 USD/t) e zinco (3.100 USD/t), mentre per il nichel non prevede variazioni significative."
+   ],
+   "means": [
+    "<b>Gli acquirenti di rame e rottami di rame</b> farebbero bene a pianificare il 2027 su circa 13.000 USD/t, senza contare su una correzione rilevante.",
+    "<b>I rottami acquistano peso strategico:</b> con una produzione mineraria in crescita lenta, il rame secondario resta la fonte più rapida di metallo aggiuntivo.",
+    "<b>Dazi e restrizioni all'export</b> possono spostare bruscamente i premi regionali: conviene fissare per tempo volumi e calendari di consegna."
+   ],
+   "cta": "Cerca rame o rottami di rame?"
+  }
+ }
+}

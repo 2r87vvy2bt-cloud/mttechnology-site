@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-29-chile-copper-disruptions",
+ "date": "2026-10-29",
+ "category": "nonferrous",
+ "minutes": 3,
+ "image": "chile-copper-disruptions",
+ "source": {
+  "bg": "Mining.com, 28.10.2026",
+  "ru": "Mining.com, 28.10.2026",
+  "uk": "Mining.com, 28.10.2026",
+  "en": "Mining.com, 28.10.2026",
+  "de": "Mining.com, 28.10.2026",
+  "fr": "Mining.com, 28.10.2026",
+  "es": "Mining.com, 28.10.2026",
+  "it": "Mining.com, 28.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "1 817 / 2 460",
+    "ru": "1 817 / 2 460",
+    "uk": "1 817 / 2 460",
+    "en": "1,817 / 2,460",
+    "de": "1.817 / 2.460",
+    "fr": "1 817 / 2 460",
+    "es": "1.817 / 2.460",
+    "it": "1.817 / 2.460"
+   },
+   "l": {
+    "bg": "преместени работници от спрения сектор Andes Norte в El Teniente (74%)",
+    "ru": "переведённых работников с остановленного участка Andes Norte на El Teniente (74%)",
+    "uk": "переведених працівників з зупиненої дільниці Andes Norte на El Teniente (74%)",
+    "en": "workers relocated from the halted Andes Norte sector at El Teniente (74%)",
+    "de": "versetzte Beschäftigte aus dem stillgelegten Sektor Andes Norte in El Teniente (74 %)",
+    "fr": "salariés réaffectés depuis le secteur Andes Norte à l'arrêt, à El Teniente (74 %)",
+    "es": "trabajadores reubicados desde el sector paralizado Andes Norte de El Teniente (74 %)",
+    "it": "lavoratori ricollocati dal settore fermo Andes Norte di El Teniente (74%)"
+   }
+  },
+  {
+   "v": {
+    "bg": "5,2%",
+    "ru": "5,2%",
+    "uk": "5,2%",
+    "en": "5.2%",
+    "de": "5,2 %",
+    "fr": "5,2 %",
+    "es": "5,2 %",
+    "it": "5,2%"
+   },
+   "l": {
+    "bg": "средно рискова част от продукцията на 14-те най-големи медни рудника в Чили",
+    "ru": "средняя доля выпуска под риском на 14 крупнейших медных рудниках Чили",
+    "uk": "середня частка випуску під ризиком на 14 найбільших мідних копальнях Чилі",
+    "en": "average share of output at risk at Chile's 14 largest copper mines",
+    "de": "durchschnittlich gefährdeter Produktionsanteil der 14 größten Kupferminen Chiles",
+    "fr": "part moyenne de la production menacée dans les 14 plus grandes mines de cuivre du Chili",
+    "es": "cuota media de producción en riesgo en las 14 mayores minas de cobre de Chile",
+    "it": "quota media di produzione a rischio nelle 14 maggiori miniere di rame del Cile"
+   }
+  },
+  {
+   "v": {
+    "bg": "≈6 часа",
+    "ru": "≈6 часов",
+    "uk": "≈6 годин",
+    "en": "≈6 hours",
+    "de": "≈6 Stunden",
+    "fr": "≈6 heures",
+    "es": "≈6 horas",
+    "it": "≈6 ore"
+   },
+   "l": {
+    "bg": "блокада на достъпа до рудника Ministro Hales заради спор за бонуси",
+    "ru": "блокировка доступа к руднику Ministro Hales из-за спора о премиях",
+    "uk": "блокування доступу до копальні Ministro Hales через суперечку щодо премій",
+    "en": "blockade of access to the Ministro Hales mine over a bonus dispute",
+    "de": "Blockade der Zufahrt zur Mine Ministro Hales im Streit um Prämien",
+    "fr": "blocage de l'accès à la mine Ministro Hales sur fond de conflit sur les primes",
+    "es": "bloqueo del acceso a la mina Ministro Hales por una disputa sobre bonos",
+    "it": "blocco dell'accesso alla miniera Ministro Hales per una disputa sui bonus"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Чили под напрежение: сеизмичен риск, протести и смъртоносна лавина удрят добива на Codelco",
+   "lead": "Държавният медодобивен гигант Codelco се справя едновременно с принудително спрян сектор в El Teniente, трудов протест в Ministro Hales и последиците от лавина. Анализатори оценяват, че средно 5,2% от продукцията на най-големите чилийски рудници е изложена на риск.",
+   "what": [
+    "Секторът Andes Norte в El Teniente — най-големият подземен меден рудник в света — е спрян от август заради сеизмичен риск. От 2460 засегнати работници 1817 вече са преместени на други обекти; за останалите се договарят решения. По-рано този месец двама работници загинаха при лавина. В отделен инцидент контрагенти на Codelco блокираха достъпа до рудника Ministro Hales за около шест часа заради спор за бонуси и заплашиха протестът да се разшири към Chuquicamata, Radomiro Tomic и Gabriela Mistral.",
+    "Ново проучване на GEM, базирано на сателитни данни, оценява физическите рискове — сеизмични, климатични и геотехнически — за 14-те най-големи медни рудника в Чили. Средно 5,2% от производството им е под заплаха, като при El Teniente делът достига 9%, при Los Pelambres — 8%, а при Escondida — 7,5%. Тъй като Чили осигурява около една четвърт от световния добив на мед, дори частични прекъсвания там се отразяват бързо на пазара на концентрат и катоди."
+   ],
+   "means": [
+    "<b>Рискът за доставките от Чили е структурен,</b> а не еднократен — купувачите на катоди и концентрат трябва да го отчитат в плановете си.",
+    "<b>Медният скрап от Европа</b> е естествен буфер срещу прекъсвания в Южна Америка и помага за диверсификация на снабдяването.",
+    "<b>Договорите с гъвкави срокове</b> и няколко източника на метал намаляват зависимостта от новини от един регион."
+   ],
+   "cta": "Търсите мед или меден скрап?"
+  },
+  "ru": {
+   "title": "Чили под давлением: сейсмический риск, протесты и сход лавины бьют по добыче Codelco",
+   "lead": "Государственный медный гигант Codelco одновременно справляется с вынужденной остановкой участка на El Teniente, трудовым протестом на Ministro Hales и последствиями лавины. Аналитики оценивают, что в среднем 5,2% выпуска крупнейших чилийских рудников находится под риском.",
+   "what": [
+    "Участок Andes Norte на El Teniente — крупнейшем в мире подземном медном руднике — остановлен с августа из-за сейсмического риска. Из 2460 затронутых работников 1817 уже переведены на другие объекты, по остальным ведутся переговоры. Ранее в этом месяце двое рабочих погибли при сходе лавины. В отдельном инциденте подрядчики Codelco около шести часов блокировали доступ к руднику Ministro Hales из-за спора о премиях и пригрозили распространить протест на Chuquicamata, Radomiro Tomic и Gabriela Mistral.",
+    "Новое исследование GEM на основе спутниковых данных оценило физические риски — сейсмические, климатические и геотехнические — для 14 крупнейших медных рудников Чили. В среднем под угрозой 5,2% их производства; для El Teniente этот показатель достигает 9%, для Los Pelambres — 8%, для Escondida — 7,5%. Поскольку на Чили приходится около четверти мировой добычи меди, даже частичные перебои там быстро отражаются на рынке концентрата и катодов."
+   ],
+   "means": [
+    "<b>Риск для поставок из Чили носит структурный,</b> а не разовый характер — покупателям катодов и концентрата стоит учитывать его в планировании.",
+    "<b>Медный лом из Европы</b> служит естественным буфером против перебоев в Южной Америке и помогает диверсифицировать снабжение.",
+    "<b>Контракты с гибкими сроками</b> и несколько источников металла снижают зависимость от новостей одного региона."
+   ],
+   "cta": "Нужна медь или медный лом?"
+  },
+  "uk": {
+   "title": "Чилі під тиском: сейсмічний ризик, протести та лавина б'ють по видобутку Codelco",
+   "lead": "Державний мідний гігант Codelco водночас долає вимушену зупинку дільниці на El Teniente, трудовий протест на Ministro Hales і наслідки сходження лавини. Аналітики оцінюють, що в середньому 5,2% випуску найбільших чилійських копалень перебуває під ризиком.",
+   "what": [
+    "Дільницю Andes Norte на El Teniente — найбільшій у світі підземній мідній копальні — зупинено з серпня через сейсмічний ризик. З 2460 працівників, яких це зачепило, 1817 уже переведено на інші об'єкти, щодо решти тривають переговори. Раніше цього місяця двоє робітників загинули під час сходження лавини. В окремому інциденті підрядники Codelco близько шести годин блокували доступ до копальні Ministro Hales через суперечку щодо премій і пригрозили поширити протест на Chuquicamata, Radomiro Tomic та Gabriela Mistral.",
+    "Нове дослідження GEM на основі супутникових даних оцінило фізичні ризики — сейсмічні, кліматичні та геотехнічні — для 14 найбільших мідних копалень Чилі. У середньому під загрозою 5,2% їхнього виробництва; для El Teniente цей показник сягає 9%, для Los Pelambres — 8%, для Escondida — 7,5%. Оскільки на Чилі припадає близько чверті світового видобутку міді, навіть часткові перебої там швидко позначаються на ринку концентрату й катодів."
+   ],
+   "means": [
+    "<b>Ризик для постачань із Чилі має структурний,</b> а не разовий характер — покупцям катодів і концентрату варто враховувати його в плануванні.",
+    "<b>Мідний брухт із Європи</b> слугує природним буфером проти перебоїв у Південній Америці та допомагає диверсифікувати постачання.",
+    "<b>Контракти з гнучкими строками</b> і кілька джерел металу зменшують залежність від новин одного регіону."
+   ],
+   "cta": "Потрібна мідь або мідний брухт?"
+  },
+  "en": {
+   "title": "Chile under strain: seismic risk, protests and a fatal avalanche weigh on Codelco output",
+   "lead": "State copper giant Codelco is dealing at once with an enforced shutdown at El Teniente, a labour protest at Ministro Hales and the aftermath of an avalanche. Analysts estimate that on average 5.2% of output at Chile's largest mines is at risk.",
+   "what": [
+    "The Andes Norte sector at El Teniente — the world's largest underground copper mine — has been suspended since August because of seismic risk. Of the 2,460 workers affected, 1,817 have already been relocated to other sites, with talks continuing for the rest. Earlier this month two workers were killed in an avalanche. In a separate incident, Codelco contractors blocked access to the Ministro Hales mine for about six hours in a bonus dispute and threatened to extend the protest to Chuquicamata, Radomiro Tomic and Gabriela Mistral.",
+    "A new satellite-based study by GEM assessed physical risks — seismic, climatic and geotechnical — at Chile's 14 largest copper mines. On average 5.2% of their production is exposed, rising to 9% at El Teniente, 8% at Los Pelambres and 7.5% at Escondida. With Chile supplying roughly a quarter of global mined copper, even partial disruptions there feed quickly into the concentrate and cathode markets."
+   ],
+   "means": [
+    "<b>Supply risk from Chile is structural,</b> not one-off — cathode and concentrate buyers should factor it into their planning.",
+    "<b>European copper scrap</b> is a natural hedge against South American disruptions and helps diversify sourcing.",
+    "<b>Contracts with flexible delivery windows</b> and multiple metal sources reduce dependence on headlines from a single region."
+   ],
+   "cta": "Looking for copper or copper scrap?"
+  },
+  "de": {
+   "title": "Chile unter Druck: Erdbebenrisiko, Proteste und tödliche Lawine belasten Codelco",
+   "lead": "Der staatliche Kupferkonzern Codelco kämpft gleichzeitig mit einer erzwungenen Stilllegung in El Teniente, einem Arbeitskonflikt in Ministro Hales und den Folgen einer Lawine. Analysten zufolge sind im Schnitt 5,2 % der Produktion der größten chilenischen Minen gefährdet.",
+   "what": [
+    "Der Sektor Andes Norte in El Teniente – der größten Untertage-Kupfermine der Welt – ist seit August wegen Erdbebengefahr stillgelegt. Von 2.460 betroffenen Beschäftigten wurden 1.817 bereits an andere Standorte versetzt; für die übrigen laufen Gespräche. Anfang des Monats kamen zwei Arbeiter bei einer Lawine ums Leben. In einem separaten Vorfall blockierten Auftragnehmer von Codelco im Streit um Prämien rund sechs Stunden lang die Zufahrt zur Mine Ministro Hales und drohten, den Protest auf Chuquicamata, Radomiro Tomic und Gabriela Mistral auszuweiten.",
+    "Eine neue satellitengestützte Studie von GEM bewertet die physischen Risiken – seismisch, klimatisch und geotechnisch – der 14 größten Kupferminen Chiles. Im Schnitt sind 5,2 % ihrer Produktion gefährdet, in El Teniente 9 %, in Los Pelambres 8 % und in Escondida 7,5 %. Da Chile rund ein Viertel der weltweiten Kupferförderung liefert, schlagen selbst teilweise Ausfälle rasch auf die Märkte für Konzentrat und Kathoden durch."
+   ],
+   "means": [
+    "<b>Das Lieferrisiko aus Chile ist strukturell</b> und nicht einmalig – Käufer von Kathoden und Konzentrat sollten es fest einplanen.",
+    "<b>Europäischer Kupferschrott</b> ist ein natürlicher Puffer gegen Ausfälle in Südamerika und hilft, die Beschaffung zu diversifizieren.",
+    "<b>Verträge mit flexiblen Lieferfenstern</b> und mehrere Metallquellen verringern die Abhängigkeit von Nachrichten aus einer einzigen Region."
+   ],
+   "cta": "Sie suchen Kupfer oder Kupferschrott?"
+  },
+  "fr": {
+   "title": "Le Chili sous tension : risque sismique, protestations et avalanche mortelle pèsent sur Codelco",
+   "lead": "Le géant public du cuivre Codelco doit gérer simultanément l'arrêt forcé d'un secteur à El Teniente, un mouvement social à Ministro Hales et les suites d'une avalanche. Selon les analystes, 5,2 % en moyenne de la production des plus grandes mines chiliennes sont menacés.",
+   "what": [
+    "Le secteur Andes Norte d'El Teniente, plus grande mine de cuivre souterraine au monde, est à l'arrêt depuis août en raison d'un risque sismique. Sur 2 460 salariés concernés, 1 817 ont déjà été réaffectés sur d'autres sites, les discussions se poursuivant pour les autres. Plus tôt ce mois-ci, deux ouvriers ont péri dans une avalanche. Par ailleurs, des sous-traitants de Codelco ont bloqué l'accès à la mine Ministro Hales pendant environ six heures dans un conflit sur les primes, menaçant d'étendre le mouvement à Chuquicamata, Radomiro Tomic et Gabriela Mistral.",
+    "Une nouvelle étude de GEM fondée sur des données satellitaires évalue les risques physiques — sismiques, climatiques et géotechniques — des 14 plus grandes mines de cuivre du Chili. En moyenne, 5,2 % de leur production est exposée, jusqu'à 9 % à El Teniente, 8 % à Los Pelambres et 7,5 % à Escondida. Le Chili assurant environ un quart de la production minière mondiale de cuivre, même des perturbations partielles se répercutent vite sur les marchés du concentré et des cathodes."
+   ],
+   "means": [
+    "<b>Le risque d'approvisionnement chilien est structurel,</b> et non ponctuel : les acheteurs de cathodes et de concentré doivent l'intégrer à leur planification.",
+    "<b>Les ferrailles de cuivre européennes</b> constituent une couverture naturelle face aux perturbations sud-américaines et aident à diversifier les achats.",
+    "<b>Des contrats aux fenêtres de livraison flexibles</b> et plusieurs sources de métal réduisent la dépendance à l'actualité d'une seule région."
+   ],
+   "cta": "Vous cherchez du cuivre ou des ferrailles de cuivre ?"
+  },
+  "es": {
+   "title": "Chile bajo presión: riesgo sísmico, protestas y una avalancha mortal golpean a Codelco",
+   "lead": "La estatal Codelco afronta a la vez la paralización forzosa de un sector en El Teniente, una protesta laboral en Ministro Hales y las secuelas de una avalancha. Los analistas estiman que, de media, el 5,2 % de la producción de las mayores minas chilenas está en riesgo.",
+   "what": [
+    "El sector Andes Norte de El Teniente —la mayor mina subterránea de cobre del mundo— está paralizado desde agosto por riesgo sísmico. De los 2.460 trabajadores afectados, 1.817 ya han sido reubicados en otras faenas y se negocia una solución para el resto. A principios de mes, dos trabajadores murieron en una avalancha. En otro incidente, contratistas de Codelco bloquearon durante unas seis horas el acceso a la mina Ministro Hales por una disputa sobre bonos y amenazaron con extender la protesta a Chuquicamata, Radomiro Tomic y Gabriela Mistral.",
+    "Un nuevo estudio de GEM basado en datos satelitales evalúa los riesgos físicos —sísmicos, climáticos y geotécnicos— de las 14 mayores minas de cobre de Chile. De media, el 5,2 % de su producción está expuesto, porcentaje que sube al 9 % en El Teniente, al 8 % en Los Pelambres y al 7,5 % en Escondida. Como Chile aporta cerca de una cuarta parte del cobre de mina mundial, incluso interrupciones parciales se trasladan rápidamente a los mercados de concentrado y cátodos."
+   ],
+   "means": [
+    "<b>El riesgo de suministro desde Chile es estructural,</b> no puntual: los compradores de cátodos y concentrado deben incorporarlo a su planificación.",
+    "<b>La chatarra de cobre europea</b> es una cobertura natural frente a las interrupciones en Sudamérica y ayuda a diversificar el aprovisionamiento.",
+    "<b>Contratos con ventanas de entrega flexibles</b> y varias fuentes de metal reducen la dependencia de las noticias de una sola región."
+   ],
+   "cta": "¿Busca cobre o chatarra de cobre?"
+  },
+  "it": {
+   "title": "Cile sotto pressione: rischio sismico, proteste e una valanga mortale pesano su Codelco",
+   "lead": "Il colosso statale del rame Codelco deve gestire contemporaneamente il fermo forzato di un settore a El Teniente, una protesta sindacale a Ministro Hales e le conseguenze di una valanga. Secondo gli analisti, in media il 5,2% della produzione delle maggiori miniere cilene è a rischio.",
+   "what": [
+    "Il settore Andes Norte di El Teniente, la più grande miniera di rame sotterranea al mondo, è fermo da agosto per rischio sismico. Dei 2.460 lavoratori coinvolti, 1.817 sono già stati ricollocati in altri siti, mentre per gli altri le trattative proseguono. All'inizio del mese due operai sono morti in una valanga. In un episodio separato, alcuni appaltatori di Codelco hanno bloccato per circa sei ore l'accesso alla miniera Ministro Hales per una disputa sui bonus, minacciando di estendere la protesta a Chuquicamata, Radomiro Tomic e Gabriela Mistral.",
+    "Un nuovo studio di GEM basato su dati satellitari valuta i rischi fisici — sismici, climatici e geotecnici — delle 14 maggiori miniere di rame del Cile. In media il 5,2% della loro produzione è esposto, quota che sale al 9% a El Teniente, all'8% a Los Pelambres e al 7,5% a Escondida. Poiché il Cile fornisce circa un quarto del rame estratto nel mondo, anche interruzioni parziali si riflettono rapidamente sui mercati di concentrato e catodi."
+   ],
+   "means": [
+    "<b>Il rischio di approvvigionamento dal Cile è strutturale,</b> non episodico: gli acquirenti di catodi e concentrato dovrebbero inserirlo nella pianificazione.",
+    "<b>I rottami di rame europei</b> sono una copertura naturale contro le interruzioni in Sud America e aiutano a diversificare gli acquisti.",
+    "<b>Contratti con finestre di consegna flessibili</b> e più fonti di metallo riducono la dipendenza dalle notizie di una sola regione."
+   ],
+   "cta": "Cerca rame o rottami di rame?"
+  }
+ }
+}

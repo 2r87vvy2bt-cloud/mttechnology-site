@@ -1,0 +1,199 @@
+{
+ "id": "2026-10-29-ferromanganese-sludge-recovery",
+ "date": "2026-10-29",
+ "category": "ferroalloys",
+ "minutes": 3,
+ "image": "manganese-sludge-recovery",
+ "source": {
+  "bg": "Mining.com, 28.10.2026",
+  "ru": "Mining.com, 28.10.2026",
+  "uk": "Mining.com, 28.10.2026",
+  "en": "Mining.com, 28.10.2026",
+  "de": "Mining.com, 28.10.2026",
+  "fr": "Mining.com, 28.10.2026",
+  "es": "Mining.com, 28.10.2026",
+  "it": "Mining.com, 28.10.2026"
+ },
+ "figures": [
+  {
+   "v": {
+    "bg": "≈30% Mn / 6% Zn",
+    "ru": "≈30% Mn / 6% Zn",
+    "uk": "≈30% Mn / 6% Zn",
+    "en": "≈30% Mn / 6% Zn",
+    "de": "≈30 % Mn / 6 % Zn",
+    "fr": "≈30 % Mn / 6 % Zn",
+    "es": "≈30 % Mn / 6 % Zn",
+    "it": "≈30% Mn / 6% Zn"
+   },
+   "l": {
+    "bg": "съдържание на манган и цинк в необработената утайка от газоочистката",
+    "ru": "содержание марганца и цинка в необработанном шламе газоочистки",
+    "uk": "вміст марганцю та цинку в необробленому шламі газоочищення",
+    "en": "manganese and zinc content of the untreated gas-cleaning sludge",
+    "de": "Mangan- und Zinkgehalt des unbehandelten Gaswäscherschlamms",
+    "fr": "teneur en manganèse et en zinc des boues brutes d'épuration des gaz",
+    "es": "contenido de manganeso y zinc del lodo de depuración de gases sin tratar",
+    "it": "tenore di manganese e zinco dei fanghi grezzi di depurazione fumi"
+   }
+  },
+  {
+   "v": {
+    "bg": ">99,97%",
+    "ru": ">99,97%",
+    "uk": ">99,97%",
+    "en": ">99.97%",
+    "de": ">99,97 %",
+    "fr": ">99,97 %",
+    "es": ">99,97 %",
+    "it": ">99,97%"
+   },
+   "l": {
+    "bg": "намаление на полицикличните ароматни въглеводороди (ПАВ) в остатъка",
+    "ru": "снижение полициклических ароматических углеводородов (ПАУ) в остатке",
+    "uk": "зниження поліциклічних ароматичних вуглеводнів (ПАВ) у залишку",
+    "en": "reduction in polycyclic aromatic hydrocarbons (PAHs) in the residue",
+    "de": "Reduktion polyzyklischer aromatischer Kohlenwasserstoffe (PAK) im Rückstand",
+    "fr": "réduction des hydrocarbures aromatiques polycycliques (HAP) dans le résidu",
+    "es": "reducción de hidrocarburos aromáticos policíclicos (HAP) en el residuo",
+    "it": "riduzione degli idrocarburi policiclici aromatici (IPA) nel residuo"
+   }
+  },
+  {
+   "v": {
+    "bg": "≈10 000 т/год.",
+    "ru": "≈10 000 т/год",
+    "uk": "≈10 000 т/рік",
+    "en": "≈10,000 t/yr",
+    "de": "≈10.000 t/Jahr",
+    "fr": "≈10 000 t/an",
+    "es": "≈10.000 t/año",
+    "it": "≈10.000 t/anno"
+   },
+   "l": {
+    "bg": "утайка, генерирана годишно от един норвежки завод за манганови сплави",
+    "ru": "шлама в год образуется на одном норвежском заводе марганцевых сплавов",
+    "uk": "шламу на рік утворюється на одному норвезькому заводі марганцевих сплавів",
+    "en": "sludge generated annually at a single Norwegian manganese alloy plant",
+    "de": "Schlamm fallen jährlich in einem einzigen norwegischen Manganlegierungswerk an",
+    "fr": "de boues générées chaque année par une seule usine norvégienne d'alliages de manganèse",
+    "es": "de lodo generadas al año en una sola planta noruega de aleaciones de manganeso",
+    "it": "di fanghi prodotti ogni anno da un solo impianto norvegese di leghe di manganese"
+   }
+  }
+ ],
+ "t": {
+  "bg": {
+   "title": "Манган и цинк от утайките на феромангановите заводи: нова технология премина първи тест",
+   "lead": "Green Manganese Technologies преработи утайка от газоочистката на европейски завод за фероманган, извлече манган и цинк с висок добив и превърна токсичния остатък в стабилен, почти неутрален материал.",
+   "what": [
+    "Необработената утайка съдържаше около 30% манган и 6% цинк. Затвореният хидрометалургичен процес на водна основа е позволил високо извличане на манган заедно с цинка, а независим лабораторен анализ е потвърдил намаление на полицикличните ароматни въглеводороди в твърдия остатък с над 99,97%. Кадмият и оловото са прехвърлени в технологичния разтвор за контролирано третиране, натрият и калият са отделени, а първоначално алкалната утайка е превърната в стабилни, почти неутрални твърди частици, подходящи например за обратно запълване.",
+    "Заводите за манганови сплави генерират хиляди тонове металосъдържащи утайки годишно — според публикувано изследване само един норвежки завод произвежда около 10 000 т на година. Утайките запълват утаителните басейни и носят постоянни разходи за обработка, депониране и мониторинг, както и екологични рискове. Компанията разглежда технологията като начин едновременно да намали тези задължения и да върне ценни метали в оборот."
+   ],
+   "means": [
+    "<b>Вторичният манган</b> от утайки и хвостове може в средносрочен план да допълни рудното предлагане за производителите на FeMn и SiMn.",
+    "<b>Екологичните изисквания към металургията се затягат:</b> заводите с по-чисти отпадъчни потоци ще имат по-ниски разходи и по-стабилни доставки на ферросплави.",
+    "<b>Купувачите на ферросплави</b> е добре да следят как производителите управляват отпадъците си — това все по-често влияе на разходите и на ESG оценката на веригата на доставки."
+   ],
+   "cta": "Търсите фероманган или силикоманган?"
+  },
+  "ru": {
+   "title": "Марганец и цинк из шламов ферромарганцевых заводов: новая технология прошла первое испытание",
+   "lead": "Green Manganese Technologies переработала шлам газоочистки европейского ферромарганцевого завода, извлекла марганец и цинк с высоким выходом и превратила токсичный остаток в стабильный, почти нейтральный материал.",
+   "what": [
+    "Необработанный шлам содержал около 30% марганца и 6% цинка. Замкнутый гидрометаллургический процесс на водной основе обеспечил высокое извлечение марганца вместе с цинком, а независимый лабораторный анализ подтвердил снижение содержания полициклических ароматических углеводородов в твёрдом остатке более чем на 99,97%. Кадмий и свинец переведены в технологический раствор для контролируемого обращения, натрий и калий отделены, а изначально щелочной шлам превращён в стабильный, почти нейтральный твёрдый материал, пригодный, например, для закладки.",
+    "Заводы марганцевых сплавов ежегодно образуют тысячи тонн металлсодержащих шламов: по данным опубликованного исследования, только один норвежский завод производит около 10 000 т в год. Шламы заполняют отстойники и создают постоянные затраты на обращение, захоронение и мониторинг, а также экологические риски. Компания позиционирует технологию как способ одновременно снизить эти обязательства и вернуть ценные металлы в оборот."
+   ],
+   "means": [
+    "<b>Вторичный марганец</b> из шламов и хвостов в среднесрочной перспективе может дополнить рудное предложение для производителей FeMn и SiMn.",
+    "<b>Экологические требования к металлургии ужесточаются:</b> заводы с более чистыми отходами получат более низкие издержки и стабильные поставки ферросплавов.",
+    "<b>Покупателям ферросплавов</b> стоит следить за тем, как производители управляют отходами, — это всё чаще влияет на затраты и ESG-оценку цепочки поставок."
+   ],
+   "cta": "Нужен ферромарганец или силикомарганец?"
+  },
+  "uk": {
+   "title": "Марганець і цинк зі шламів феромарганцевих заводів: нова технологія пройшла перше випробування",
+   "lead": "Green Manganese Technologies переробила шлам газоочищення європейського феромарганцевого заводу, вилучила марганець і цинк з високим виходом і перетворила токсичний залишок на стабільний, майже нейтральний матеріал.",
+   "what": [
+    "Необроблений шлам містив близько 30% марганцю та 6% цинку. Замкнений гідрометалургійний процес на водній основі забезпечив високе вилучення марганцю разом із цинком, а незалежний лабораторний аналіз підтвердив зниження вмісту поліциклічних ароматичних вуглеводнів у твердому залишку понад ніж на 99,97%. Кадмій і свинець переведено в технологічний розчин для контрольованого поводження, натрій і калій відокремлено, а початково лужний шлам перетворено на стабільний, майже нейтральний твердий матеріал, придатний, зокрема, для закладки.",
+    "Заводи марганцевих сплавів щороку утворюють тисячі тонн металовмісних шламів: за даними опублікованого дослідження, лише один норвезький завод виробляє близько 10 000 т на рік. Шлами заповнюють відстійники та створюють постійні витрати на поводження, захоронення й моніторинг, а також екологічні ризики. Компанія позиціонує технологію як спосіб водночас зменшити ці зобов'язання та повернути цінні метали в обіг."
+   ],
+   "means": [
+    "<b>Вторинний марганець</b> зі шламів і хвостів у середньостроковій перспективі може доповнити рудну пропозицію для виробників FeMn і SiMn.",
+    "<b>Екологічні вимоги до металургії посилюються:</b> заводи з чистішими відходами матимуть нижчі витрати та стабільніші постачання феросплавів.",
+    "<b>Покупцям феросплавів</b> варто стежити за тим, як виробники керують відходами, — це дедалі частіше впливає на витрати та ESG-оцінку ланцюга постачання."
+   ],
+   "cta": "Потрібен феромарганець або силікомарганець?"
+  },
+  "en": {
+   "title": "Manganese and zinc from ferromanganese smelter sludge: new process passes first test",
+   "lead": "Green Manganese Technologies has processed gas-cleaning sludge from a European ferromanganese smelter, achieving high-yield manganese recovery alongside zinc extraction and turning a toxic residue into stable, near-neutral solids.",
+   "what": [
+    "The untreated sludge contained around 30% manganese and 6% zinc. The closed-loop, water-based hydrometallurgical process delivered high manganese recovery together with zinc, while independent laboratory analysis confirmed a reduction of more than 99.97% in polycyclic aromatic hydrocarbons in the treated solids. Cadmium and lead were transferred into the process solution for controlled management, sodium and potassium were separated out, and the initially alkaline sludge was converted into stable, near-neutral solids suitable, for example, for backfill.",
+    "Manganese alloy smelters generate thousands of tonnes of metal-bearing sludge every year: published research shows a single Norwegian plant producing roughly 10,000 t annually. The material fills settling ponds and creates recurring handling, disposal and monitoring costs as well as environmental liabilities. The company positions its technology as a way to cut those liabilities while returning valuable metals to the market."
+   ],
+   "means": [
+    "<b>Secondary manganese</b> from sludge and tailings could, over the medium term, supplement ore supply for FeMn and SiMn producers.",
+    "<b>Environmental scrutiny of smelting is tightening:</b> plants with cleaner waste streams stand to gain lower costs and steadier ferroalloy supply.",
+    "<b>Ferroalloy buyers</b> should watch how producers manage their residues — it increasingly shapes costs and the ESG profile of the supply chain."
+   ],
+   "cta": "Looking for ferromanganese or silicomanganese?"
+  },
+  "de": {
+   "title": "Mangan und Zink aus Ferromanganschlämmen: neues Verfahren besteht ersten Test",
+   "lead": "Green Manganese Technologies hat Gaswäscherschlamm eines europäischen Ferromanganwerks aufbereitet, Mangan mit hoher Ausbeute sowie Zink gewonnen und den toxischen Rückstand in einen stabilen, nahezu neutralen Feststoff umgewandelt.",
+   "what": [
+    "Der unbehandelte Schlamm enthielt rund 30 % Mangan und 6 % Zink. Das geschlossene, wasserbasierte hydrometallurgische Verfahren ermöglichte eine hohe Manganausbeute bei gleichzeitiger Zinkgewinnung; eine unabhängige Laboranalyse bestätigte eine Reduktion der polyzyklischen aromatischen Kohlenwasserstoffe im Feststoff um mehr als 99,97 %. Cadmium und Blei wurden zur kontrollierten Behandlung in die Prozesslösung überführt, Natrium und Kalium abgetrennt, und der ursprünglich alkalische Schlamm wurde in stabile, nahezu neutrale Feststoffe umgewandelt, die sich etwa für Verfüllungen eignen.",
+    "Manganlegierungswerke erzeugen jedes Jahr Tausende Tonnen metallhaltiger Schlämme – laut einer veröffentlichten Studie fallen allein in einem norwegischen Werk rund 10.000 t pro Jahr an. Das Material füllt Absetzbecken und verursacht laufende Kosten für Handhabung, Entsorgung und Überwachung sowie Umweltrisiken. Das Unternehmen sieht seine Technologie als Weg, diese Lasten zu senken und zugleich Wertmetalle in den Kreislauf zurückzuführen."
+   ],
+   "means": [
+    "<b>Sekundäres Mangan</b> aus Schlämmen und Rückständen könnte mittelfristig das Erzangebot für FeMn- und SiMn-Hersteller ergänzen.",
+    "<b>Die Umweltanforderungen an Hütten steigen:</b> Werke mit saubereren Abfallströmen profitieren von niedrigeren Kosten und stabileren Ferrolegierungslieferungen.",
+    "<b>Käufer von Ferrolegierungen</b> sollten verfolgen, wie Hersteller ihre Rückstände managen – das prägt zunehmend Kosten und ESG-Profil der Lieferkette."
+   ],
+   "cta": "Sie suchen Ferromangan oder Silikomangan?"
+  },
+  "fr": {
+   "title": "Manganèse et zinc issus des boues de ferromanganèse : un nouveau procédé franchit un premier test",
+   "lead": "Green Manganese Technologies a traité des boues d'épuration des gaz d'une usine européenne de ferromanganèse, obtenant une récupération élevée du manganèse et une extraction du zinc, et transformant un résidu toxique en solides stables, quasi neutres.",
+   "what": [
+    "Les boues brutes contenaient environ 30 % de manganèse et 6 % de zinc. Le procédé hydrométallurgique en circuit fermé, à base d'eau, a permis une forte récupération du manganèse en même temps que du zinc, tandis qu'une analyse indépendante en laboratoire a confirmé une réduction de plus de 99,97 % des hydrocarbures aromatiques polycycliques dans les solides traités. Le cadmium et le plomb ont été transférés dans la solution de procédé pour une gestion contrôlée, le sodium et le potassium séparés, et les boues initialement alcalines converties en solides stables et quasi neutres, utilisables par exemple en remblai.",
+    "Les usines d'alliages de manganèse produisent chaque année des milliers de tonnes de boues métallifères : selon une étude publiée, une seule usine norvégienne en génère environ 10 000 t par an. Ces boues remplissent les bassins de décantation et entraînent des coûts récurrents de manutention, d'élimination et de surveillance, ainsi que des passifs environnementaux. L'entreprise présente sa technologie comme un moyen de réduire ces passifs tout en remettant des métaux de valeur sur le marché."
+   ],
+   "means": [
+    "<b>Le manganèse secondaire</b> issu des boues et des résidus pourrait, à moyen terme, compléter l'offre de minerai des producteurs de FeMn et de SiMn.",
+    "<b>Les exigences environnementales envers la métallurgie se durcissent :</b> les usines aux flux de déchets plus propres gagneront en coûts et en régularité d'approvisionnement en ferroalliages.",
+    "<b>Les acheteurs de ferroalliages</b> ont intérêt à suivre la gestion des résidus par les producteurs : elle pèse de plus en plus sur les coûts et le profil ESG de la chaîne d'approvisionnement."
+   ],
+   "cta": "Vous cherchez du ferromanganèse ou du silicomanganèse ?"
+  },
+  "es": {
+   "title": "Manganeso y zinc a partir de lodos de ferromanganeso: un nuevo proceso supera su primera prueba",
+   "lead": "Green Manganese Technologies ha tratado lodos de depuración de gases de una planta europea de ferromanganeso, con una alta recuperación de manganeso y extracción de zinc, y ha convertido un residuo tóxico en sólidos estables y casi neutros.",
+   "what": [
+    "El lodo sin tratar contenía alrededor de un 30 % de manganeso y un 6 % de zinc. El proceso hidrometalúrgico en circuito cerrado y base acuosa logró una alta recuperación de manganeso junto con el zinc, y un análisis independiente de laboratorio confirmó una reducción superior al 99,97 % de los hidrocarburos aromáticos policíclicos en los sólidos tratados. El cadmio y el plomo se transfirieron a la solución de proceso para su gestión controlada, el sodio y el potasio se separaron, y el lodo, inicialmente alcalino, se transformó en sólidos estables y casi neutros, aptos por ejemplo para relleno.",
+    "Las plantas de aleaciones de manganeso generan cada año miles de toneladas de lodos metálicos: según un estudio publicado, una sola planta noruega produce unas 10.000 t anuales. Estos lodos llenan las balsas de decantación y suponen costes recurrentes de manipulación, eliminación y vigilancia, además de pasivos ambientales. La empresa presenta su tecnología como una forma de reducir esos pasivos y, al mismo tiempo, devolver metales valiosos al mercado."
+   ],
+   "means": [
+    "<b>El manganeso secundario</b> procedente de lodos y relaves podría complementar a medio plazo la oferta de mineral para los productores de FeMn y SiMn.",
+    "<b>Las exigencias ambientales a la metalurgia se endurecen:</b> las plantas con flujos de residuos más limpios tendrán menores costes y un suministro de ferroaleaciones más estable.",
+    "<b>Los compradores de ferroaleaciones</b> deberían seguir cómo gestionan los productores sus residuos: influye cada vez más en los costes y en el perfil ESG de la cadena de suministro."
+   ],
+   "cta": "¿Busca ferromanganeso o silicomanganeso?"
+  },
+  "it": {
+   "title": "Manganese e zinco dai fanghi del ferromanganese: un nuovo processo supera il primo test",
+   "lead": "Green Manganese Technologies ha trattato fanghi di depurazione fumi di un impianto europeo di ferromanganese, ottenendo un elevato recupero di manganese insieme all'estrazione dello zinco e trasformando un residuo tossico in solidi stabili e quasi neutri.",
+   "what": [
+    "I fanghi grezzi contenevano circa il 30% di manganese e il 6% di zinco. Il processo idrometallurgico a ciclo chiuso e a base acquosa ha consentito un elevato recupero di manganese insieme allo zinco, mentre un'analisi indipendente di laboratorio ha confermato una riduzione superiore al 99,97% degli idrocarburi policiclici aromatici nei solidi trattati. Cadmio e piombo sono stati trasferiti nella soluzione di processo per una gestione controllata, sodio e potassio sono stati separati e il fango, inizialmente alcalino, è stato trasformato in solidi stabili e quasi neutri, utilizzabili ad esempio per riempimenti.",
+    "Gli impianti di leghe di manganese producono ogni anno migliaia di tonnellate di fanghi metalliferi: secondo una ricerca pubblicata, un solo impianto norvegese ne genera circa 10.000 t all'anno. Questi fanghi riempiono i bacini di decantazione e comportano costi ricorrenti di movimentazione, smaltimento e monitoraggio, oltre a passività ambientali. L'azienda presenta la propria tecnologia come un modo per ridurre tali passività e al tempo stesso restituire metalli di valore al mercato."
+   ],
+   "means": [
+    "<b>Il manganese secondario</b> da fanghi e sterili potrebbe, nel medio periodo, integrare l'offerta di minerale per i produttori di FeMn e SiMn.",
+    "<b>I requisiti ambientali per la metallurgia si fanno più severi:</b> gli impianti con flussi di scarto più puliti avranno costi inferiori e forniture di ferroleghe più stabili.",
+    "<b>Gli acquirenti di ferroleghe</b> dovrebbero seguire come i produttori gestiscono i residui: incide sempre più su costi e profilo ESG della filiera."
+   ],
+   "cta": "Cerca ferromanganese o silicomanganese?"
+  }
+ }
+}
